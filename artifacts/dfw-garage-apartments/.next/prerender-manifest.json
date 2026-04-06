@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/areas/fort-worth":{},"/areas/dallas":{},"/areas/arlington":{},"/areas/plano":{},"/areas/frisco":{},"/areas/denton":{},"/areas/mckinney":{},"/areas/southlake":{}},"dynamicRoutes":{"/areas/[city]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/areas/[city]","routeRegex":"^\\/areas\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"54facdb730c529fb1ee4b247ca341479","previewModeSigningKey":"502f88b3b64874549ffc563e27fba8b0eb1f04c6f9ccbb04b9eb298273b8313c","previewModeEncryptionKey":"98058fb132ca2b106750ad9969c6eff3d1cfe0354ee042dc1ca3a7d318c7b70d"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "c0563639c6641f9203b34ef32dd62f8a",
+    "previewModeSigningKey": "65987be3ed87dfa51a086031d4d5873be3a76ee37bca40085dc124810f723d04",
+    "previewModeEncryptionKey": "54a60db036cf0208e6e81a0f3a5aaf69b5959ebbde12546247c1db9eebf749a6"
+  }
+}
