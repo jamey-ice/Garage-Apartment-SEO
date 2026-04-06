@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const heroImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
 const interiorImg = '/images/4205_Glenwood-33_Emily_Jolliff_1775501331345.jpg';
 const exteriorImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg';
@@ -55,15 +57,36 @@ export default function DetachedADUs() {
 
   return (
     <>
+      <SEOHead
+        title="Detached ADU Builders in DFW — New Accessory Dwelling Units"
+        description="Build a brand-new detached ADU on your property in Dallas–Fort Worth. Maximum design flexibility, purpose-built for rental income or family use. $100K–$300K."
+        canonical="/services/detached-adus"
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dfwgarageapartments.com/services" },
+              { "@type": "ListItem", "position": 3, "name": "Detached ADUs", "item": "https://dfwgarageapartments.com/services/detached-adus" }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Detached ADU Construction",
+            "provider": { "@type": "LocalBusiness", "name": "DFW Garage Apartments" },
+            "areaServed": "Dallas–Fort Worth",
+            "description": "Ground-up construction of detached accessory dwelling units across Dallas–Fort Worth.",
+            "serviceType": "Detached ADU"
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Detached ADUs</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Services', href: '/services' }, { label: 'Detached ADUs' }]} />
         </div>
       </div>
 

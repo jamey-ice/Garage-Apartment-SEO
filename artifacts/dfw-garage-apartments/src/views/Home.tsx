@@ -108,9 +108,10 @@ export default function Home() {
   return (
     <div className="bg-background">
       <SEOHead
-        title="Garage Apartment Builders in Dallas–Fort Worth | DFW Garage Apartments"
+        title="Garage Apartment Builders in Dallas–Fort Worth"
         description="Design and build your garage apartment with one team. DFW Garage Apartments handles design, permitting, and construction for homeowners across Dallas–Fort Worth. Schedule a free consultation."
-        image={heroImg}
+        canonical="/"
+        ogImage="https://dfwgarageapartments.com/opengraph.jpg"
       />
 
       {/* SECTION 1: HERO */}

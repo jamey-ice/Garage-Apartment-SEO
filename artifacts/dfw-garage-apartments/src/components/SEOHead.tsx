@@ -1,75 +1,52 @@
-import React, { useEffect } from 'react';
+import Head from 'next/head';
+
+const BASE_URL = 'https://dfwgarageapartments.com';
+const SITE_NAME = 'DFW Garage Apartments';
+const DEFAULT_OG_IMAGE = `${BASE_URL}/opengraph.jpg`;
 
 interface SEOHeadProps {
   title: string;
   description: string;
-  image?: string;
-  schema?: any;
+  canonical: string;
+  ogImage?: string;
+  schemas?: object | object[];
 }
 
-export function SEOHead({ title, description, image, schema }: SEOHeadProps) {
-  useEffect(() => {
-    // Update title
-    document.title = `${title} | DFW Garage Apartments`;
+export function SEOHead({ title, description, canonical, ogImage, schemas }: SEOHeadProps) {
+  const fullTitle = `${title} | ${SITE_NAME}`;
+  const canonicalUrl = `${BASE_URL}${canonical}`;
+  const imageUrl = ogImage || DEFAULT_OG_IMAGE;
+  const schemaArray = schemas
+    ? Array.isArray(schemas) ? schemas : [schemas]
+    : [];
 
-    // Update meta description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', description);
+  return (
+    <Head>
+      <title>{fullTitle}</title>
+      <meta name="description" content={description} />
+      <link rel="canonical" href={canonicalUrl} />
 
-    // Update OG Title
-    let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (!ogTitle) {
-      ogTitle = document.createElement('meta');
-      ogTitle.setAttribute('property', 'og:title');
-      document.head.appendChild(ogTitle);
-    }
-    ogTitle.setAttribute('content', `${title} | DFW Garage Apartments`);
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={fullTitle} />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:image" content={imageUrl} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:site_name" content={SITE_NAME} />
 
-    // Update OG Description
-    let ogDescription = document.querySelector('meta[property="og:description"]');
-    if (!ogDescription) {
-      ogDescription = document.createElement('meta');
-      ogDescription.setAttribute('property', 'og:description');
-      document.head.appendChild(ogDescription);
-    }
-    ogDescription.setAttribute('content', description);
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={imageUrl} />
 
-    // Update OG Image
-    if (image) {
-      let ogImage = document.querySelector('meta[property="og:image"]');
-      if (!ogImage) {
-        ogImage = document.createElement('meta');
-        ogImage.setAttribute('property', 'og:image');
-        document.head.appendChild(ogImage);
-      }
-      ogImage.setAttribute('content', image);
-    }
-
-    // Update Schema
-    if (schema) {
-      let script = document.querySelector('#seo-schema');
-      if (!script) {
-        script = document.createElement('script');
-        script.id = 'seo-schema';
-        script.setAttribute('type', 'application/ld+json');
-        document.head.appendChild(script);
-      }
-      script.textContent = JSON.stringify(schema);
-    }
-
-    return () => {
-      // Cleanup schema on unmount to avoid duplicates
-      const script = document.querySelector('#seo-schema');
-      if (script) {
-        script.remove();
-      }
-    };
-  }, [title, description, image, schema]);
-
-  return null;
+      {schemaArray.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+    </Head>
+  );
 }

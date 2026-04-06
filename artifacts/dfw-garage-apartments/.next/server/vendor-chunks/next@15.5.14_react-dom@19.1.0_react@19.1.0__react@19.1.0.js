@@ -1490,6 +1490,16 @@ eval("module.exports = __webpack_require__(/*! ./dist/pages/_document */ \"(page
 
 /***/ }),
 
+/***/ "(pages-dir-node)/../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/head.js":
+/*!*******************************************************************************************************************!*\
+  !*** ../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/head.js ***!
+  \*******************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/head */ \"(pages-dir-node)/../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/shared/lib/head.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uLi8uLi9ub2RlX21vZHVsZXMvLnBucG0vbmV4dEAxNS41LjE0X3JlYWN0LWRvbUAxOS4xLjBfcmVhY3RAMTkuMS4wX19yZWFjdEAxOS4xLjAvbm9kZV9tb2R1bGVzL25leHQvaGVhZC5qcyIsIm1hcHBpbmdzIjoiQUFBQSxrTkFBa0QiLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci93b3Jrc3BhY2Uvbm9kZV9tb2R1bGVzLy5wbnBtL25leHRAMTUuNS4xNF9yZWFjdC1kb21AMTkuMS4wX3JlYWN0QDE5LjEuMF9fcmVhY3RAMTkuMS4wL25vZGVfbW9kdWxlcy9uZXh0L2hlYWQuanMiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKCcuL2Rpc3Qvc2hhcmVkL2xpYi9oZWFkJylcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOlswXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(pages-dir-node)/../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/head.js\n");
+
+/***/ }),
+
 /***/ "(pages-dir-node)/../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/link.js":
 /*!*******************************************************************************************************************!*\
   !*** ../../node_modules/.pnpm/next@15.5.14_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/link.js ***!

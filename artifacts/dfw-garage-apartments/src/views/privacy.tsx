@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
+import { SEOHead } from "@/components/SEOHead";
 
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Privacy Policy"
+        description="Privacy Policy for DFW Garage Apartments — powered by 6th Ave Homes. How we collect, use, and protect your personal information."
+        canonical="/privacy"
+      />
       <div className="bg-primary py-12 px-4">
         <div className="max-w-3xl mx-auto">
           <BreadcrumbNav items={[{ label: "Privacy Policy" }]} />

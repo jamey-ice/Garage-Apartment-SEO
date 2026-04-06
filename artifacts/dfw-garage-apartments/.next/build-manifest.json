@@ -28,15 +28,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/areas": [
+    "/areas/[city]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/areas.js"
+      "static/chunks/pages/areas/[city].js"
     ],
-    "/terms": [
+    "/privacy": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/terms.js"
+      "static/chunks/pages/privacy.js"
+    ],
+    "/resources/[slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/resources/[slug].js"
+    ],
+    "/services/garage-conversions": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services/garage-conversions.js"
     ]
   },
   "ampFirstPages": []

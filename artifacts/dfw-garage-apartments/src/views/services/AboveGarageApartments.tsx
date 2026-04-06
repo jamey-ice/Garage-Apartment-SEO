@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const heroImg = '/images/2253_6th_Ave-20_1775501313348.jpg';
 const interiorImg = '/images/2253_6th_Ave-16_1775501313348.jpg';
 const exteriorImg = '/images/2253_6th_Ave-35_1775501331344.jpg';
@@ -55,15 +57,36 @@ export default function AboveGarageApartments() {
 
   return (
     <>
+      <SEOHead
+        title="Above-Garage Apartments in DFW — Build Up, Keep Your Garage"
+        description="Add a full living unit above your existing garage. Keep your parking, gain rental income. DFW Garage Apartments handles design, permits, and construction. $80K–$200K."
+        canonical="/services/above-garage-apartments"
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dfwgarageapartments.com/services" },
+              { "@type": "ListItem", "position": 3, "name": "Above-Garage Apartments", "item": "https://dfwgarageapartments.com/services/above-garage-apartments" }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Above-Garage Apartment Construction",
+            "provider": { "@type": "LocalBusiness", "name": "DFW Garage Apartments" },
+            "areaServed": "Dallas–Fort Worth",
+            "description": "Design and construction of apartment units built above existing garages across DFW.",
+            "serviceType": "Above-Garage Apartment"
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Above-Garage Apartments</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Services', href: '/services' }, { label: 'Above-Garage Apartments' }]} />
         </div>
       </div>
 

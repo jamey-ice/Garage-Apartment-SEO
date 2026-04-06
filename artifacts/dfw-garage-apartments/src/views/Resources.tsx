@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, DollarSign, MapPin, CreditCard } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 
 const guides = [
   {
@@ -37,11 +39,23 @@ const guides = [
 export default function Resources() {
   return (
     <>
+      <SEOHead
+        title="Garage Apartment Resources for DFW Homeowners — Free Guides"
+        description="Free guides on garage apartment costs, zoning laws, financing, and ADU rules in Dallas–Fort Worth. Make a smart decision before you build."
+        canonical="/resources"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://dfwgarageapartments.com/resources" }
+          ]
+        }}
+      />
+
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Resources</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Resources' }]} />
         </div>
       </div>
 

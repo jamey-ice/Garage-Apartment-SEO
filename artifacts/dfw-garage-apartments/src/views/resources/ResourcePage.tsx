@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 
 interface Section {
   heading: string;
@@ -321,6 +323,22 @@ export default function ResourcePage({ resourceSlug }: { resourceSlug?: string }
 
   return (
     <>
+      <SEOHead
+        title={resource.pageTitle}
+        description={resource.intro}
+        canonical={`/resources/${resource.slug}`}
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://dfwgarageapartments.com/resources" },
+              { "@type": "ListItem", "position": 3, "name": resource.title, "item": `https://dfwgarageapartments.com/resources/${resource.slug}` }
+            ]
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-card px-6 py-3 text-sm text-gray-500">

@@ -29,8 +29,17 @@ export default function About() {
   return (
     <div className="bg-background pt-32 pb-0">
       <SEOHead
-        title="About Us | Powered by 6th Ave Homes | DFW Garage Apartments"
-        description="DFW Garage Apartments is powered by 6th Ave Homes — a Fort Worth-based real estate, design, and construction company helping homeowners since 2016."
+        title="About Us — Powered by 6th Ave Homes"
+        description="DFW Garage Apartments is powered by 6th Ave Homes — a Fort Worth-based real estate, design, and construction company helping homeowners build garage apartments since 2016."
+        canonical="/about"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://dfwgarageapartments.com/about" }
+          ]
+        }}
       />
 
       <div className="container mx-auto px-4 md:px-6">

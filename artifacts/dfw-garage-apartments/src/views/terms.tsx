@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
+import { SEOHead } from "@/components/SEOHead";
 
 export default function Terms() {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Terms of Service"
+        description="Terms of Service for DFW Garage Apartments — powered by 6th Ave Homes. Your rights and responsibilities when using our website and services."
+        canonical="/terms"
+      />
       <div className="bg-primary py-12 px-4">
         <div className="max-w-3xl mx-auto">
           <BreadcrumbNav items={[{ label: "Terms of Service" }]} />

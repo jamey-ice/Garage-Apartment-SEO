@@ -74,8 +74,17 @@ export default function Areas() {
   return (
     <div className="bg-background pt-32 pb-0">
       <SEOHead
-        title="Garage Apartment Builders Across DFW | Areas We Serve"
+        title="Garage Apartment Builders Across DFW — Areas We Serve"
         description="DFW Garage Apartments serves Fort Worth, Dallas, Arlington, Plano, Frisco, Denton, McKinney, Southlake and more. We know each city's zoning laws and permit requirements."
+        canonical="/areas"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Areas We Serve", "item": "https://dfwgarageapartments.com/areas" }
+          ]
+        }}
       />
 
       <div className="container mx-auto px-4 md:px-6">

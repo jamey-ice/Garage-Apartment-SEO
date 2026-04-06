@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const processImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-107_1775501313348.jpg';
 const designImg = '/images/6thAveHomes_InteriorDesigners_8.13.2020-4_1775501313345.jpg';
 
@@ -65,11 +67,23 @@ const steps = [
 export default function Process() {
   return (
     <>
+      <SEOHead
+        title="How We Build Your Garage Apartment — Our 5-Step Process"
+        description="From first conversation to final walkthrough — our clear, no-surprise process for designing and building garage apartments across Dallas–Fort Worth."
+        canonical="/process"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Our Process", "item": "https://dfwgarageapartments.com/process" }
+          ]
+        }}
+      />
+
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Our Process</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Our Process' }]} />
         </div>
       </div>
 

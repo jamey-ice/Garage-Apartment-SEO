@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const heroImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-40_1775501313347.jpg';
 const interiorImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-7_1775501313346.jpg';
 const exteriorImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-75_1775501313347.jpg';
@@ -58,16 +60,37 @@ export default function GarageConversions() {
 
   return (
     <>
+      <SEOHead
+        title="Garage Conversion Apartments in DFW — Convert Your Existing Garage"
+        description="Turn your existing garage into a livable apartment. We handle design, permits, and construction for garage conversions across Dallas–Fort Worth. $40K–$100K."
+        canonical="/services/garage-conversions"
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dfwgarageapartments.com/services" },
+              { "@type": "ListItem", "position": 3, "name": "Garage Conversions", "item": "https://dfwgarageapartments.com/services/garage-conversions" }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Garage Conversion Apartments",
+            "provider": { "@type": "LocalBusiness", "name": "DFW Garage Apartments" },
+            "areaServed": "Dallas–Fort Worth",
+            "description": "Full-service garage conversion into a livable apartment, including design, permits, and construction.",
+            "serviceType": "Garage Conversion"
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Breadcrumb */}
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Garage Conversions</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Services', href: '/services' }, { label: 'Garage Conversions' }]} />
         </div>
       </div>
 

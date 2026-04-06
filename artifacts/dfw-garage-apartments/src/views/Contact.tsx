@@ -99,8 +99,17 @@ export default function Contact() {
   return (
     <div className="bg-background pt-32 pb-24">
       <SEOHead
-        title="Start Your Garage Apartment Project | Contact DFW Garage Apartments"
+        title="Schedule a Free Garage Apartment Consultation"
         description="Ready to build a garage apartment in DFW? Tell us about your property and we'll help you figure out the next step. Free consultation — no obligation."
+        canonical="/contact"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://dfwgarageapartments.com/contact" }
+          ]
+        }}
       />
 
       <div className="container mx-auto px-4 md:px-6">

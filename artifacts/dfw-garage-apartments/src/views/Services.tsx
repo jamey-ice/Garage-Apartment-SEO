@@ -60,8 +60,17 @@ export default function Services() {
   return (
     <div className="bg-background pt-32 pb-0">
       <SEOHead
-        title="Garage Apartment Services in DFW | Conversions, ADUs, Guest Houses"
+        title="Garage Apartment Services — Conversions, ADUs & Guest Houses"
         description="Full-service garage apartment and ADU construction in Dallas–Fort Worth. Garage conversions, above-garage apartments, detached ADUs, and guest houses — one team, start to finish."
+        canonical="/services"
+        schemas={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dfwgarageapartments.com/services" }
+          ]
+        }}
       />
 
       <div className="container mx-auto px-4 md:px-6">

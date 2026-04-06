@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const heroImg = '/images/2223_Mistletoe-25_1775501313346.jpg';
 const interiorImg = '/images/2223_Mistletoe-48_1775501313346.jpg';
 const exteriorImg = '/images/2223_Mistletoe-6_1775501313346.jpg';
@@ -55,15 +57,36 @@ export default function GuestHouses() {
 
   return (
     <>
+      <SEOHead
+        title="Guest House Builders in DFW — Family Living & Aging-in-Place ADUs"
+        description="Build a guest house for aging parents or extended family in Dallas–Fort Worth. We design and build accessible, private guest suites and detached guest houses."
+        canonical="/services/guest-houses"
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://dfwgarageapartments.com/services" },
+              { "@type": "ListItem", "position": 3, "name": "Guest Houses", "item": "https://dfwgarageapartments.com/services/guest-houses" }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Guest House Construction",
+            "provider": { "@type": "LocalBusiness", "name": "DFW Garage Apartments" },
+            "areaServed": "Dallas–Fort Worth",
+            "description": "Design and construction of guest houses and family living ADUs across Dallas–Fort Worth.",
+            "serviceType": "Guest House"
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <Link href="/services" className="hover:text-primary transition-colors">Services</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">Guest Houses</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Services', href: '/services' }, { label: 'Guest Houses' }]} />
         </div>
       </div>
 

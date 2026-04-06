@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { SEOHead } from '@/components/SEOHead';
+import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 const notFoundImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-29_1775501313347.jpg';
 
 interface CityData {
@@ -215,15 +217,27 @@ export default function CityPage({ citySlug }: { citySlug?: string } = {}) {
 
   return (
     <>
+      <SEOHead
+        title={`Garage Apartment Builders in ${city.name}, TX — ADU Construction`}
+        description={`Build a garage apartment or ADU in ${city.name}, TX. We handle design, permits, and construction. Local experts who know ${city.name}'s zoning rules. Free consultation.`}
+        canonical={`/areas/${city.slug}`}
+        schemas={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dfwgarageapartments.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Areas We Serve", "item": "https://dfwgarageapartments.com/areas" },
+              { "@type": "ListItem", "position": 3, "name": city.name, "item": `https://dfwgarageapartments.com/areas/${city.slug}` }
+            ]
+          }
+        ]}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <div className="bg-card px-6 py-3 text-sm text-gray-500">
-        <div className="max-w-7xl mx-auto flex gap-2 items-center">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <span>›</span>
-          <Link href="/areas" className="hover:text-primary transition-colors">Areas We Serve</Link>
-          <span>›</span>
-          <span className="text-primary font-medium">{city.name}</span>
+        <div className="max-w-7xl mx-auto">
+          <BreadcrumbNav items={[{ label: 'Areas We Serve', href: '/areas' }, { label: city.name }]} />
         </div>
       </div>
 
