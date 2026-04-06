@@ -60,8 +60,8 @@ export default function Services() {
   return (
     <div className="bg-background pt-32 pb-0">
       <SEOHead
-        title="Garage Apartment & ADU Services in DFW"
-        description="Garage conversions, above-garage apartments, detached ADUs, and guest houses in Dallas–Fort Worth. One team from design to final walkthrough."
+        title="Garage Apartment Services in DFW | Conversions, ADUs, Guest Houses"
+        description="Full-service garage apartment and ADU construction in Dallas–Fort Worth. Garage conversions, above-garage apartments, detached ADUs, and guest houses — one team, start to finish."
       />
 
       <div className="container mx-auto px-4 md:px-6">
@@ -74,9 +74,9 @@ export default function Services() {
           className="max-w-3xl mb-16"
         >
           <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">What We Build</span>
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-6">Garage Apartments Built for Real Life</h1>
+          <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-6">Garage Apartment Services in Dallas–Fort Worth</h1>
           <p className="text-xl text-muted-foreground font-sans leading-relaxed">
-            From garage conversions to full detached ADUs, we design and build spaces that actually work — for your property, your goals, and your budget. One team from first conversation to final walkthrough.
+            Every property is different, and every homeowner's goals are unique. That's why we offer four distinct types of garage apartment builds — each designed, permitted, and constructed by one team.
           </p>
         </motion.div>
 
@@ -136,7 +136,42 @@ export default function Services() {
           ))}
         </div>
 
-        {/* Comparison Note */}
+        {/* Comparison Table */}
+        <div className="mb-24">
+          <div className="text-center mb-10">
+            <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">Side by Side</span>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary">How the Options Compare</h2>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm font-sans border-collapse">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th className="text-left p-4 font-bold uppercase tracking-wide text-xs w-40">Feature</th>
+                  <th className="p-4 font-bold text-center uppercase tracking-wide text-xs">Garage Conversion</th>
+                  <th className="p-4 font-bold text-center uppercase tracking-wide text-xs">Above-Garage</th>
+                  <th className="p-4 font-bold text-center uppercase tracking-wide text-xs">Detached ADU</th>
+                  <th className="p-4 font-bold text-center uppercase tracking-wide text-xs">Guest House</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { label: 'Cost Range', values: ['$40K–$100K', '$80K–$200K', '$100K–$300K+', '$80K–$250K+'] },
+                  { label: 'Timeline', values: ['3–5 months', '4–7 months', '5–9 months', '3–9 months'] },
+                  { label: 'Keep Garage?', values: ['No', 'Yes', 'N/A', 'Depends'] },
+                  { label: 'Best For', values: ['Budget & speed', 'Space + garage', 'Full flexibility', 'Family use'] },
+                ].map((row, i) => (
+                  <tr key={i} className={i % 2 === 0 ? 'bg-background' : 'bg-card'}>
+                    <td className="p-4 font-bold text-foreground border-r border-border">{row.label}</td>
+                    {row.values.map((val, j) => (
+                      <td key={j} className="p-4 text-center text-muted-foreground border-r border-border last:border-r-0">{val}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div className="bg-card p-10 md:p-16 mb-24 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">Not Sure Which Is Right?</h2>
           <p className="text-lg text-muted-foreground font-sans leading-relaxed mb-8">

@@ -39,7 +39,7 @@ export function StickyCTA() {
       </Button>
       <Button asChild className="flex-1 rounded-none bg-accent hover:bg-accent/90 text-white font-bold uppercase tracking-wider text-xs">
         <Link href="/contact">
-          Get Quote
+          Free Consultation
         </Link>
       </Button>
     </div>

@@ -110,6 +110,8 @@ export function NavBar() {
 
           <Link href="/about" className={`${linkClass} ${location === '/about' ? 'text-accent' : ''}`}>About</Link>
 
+          <Link href="/contact" className={`${linkClass} ${location === '/contact' ? 'text-accent' : ''}`}>Contact</Link>
+
           <Link href="/contact">
             <Button
               className={`${isTransparent ? 'bg-primary text-white hover:bg-primary/90' : 'bg-accent text-white hover:bg-accent/90'} rounded-none px-6 py-4 text-xs uppercase tracking-widest font-bold`}
