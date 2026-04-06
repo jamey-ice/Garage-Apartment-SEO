@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, BookOpen, DollarSign, MapPin, CreditCard } from 'lucide-react';
+import { ArrowRight, BookOpen, DollarSign, MapPin, CreditCard, GitCompare, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
@@ -19,6 +19,20 @@ const guides = [
     slug: 'zoning-guide',
     desc: 'Complete zoning guide for every major DFW city — lot requirements, setbacks, height limits, permit contacts, and owner-occupancy rules.',
     tags: ['Zoning', 'Fort Worth', 'Dallas', 'Plano', 'More'],
+  },
+  {
+    icon: GitCompare,
+    title: 'Garage Apartment vs. Detached ADU: Which Should You Build?',
+    slug: 'garage-apartment-vs-adu',
+    desc: 'Side-by-side comparison of cost, rental income, design flexibility, timeline, and zoning — so you can choose the right build for your property and goals.',
+    tags: ['Comparison', 'Decision Guide'],
+  },
+  {
+    icon: TrendingUp,
+    title: 'Garage Apartment Rental Income in DFW: A Realistic Guide',
+    slug: 'rental-income',
+    desc: 'Actual rental rates by city and neighborhood, payback period calculations, long-term vs. short-term rental trade-offs, and how to set up your rental the right way.',
+    tags: ['Rental Income', 'ROI', 'Cash Flow'],
   },
   {
     icon: BookOpen,
@@ -111,9 +125,11 @@ export default function Resources() {
             {[
               { q: 'How much does a garage apartment cost in DFW?', href: '/resources/cost-guide' },
               { q: 'What are the ADU zoning rules in Fort Worth?', href: '/resources/zoning-guide' },
-              { q: 'Do I need owner-occupancy to rent an ADU?', href: '/resources/zoning-guide' },
+              { q: 'Garage apartment or detached ADU — which should I build?', href: '/resources/garage-apartment-vs-adu' },
+              { q: 'How much can I charge for rent on a garage apartment?', href: '/resources/rental-income' },
               { q: 'How can I finance a garage apartment?', href: '/resources/financing-options' },
               { q: 'What\'s the Texas ADU law?', href: '/resources/texas-adu-laws' },
+              { q: 'Do I need owner-occupancy to rent an ADU?', href: '/resources/zoning-guide' },
               { q: 'Is a garage apartment a good investment?', href: '/resources/cost-guide' },
             ].map(({ q, href }) => (
               <Link key={q} href={href}>

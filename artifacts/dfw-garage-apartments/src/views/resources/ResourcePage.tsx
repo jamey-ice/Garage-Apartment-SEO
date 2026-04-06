@@ -264,6 +264,172 @@ const RESOURCES: Record<string, ResourceData> = {
     ],
     ctaHeading: 'Ready to Discuss Your Project Budget?',
   },
+  'garage-apartment-vs-adu': {
+    slug: 'garage-apartment-vs-adu',
+    title: 'Garage Apartment vs. Detached ADU',
+    pageTitle: 'Garage Apartment vs. Detached ADU: Which Is Right for You? | DFW Garage Apartments',
+    h1: 'Garage Apartment vs. Detached ADU: Which Should You Build?',
+    intro: 'Both add livable space to your property — but they solve different problems and come with different costs, timelines, and trade-offs. Here\'s how to decide which is right for your property and your goals.',
+    sections: [
+      {
+        heading: 'What\'s the Difference?',
+        body: [
+          '**Garage apartment** is a broad term that covers two distinct types of build: a garage conversion (turning an existing garage into livable space) and an above-garage apartment (adding a second story over an existing garage). Both use your existing garage footprint as the starting point.',
+          '**Detached ADU** (Accessory Dwelling Unit) is a completely separate, self-contained structure built on your property — its own foundation, its own walls, its own roof. It shares no structure with your home or existing garage. It\'s essentially a second small house on the same lot.',
+          'The distinction matters because the type of build determines cost, timeline, zoning requirements, design flexibility, and the long-term value it adds to your property.',
+        ],
+      },
+      {
+        heading: 'Cost Comparison',
+        body: [
+          '**Garage conversion: $40,000–$100,000.** The most affordable path. You\'re finishing what\'s already there — walls, roof, and foundation exist. Main costs are insulation, HVAC, electrical upgrades, plumbing rough-in (if adding a kitchen or bath), and finish work.',
+          '**Above-garage apartment: $80,000–$200,000.** Moderate cost. You\'re keeping the garage below and adding a full apartment on top. Structural work (floor system, staircase, exterior walls, roof) adds cost over a conversion, but you\'re still building on an existing footprint.',
+          '**Detached ADU (new build): $100,000–$300,000+.** Highest upfront cost because you\'re starting from scratch: new foundation, new framing, new MEP systems, new exterior. But the finished product is the most versatile and highest-value structure you can add.',
+          '**Rule of thumb:** Conversions cost the least. Above-garage apartments fall in the middle. Detached ADUs cost the most but add the most value and flexibility.',
+        ],
+      },
+      {
+        heading: 'Which Generates More Rental Income?',
+        body: [
+          '**Detached ADU wins on rental income**, both in monthly rent and long-term appreciation. A standalone structure with no shared walls, its own entrance, and its own yard or outdoor area commands a premium. In DFW, a well-finished detached ADU rents for $1,400–$2,500/month depending on size and location.',
+          '**Garage conversions and above-garage apartments** typically rent for $1,000–$1,800/month. Still strong cash flow, but tenants often prefer a fully detached structure for privacy.',
+          '**However, the payback period is similar or better for conversions**, because the upfront cost is so much lower. A $75,000 garage conversion generating $1,300/month pays for itself in under 5 years. A $200,000 detached ADU generating $1,800/month takes 9–10 years.',
+          '**If maximizing monthly cash flow is your goal,** detached ADU. **If fastest payback is the goal,** garage conversion.',
+        ],
+      },
+      {
+        heading: 'Design Flexibility',
+        body: [
+          '**Detached ADU: Maximum flexibility.** You\'re starting with a blank slate — you can design any floor plan, any size (within lot limits), any orientation. Single-story or two-story. Studio, one-bedroom, or two-bedroom. The only constraints are your lot and local zoning.',
+          '**Above-garage apartment: Constrained by the garage footprint.** Your floor plan is roughly the size and shape of the garage below. You can make some adjustments at the edges, but you\'re largely locked into that footprint.',
+          '**Garage conversion: Most constrained.** You\'re working with the interior dimensions of the existing garage — ceiling height, door locations, structural walls. Good designers can do a lot with a single-car or two-car garage, but you\'re working within tight limits.',
+        ],
+      },
+      {
+        heading: 'Timeline to Build',
+        body: [
+          '**Garage conversion: 8–14 weeks** from permit approval to move-in. The fastest option because no new structural work is needed.',
+          '**Above-garage apartment: 14–22 weeks.** More structural work means a longer build, but still faster than starting from scratch.',
+          '**Detached ADU: 16–28 weeks.** Site prep, foundation, framing, envelope, then MEP and finishes. All from zero. The most complex project with the most phases.',
+          'All timelines begin after permit approval — permit timelines vary by city. Fort Worth is typically 4–8 weeks. Dallas can take longer depending on the project and district.',
+        ],
+      },
+      {
+        heading: 'Zoning and Permitting Differences',
+        body: [
+          '**Garage conversions** are generally the simplest to permit. Most DFW cities treat them as interior remodels with specific requirements for egress, HVAC, and electrical. The structural work is minimal, so inspections are straightforward.',
+          '**Above-garage apartments** require structural engineering and are reviewed more carefully, but they\'re still building on an existing structure within the existing building envelope.',
+          '**Detached ADUs** require full new-construction permitting. In some DFW cities (particularly Dallas), detached ADUs outside designated overlay zones require additional approvals. Fort Worth, Denton, and Plano have more streamlined paths for detached ADUs.',
+          '**Key zoning factor:** Lot coverage. Adding a detached structure takes up more of your lot footprint, which is subject to maximum lot coverage rules. Every city is different. We verify your property before any design work begins.',
+        ],
+      },
+      {
+        heading: 'Side-by-Side Summary',
+        body: [
+          '**Garage Conversion:** Cost $40K–$100K | Timeline 8–14 weeks | Rental income $1,000–$1,600/mo | Design flexibility: Limited | Best for: Fastest payback, tight budgets',
+          '**Above-Garage Apartment:** Cost $80K–$200K | Timeline 14–22 weeks | Rental income $1,200–$1,800/mo | Design flexibility: Moderate | Best for: Keeping the garage, adding a full unit',
+          '**Detached ADU:** Cost $100K–$300K+ | Timeline 16–28 weeks | Rental income $1,400–$2,500/mo | Design flexibility: Maximum | Best for: Highest income, maximum privacy, most added value',
+        ],
+      },
+      {
+        heading: 'How to Decide',
+        body: [
+          '**Choose a garage conversion if:** You need the most affordable path, you want the fastest timeline, you don\'t need the garage anymore, and you\'re OK with a compact floor plan.',
+          '**Choose an above-garage apartment if:** You want to keep functional garage space below, you have an existing garage in good structural condition, and you want more square footage than a conversion offers.',
+          '**Choose a detached ADU if:** You want maximum income, maximum privacy for tenants, the most design flexibility, and you\'re thinking about long-term property value over upfront cost.',
+          'Not sure? We\'ll look at your property — your lot, your existing garage (if any), your zoning district — and give you a straight recommendation. No sales pitch, just what makes sense for your specific situation.',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Is a garage apartment the same as an ADU?', a: 'Not exactly. "Garage apartment" usually refers to a conversion or above-garage build using an existing garage. "Detached ADU" is a new standalone structure. Both are types of ADUs broadly speaking, but they\'re different types of builds.' },
+      { q: 'Which is cheaper — a garage apartment or a detached ADU?', a: 'Garage apartments (conversions and above-garage) are less expensive than detached ADUs. Conversions start at $40K. Detached ADUs typically start at $100K.' },
+      { q: 'Can I build a detached ADU if I already have a garage?', a: 'In most DFW cities, yes — as long as your lot coverage allows it. We verify this for your specific property before design begins.' },
+      { q: 'Which type of ADU rents for the most in DFW?', a: 'Detached ADUs typically command the highest rents — $1,400–$2,500/month — because of the privacy and independence they offer. Garage conversions typically rent for $1,000–$1,600/month.' },
+      { q: 'Does a detached ADU increase property value more than a garage conversion?', a: 'Generally yes. A detached ADU adds more square footage and more versatility, which translates to more appraised value. However, garage conversions also add meaningful value — typically $50,000–$90,000 in the DFW market.' },
+    ],
+    ctaHeading: 'Not Sure Which Type Is Right for Your Property?',
+  },
+  'rental-income': {
+    slug: 'rental-income',
+    title: 'Rental Income Guide',
+    pageTitle: 'Garage Apartment Rental Income in DFW: What to Expect (2026)',
+    h1: 'Garage Apartment Rental Income in Dallas–Fort Worth: A Realistic Guide',
+    intro: 'What can you actually charge for a garage apartment in DFW? What\'s the realistic payback period? How do you set up a rental and stay out of trouble? Here\'s the complete picture — no hype.',
+    sections: [
+      {
+        heading: 'DFW Garage Apartment Rental Rates (2026)',
+        body: [
+          'Rental income from a garage apartment in DFW depends on three things: location, size, and finish quality. Here\'s what you can realistically expect in today\'s market:',
+          '**Fort Worth (Fairmount, Mistletoe Heights, Westover Hills, Cityview):** Studio/efficiency $900–$1,300/mo | 1BR $1,100–$1,600/mo | 2BR $1,400–$1,900/mo',
+          '**Dallas (Lakewood, M Streets, Oak Cliff, Greenway Parks):** Studio $1,100–$1,500/mo | 1BR $1,300–$1,800/mo | 2BR $1,600–$2,200/mo',
+          '**Plano, Frisco, McKinney:** Studio $900–$1,300/mo | 1BR $1,200–$1,700/mo | 2BR $1,500–$2,100/mo',
+          '**Denton (near UNT/TWU):** Studio $800–$1,100/mo | 1BR $950–$1,300/mo | 2BR $1,200–$1,600/mo',
+          '**Southlake, Westlake area:** Premium market. Detached ADUs with high-end finishes: $1,800–$2,800/mo.',
+          'These are long-term rental rates. Short-term rental (Airbnb/VRBO) rates can be 20–50% higher in the right neighborhoods, but require additional licensing and management.',
+        ],
+      },
+      {
+        heading: 'What Drives Rental Income?',
+        body: [
+          '**Location is the biggest driver.** A 600 sq ft garage apartment in Fairmount (Fort Worth) or the M Streets (Dallas) will rent for significantly more than the same unit in a suburban market, because walkability, proximity to employment, and neighborhood desirability all affect what renters will pay.',
+          '**Private entrance is critical.** Renters pay a premium for a completely separate entrance — ideally from the alley or from the rear of the property, not through your home. This single design decision can add $100–$200/month in achievable rent.',
+          '**Full kitchen vs. kitchenette.** A full kitchen (range, dishwasher, full refrigerator) commands higher rents and attracts more stable long-term tenants. A kitchenette is fine for short-term rentals but limits your tenant pool for long-term leasing.',
+          '**In-unit laundry.** A washer/dryer hookup or stacked unit significantly increases rental value — especially in markets where laundromat access is limited. Worth the $2,000–$4,000 installation cost.',
+          '**Finish quality.** LVP flooring, quartz counters, updated fixtures, and a modern bathroom add $100–$300/month in achievable rent over basic-finish units.',
+          '**Parking.** Off-street parking is expected in most DFW submarkets. If you\'re converting a garage to a living unit, ensure the tenant has a designated parking space on the property.',
+        ],
+      },
+      {
+        heading: 'Payback Period by Build Type',
+        body: [
+          '**Garage conversion ($65,000 build cost, $1,300/mo rent):** Gross payback ~50 months (4.2 years). Excellent return.',
+          '**Above-garage apartment ($140,000, $1,600/mo):** Gross payback ~88 months (7.3 years). Strong return considering the property value increase.',
+          '**Detached ADU ($200,000, $1,800/mo):** Gross payback ~111 months (9.3 years). Longer payback, but adds the most property value and the most rental income over time.',
+          'These are gross payback calculations (build cost ÷ annual rent). Net payback accounting for vacancy, property tax on added value, maintenance, and insurance will be longer — but the investment thesis holds in most DFW markets because rental demand is strong and property values have appreciated consistently.',
+          '**The property value increase is separate from rental income.** A garage conversion that costs $65,000 often adds $70,000–$100,000 in appraised value. That\'s on top of the rental income. When you factor both in, the total return is typically 1.2–1.8x the build cost.',
+        ],
+      },
+      {
+        heading: 'Long-Term vs. Short-Term Rental: Which Is Better?',
+        body: [
+          '**Long-term rental (12-month lease) advantages:** Stable income. Lower management burden. No nightly turnover, no cleaning fees, no listing management. Your tenant is responsible for day-to-day utilities.',
+          '**Short-term rental (Airbnb/VRBO) advantages:** Higher per-night revenue, especially in strong tourist or event markets. Flexibility to use the unit yourself. But: higher management burden, higher vacancy during off-seasons, and more wear and tear.',
+          '**Fort Worth and DFW STR rules:** Fort Worth requires a short-term rental permit. Dallas has restrictions in some residential zones. Other DFW cities have varying rules. Always verify local STR ordinances before committing to a short-term rental strategy.',
+          '**Our recommendation for most clients:** Start with long-term rental. It\'s simpler to manage, provides stable cash flow, and is lower-risk. Once you understand the unit and the rental market, you can evaluate whether short-term makes sense.',
+        ],
+      },
+      {
+        heading: 'Setting Up Your Rental: Practical Steps',
+        body: [
+          '**Get a lease.** Use a Texas-specific residential lease — the Texas Apartment Association (TAA) lease is the standard. Don\'t use a generic internet template.',
+          '**Screen tenants.** Run credit, background, and income verification. Income should be at least 3x monthly rent. This step prevents most landlord-tenant problems.',
+          '**Set the right rent.** Price based on the market, not your costs. Search Zillow, Apartments.com, and Facebook Marketplace for comparable units in your neighborhood. Price within 5–10% of comps.',
+          '**Collect a security deposit.** Texas law allows up to one month\'s rent as a security deposit for residential properties. Document the unit\'s condition thoroughly at move-in.',
+          '**Understand landlord obligations.** Texas law requires landlords to maintain a habitable unit, make repairs within a reasonable time, and follow specific procedures for entering the unit. Familiarize yourself with Chapter 92 of the Texas Property Code.',
+          '**Insurance.** Your standard homeowner\'s policy typically does not cover a rental unit. Add a landlord policy or a dwelling fire policy to protect the structure and your liability.',
+        ],
+      },
+      {
+        heading: 'Tax Treatment of Rental Income',
+        body: [
+          '**Rental income is taxable.** Income from a long-term or short-term rental is reported on Schedule E (long-term) or Schedule C (short-term) of your federal tax return.',
+          '**Depreciation is your biggest deduction.** The IRS allows you to depreciate a residential rental property over 27.5 years. On a $100,000 garage apartment, that\'s a ~$3,636/year deduction that reduces your taxable rental income without any cash outlay.',
+          '**Other deductible expenses:** Mortgage interest (if financed), property taxes on the unit, repairs and maintenance, insurance, advertising, property management fees, and utilities paid by the landlord.',
+          '**Important distinction:** Repairs are immediately deductible. Improvements are depreciated over time. A leaky faucet repair is a deduction. New flooring is an improvement. Your CPA can help you classify correctly.',
+          '**Consult a CPA.** Rental income tax treatment has nuances — passive activity rules, short-term rental treatment, and potential self-employment tax if you provide hotel-like services. A CPA who works with real estate investors is worth the cost.',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'How much can I charge for rent on a garage apartment in DFW?', a: 'Depends on location, size, and finish. Most garage apartments in DFW rent for $1,000–$2,200/month for long-term leases. Detached ADUs in premium neighborhoods can reach $2,500+. Short-term rentals can earn 20–50% more per month but require more management.' },
+      { q: 'How long does it take to pay back a garage apartment?', a: 'Gross payback (build cost ÷ annual rent) ranges from 4–9 years depending on the build type and rental rate. Factor in the property value increase and the total return is typically 1.2–1.8x the build cost over 10 years.' },
+      { q: 'Do I need a license to rent a garage apartment in Fort Worth?', a: 'Long-term rentals do not require a special license. Short-term rentals (under 30 days) require a short-term rental permit from the City of Fort Worth. Other DFW cities have their own rules.' },
+      { q: 'Can I do Airbnb in my garage apartment in Texas?', a: 'Yes, subject to local city rules. Fort Worth requires a short-term rental permit. Dallas has restrictions in some zones. Always verify your city\'s STR ordinance before marketing your unit on Airbnb or VRBO.' },
+      { q: 'What\'s the most important factor for rental income on a garage apartment?', a: 'Location is the biggest driver, followed by having a private entrance, full kitchen, and in-unit laundry. These four factors together can add $300–$600/month over a comparable unit without them.' },
+    ],
+    ctaHeading: 'Want to Know What Your Garage Apartment Could Rent For?',
+  },
 };
 
 function FAQ({ q, a }: { q: string; a: string }) {
