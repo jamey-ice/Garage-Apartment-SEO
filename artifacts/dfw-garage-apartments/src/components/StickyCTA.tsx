@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'wouter';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Phone } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function StickyCTA() {
   const [isVisible, setIsVisible] = useState(false);
-  const [location] = useLocation();
+  const { asPath: location } = useRouter();
 
   useEffect(() => {
     // Don't show on contact page

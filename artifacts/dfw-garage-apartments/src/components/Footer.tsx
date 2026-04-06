@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
 
 export function Footer() {
