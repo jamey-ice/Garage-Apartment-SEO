@@ -3,10 +3,9 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/services/garage-conversions": "pages/services/garage-conversions.js",
-  "/projects": "pages/projects.js",
-  "/resources/[slug]": "pages/resources/[slug].js",
   "/projects/[slug]": "pages/projects/[slug].js",
-  "/404": "pages/404.js",
-  "/blog/[slug]": "pages/blog/[slug].js"
+  "/process": "pages/process.js",
+  "/blog": "pages/blog.js",
+  "/services/garage-conversions": "pages/services/garage-conversions.js",
+  "/projects": "pages/projects.js"
 }

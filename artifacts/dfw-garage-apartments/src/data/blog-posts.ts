@@ -17,7 +17,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: 'Jamey Ice',
     category: 'zoning',
     excerpt: 'The short answer is: probably yes — but it depends on your city. Here\'s what DFW homeowners need to know about garage apartment zoning before they start planning.',
-    featuredImage: '/images/2253_6th_Ave-20_1775501313348.jpg',
+    featuredImage: '/images/garage-apartment-interior-mockingbird-1.jpg',
     body: `## The Short Answer
 
 Yes — most DFW homeowners can build a garage apartment on their property. But "most" isn't "all," and the rules vary significantly from city to city across the Metroplex.
@@ -107,7 +107,7 @@ If you're not sure what's allowed on your property, the fastest way to find out 
     author: 'Jamey Ice',
     category: 'tips',
     excerpt: 'After building 45+ garage apartments across DFW, we\'ve seen the same mistakes happen over and over. Here\'s what to know before you start.',
-    featuredImage: '/images/2228_Hurley_Patry_Family_Garage_Apartment-40_1775501313347.jpg',
+    featuredImage: '/images/garage-apartment-interior-mockingbird-3.jpg',
     body: `## What We've Learned After 45+ Builds
 
 We've been building garage apartments and ADUs across Dallas–Fort Worth since 2016. In that time, we've seen homeowners make the same mistakes over and over — not because they're careless, but because the process isn't well-documented anywhere.
@@ -177,7 +177,7 @@ The difference in project outcome is enormous. We'd be happy to be that builder 
     author: 'Jamey Ice',
     category: 'legislation',
     excerpt: 'SB 673 passed the Texas Senate in 2025 but died in the House — the second time ADU legislation has failed at the state level. Here\'s what that means for DFW homeowners right now.',
-    featuredImage: '/images/2253_6th_Ave-35_1775501331344.jpg',
+    featuredImage: '/images/lipscomb-garage-apartment-fort-worth.jpg',
     body: `## The Bill That Almost Changed Everything
 
 In April 2025, the Texas Senate passed SB 673 — a bill that would have prohibited Texas municipalities from banning accessory dwelling units and mandated 60-day permit approval timelines statewide.
@@ -247,7 +247,7 @@ If you're tracking this space, the best thing you can do is build your garage ap
     author: 'Jamey Ice',
     category: 'costs',
     excerpt: 'Converting your existing garage or building from scratch — both paths lead to a great garage apartment. Here\'s how to figure out which one is right for your property.',
-    featuredImage: '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg',
+    featuredImage: '/images/fairmount-garage-apartment-fort-worth.jpg',
     body: `## Two Paths to the Same Goal
 
 When DFW homeowners call us about garage apartments, they usually have one of two situations:

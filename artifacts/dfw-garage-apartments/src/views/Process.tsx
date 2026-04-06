@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const processImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-107_1775501313348.jpg';
-const designImg = '/images/6thAveHomes_InteriorDesigners_8.13.2020-4_1775501313345.jpg';
+const processImg = '/images/garage-apartment-construction-walsh.jpg';
+const designImg = '/images/garage-apartment-interior-parkplace-3.jpg';
 
 const steps = [
   {

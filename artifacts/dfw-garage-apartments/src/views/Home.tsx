@@ -10,24 +10,24 @@ import { ProcessStep } from '@/components/ProcessStep';
 import { CityCard } from '@/components/CityCard';
 import { CTABanner } from '@/components/CTABanner';
 
-const heroImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-107_1775501313348.jpg';
-const exterior1 = '/images/2253_6th_Ave-20_1775501313348.jpg';
-const kitchen1 = '/images/2228_Hurley_Patry_Family_Garage_Apartment-40_1775501313347.jpg';
-const livingRoom = '/images/2228_Hurley_Patry_Family_Garage_Apartment-29_1775501313347.jpg';
-const happyClients = '/images/2228_Hurley_Patry_Family_Garage_Apartment-80_1775501313347.jpg';
-const homeOffice = '/images/2223_Mistletoe-6_1775501313346.jpg';
-const bedroom = '/images/2223_Mistletoe-25_1775501313346.jpg';
-const conversionImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
-const guestImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg';
+const heroImg = '/images/lipscomb-garage-apartment-fort-worth.jpg';
+const exterior1 = '/images/college-ave-garage-apartment-fort-worth.jpg';
+const kitchen1 = '/images/fairmount-garage-apartment-fort-worth.jpg';
+const livingRoom = '/images/fort-worth-garage-apartment-exterior.jpg';
+const happyClients = '/images/lipscomb-above-garage-apartment.jpg';
+const homeOffice = '/images/tanglewood-garage-apartment-exterior.jpg';
+const bedroom = '/images/rayburn-garage-apartment-exterior.jpg';
+const conversionImg = '/images/garage-apartment-interior-parkplace-1.jpg';
+const guestImg = '/images/garage-apartment-interior-mockingbird-1.jpg';
 
-const fwImg = '/images/2253_6th_Ave-35_1775501331344.jpg';
-const dalImg = '/images/4205_Glenwood-33_Emily_Jolliff_1775501331345.jpg';
-const arlingtonImg = '/images/2253_6th_Ave-38_1775501331344.jpg';
-const planoImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
-const friscoImg = '/images/2253_6th_Ave-42_1775501331345.jpg';
-const dentonImg = '/images/301_rustic_view-8-6-20-14_1775501313346.jpg';
-const mckinneyImg = '/images/2253_6th_Ave-52_1775501331345.jpg';
-const southlakeImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg';
+const fwImg = '/images/college-ave-garage-apartment-fort-worth.jpg';
+const dalImg = '/images/fairmount-garage-apartment-fort-worth.jpg';
+const arlingtonImg = '/images/tanglewood-garage-apartment-exterior.jpg';
+const planoImg = '/images/lipscomb-above-garage-apartment.jpg';
+const friscoImg = '/images/rayburn-garage-apartment-exterior.jpg';
+const dentonImg = '/images/fort-worth-garage-apartment-exterior.jpg';
+const mckinneyImg = '/images/garage-apartment-interior-mockingbird-3.jpg';
+const southlakeImg = '/images/garage-apartment-interior-parkplace-2.jpg';
 
 const USE_CASES = [
   {

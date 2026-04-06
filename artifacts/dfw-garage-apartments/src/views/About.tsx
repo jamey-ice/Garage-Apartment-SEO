@@ -7,9 +7,9 @@ import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 import { CTABanner } from '@/components/CTABanner';
 import { Button } from '@/components/ui/button';
 
-const teamImg = '/images/1408_Lipscomb_Walkthrough-13_1775501313346.jpg';
-const workingImg = '/images/04.08.22_6AHomes__3937ThistleLane_(41_of_44)_1775501313345.jpg';
-const designImg = '/images/6thAveHomes_InteriorDesigners_8.13.2020-4_1775501313345.jpg';
+const teamImg = '/images/garage-apartment-construction-battlecreek.jpg';
+const workingImg = '/images/garage-apartment-construction-mockingbird.jpg';
+const designImg = '/images/garage-apartment-interior-parkplace-2.jpg';
 
 const DIFFERENTIATORS = [
   "One team from start to finish — design, permits, construction",

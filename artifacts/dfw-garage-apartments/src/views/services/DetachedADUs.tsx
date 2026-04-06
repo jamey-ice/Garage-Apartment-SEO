@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const heroImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
-const interiorImg = '/images/4205_Glenwood-33_Emily_Jolliff_1775501331345.jpg';
-const exteriorImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg';
+const heroImg = '/images/tanglewood-garage-apartment-exterior.jpg';
+const interiorImg = '/images/garage-apartment-interior-mockingbird-2.jpg';
+const exteriorImg = '/images/fairmount-garage-apartment-fort-worth.jpg';
 
 const faqs = [
   {
