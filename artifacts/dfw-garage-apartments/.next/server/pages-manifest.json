@@ -3,16 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/areas/[city]": "pages/areas/[city].js",
-  "/about": "pages/about.js",
-  "/resources/[slug]": "pages/resources/[slug].js",
-  "/contact": "pages/contact.js",
-  "/process": "pages/process.js",
-  "/services/garage-conversions": "pages/services/garage-conversions.js",
-  "/services": "pages/services.js",
-  "/services/above-garage-apartments": "pages/services/above-garage-apartments.js",
-  "/services/guest-houses": "pages/services/guest-houses.js",
-  "/services/detached-adus": "pages/services/detached-adus.js",
   "/areas": "pages/areas.js",
-  "/resources": "pages/resources.js"
+  "/terms": "pages/terms.js"
 }

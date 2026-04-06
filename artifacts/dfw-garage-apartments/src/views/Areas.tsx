@@ -17,7 +17,7 @@ const southlakeImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg
 export default function Areas() {
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" as const } }
   };
 
   const cities = [
