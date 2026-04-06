@@ -33,14 +33,34 @@ pnpm workspace monorepo using TypeScript. Main artifact is a SEO-optimized marke
 - `src/components/` — NavBar, Footer, CTABanner, ProjectCard, ServiceCard, CityCard, TestimonialCard, FAQAccordion, ProcessStep, StatBadge, StickyCTA, BreadcrumbNav, SEOHead
 - `src/pages/` — home.tsx, services.tsx, areas.tsx, about.tsx, contact.tsx, not-found.tsx
 
-#### Target Cities
-Fort Worth, Dallas, Weatherford, Burleson, Cleburne, Granbury, Aledo, Benbrook
+#### Target Cities (wireframe spec)
+Fort Worth, Dallas, Arlington, Plano, Frisco, Denton, McKinney, Southlake
 
-#### Services
-1. New Detached Garage Apartments
-2. Garage Conversions
-3. Attached ADUs
-4. Custom ADU Design
+#### Services (wireframe spec — exact URL slugs)
+1. Garage Conversions → /services/garage-conversions
+2. Above-Garage Apartments → /services/above-garage-apartments
+3. Detached ADUs → /services/detached-adus
+4. Guest Houses → /services/guest-houses
+
+#### Homepage Sections (all 10 from wireframe — now complete)
+1. Hero — SEO H1 "Garage Apartment Builders in Dallas–Fort Worth"
+2. Trust Bar — brand authority signals (not stats)
+3. Problem — "Most Garage Apartment Projects Fall Apart Before They Start"
+4. Services — 4 service cards with correct wireframe names
+5. How It Works — 3-step process
+6. Why Homeowners Build — 6 use cases (rental income, aging parents, etc.)
+7. Projects / Social Proof — testimonials + stats
+8. Areas We Serve — city card grid (internal SEO linking)
+9. The Stakes — urgency/conversion copy
+10. Lead Magnet — email capture form for free guide
+
+#### Phase 1 Completed (wireframe-compliant)
+- NavBar with correct service names, correct cities, Resources dropdown
+- Footer with 4-column wireframe layout (Brand, Services, Areas, Resources)
+- About page with StoryBrand structure (Jamey Ice, Jimmy Williams, 2016, Fairmount)
+- Services page with correct service names and cost/timeline data
+- Areas page with correct 8 DFW cities
+- JSON-LD schema updated with correct cities and foundingDate: 2016
 
 ## Stack
 

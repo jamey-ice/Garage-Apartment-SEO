@@ -15,7 +15,7 @@ export function CTABanner({
   variant = 'navy', 
   title, 
   subtitle, 
-  buttonText = 'Get a Free Quote',
+  buttonText = 'Schedule a Consultation',
   buttonLink = '/contact' 
 }: CTABannerProps) {
   const bgClass = {
