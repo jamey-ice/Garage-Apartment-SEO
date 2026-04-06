@@ -358,7 +358,7 @@ export default function Contact() {
                   <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-sans text-sm mb-0.5">Office Location</strong>
-                    <span className="text-white/70 text-sm">2228 6th Avenue<br />Fort Worth, TX 76110</span>
+                    <span className="text-white/70 text-sm">908 Bryan Ave<br />Fort Worth, TX 76104</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">

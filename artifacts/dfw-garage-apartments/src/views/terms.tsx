@@ -66,7 +66,7 @@ export default function Terms() {
             <h2 className="font-serif text-2xl font-bold text-primary mb-3">Contact</h2>
             <div className="bg-card p-5 rounded mt-3">
               <p className="font-bold text-primary">6th Ave Homes / DFW Garage Apartments</p>
-              <p>2228 6th Avenue, Fort Worth, TX 76110</p>
+              <p>908 Bryan Ave, Fort Worth, TX 76104</p>
               <p><a href="mailto:info@6thavehomes.com" className="text-accent hover:underline">info@6thavehomes.com</a></p>
             </div>
           </section>

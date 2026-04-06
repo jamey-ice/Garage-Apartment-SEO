@@ -23,7 +23,7 @@ export default function Privacy() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-primary mb-3">Who We Are</h2>
-            <p>DFW Garage Apartments is a marketing brand operated by 6th Ave Homes, located at 2228 6th Avenue, Fort Worth, TX 76110. This Privacy Policy describes how we collect, use, and protect your personal information when you use our website at dfwgarageapartments.com.</p>
+            <p>DFW Garage Apartments is a marketing brand operated by 6th Ave Homes, located at 908 Bryan Ave, Fort Worth, TX 76104. This Privacy Policy describes how we collect, use, and protect your personal information when you use our website at dfwgarageapartments.com.</p>
           </section>
 
           <section>
@@ -79,7 +79,7 @@ export default function Privacy() {
             <p>If you have questions about this Privacy Policy, please contact us:</p>
             <div className="mt-3 bg-card p-5 rounded">
               <p className="font-bold text-primary">6th Ave Homes / DFW Garage Apartments</p>
-              <p>2228 6th Avenue, Fort Worth, TX 76110</p>
+              <p>908 Bryan Ave, Fort Worth, TX 76104</p>
               <p><a href="mailto:info@6thavehomes.com" className="text-accent hover:underline">info@6thavehomes.com</a></p>
               <p>(817) 631-9803</p>
             </div>
