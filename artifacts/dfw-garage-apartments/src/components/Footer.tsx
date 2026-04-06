@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -37,7 +37,12 @@ export function Footer() {
       "ratingValue": "4.9",
       "reviewCount": "120",
       "bestRating": "5"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/6AHomes/",
+      "https://www.instagram.com/6thavehomes/",
+      "https://www.linkedin.com/company/6th-ave-homes"
+    ]
   };
 
   return (
@@ -71,6 +76,17 @@ export function Footer() {
                   <a href="mailto:info@6thavehomes.com" className="hover:text-white transition-colors text-xs">info@6thavehomes.com</a>
                 </li>
               </ul>
+              <div className="flex gap-3">
+                <a href="https://www.facebook.com/6AHomes/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="6th Ave Homes on Facebook">
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a href="https://www.instagram.com/6thavehomes/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="6th Ave Homes on Instagram">
+                  <Instagram className="w-4 h-4" />
+                </a>
+                <a href="https://www.linkedin.com/company/6th-ave-homes" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="6th Ave Homes on LinkedIn">
+                  <Linkedin className="w-4 h-4" />
+                </a>
+              </div>
             </div>
 
             {/* Column 2: Services */}
