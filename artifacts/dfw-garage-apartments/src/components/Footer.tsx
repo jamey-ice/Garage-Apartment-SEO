@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,17 +12,17 @@ export function Footer() {
     "name": "DFW Garage Apartments",
     "description": "Garage apartment and ADU design, permitting, and construction company serving the Dallas-Fort Worth area. Powered by 6th Ave Homes.",
     "url": "https://dfwgarageapartments.com",
-    "telephone": "+1-817-555-0100",
-    "email": "hello@dfwgarageapartments.com",
+    "telephone": "+1-817-631-9803",
+    "email": "info@6thavehomes.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "2228 6th Avenue",
+      "streetAddress": "908 Bryan Ave",
       "addressLocality": "Fort Worth",
       "addressRegion": "TX",
-      "postalCode": "76110",
+      "postalCode": "76104",
       "addressCountry": "US"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": 32.7038, "longitude": -97.3344 },
+    "geo": { "@type": "GeoCoordinates", "latitude": 32.7234, "longitude": -97.3352 },
     "areaServed": ["Fort Worth", "Dallas", "Arlington", "Plano", "Frisco", "Denton", "McKinney", "Southlake"],
     "priceRange": "$$$$",
     "foundingDate": "2016",
@@ -60,22 +60,17 @@ export function Footer() {
               <ul className="space-y-3 text-white/80 text-sm font-sans mb-6">
                 <li className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-accent shrink-0 mt-0.5" />
-                  <span>2228 6th Avenue<br />Fort Worth, TX 76110</span>
+                  <span>908 Bryan Ave<br />Fort Worth, TX 76104</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-accent shrink-0" />
-                  <a href="tel:+18175550100" className="hover:text-white transition-colors">(817) 555-0100</a>
+                  <a href="tel:+18176319803" className="hover:text-white transition-colors">(817) 631-9803</a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-accent shrink-0" />
-                  <a href="mailto:hello@dfwgarageapartments.com" className="hover:text-white transition-colors text-xs">hello@dfwgarageapartments.com</a>
+                  <a href="mailto:info@6thavehomes.com" className="hover:text-white transition-colors text-xs">info@6thavehomes.com</a>
                 </li>
               </ul>
-              <div className="flex gap-3">
-                <a href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="Facebook"><Facebook className="w-4 h-4" /></a>
-                <a href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="Instagram"><Instagram className="w-4 h-4" /></a>
-                <a href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="LinkedIn"><Linkedin className="w-4 h-4" /></a>
-              </div>
             </div>
 
             {/* Column 2: Services */}
@@ -110,10 +105,11 @@ export function Footer() {
             <div>
               <h3 className="font-serif font-bold text-base mb-5 uppercase tracking-widest text-white/60">Resources</h3>
               <ul className="space-y-3 text-white/80 font-sans text-sm">
+                <li><Link href="/cost-calculator" className="hover:text-accent transition-colors">Cost Calculator</Link></li>
                 <li><Link href="/resources/cost-guide" className="hover:text-accent transition-colors">Cost Guide</Link></li>
                 <li><Link href="/resources/zoning-guide" className="hover:text-accent transition-colors">Zoning Guide</Link></li>
-                <li><Link href="/resources/texas-adu-laws" className="hover:text-accent transition-colors">Texas ADU Laws</Link></li>
-                <li><Link href="/resources/financing-options" className="hover:text-accent transition-colors">Financing Options</Link></li>
+                <li><Link href="/projects" className="hover:text-accent transition-colors">Project Gallery</Link></li>
+                <li><Link href="/blog" className="hover:text-accent transition-colors">Blog</Link></li>
                 <li><Link href="/resources" className="hover:text-accent transition-colors text-white/50">All Resources &rarr;</Link></li>
               </ul>
               <div className="mt-8 pt-6 border-t border-white/10">

@@ -248,7 +248,7 @@ export default function CityPage({ citySlug }: { citySlug?: string } = {}) {
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28">
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-4">Areas We Serve</p>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4" style={{ fontFamily: 'CervoNeueBold, serif' }}>
-            Garage Apartment Builders<br />in {city.name}, Texas
+            Garage Apartment Builders <br />in {city.name}, Texas
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mb-8">{city.heroSubtitle}</p>
           <Link href="/contact">

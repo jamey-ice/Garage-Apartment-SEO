@@ -97,7 +97,7 @@ export default function AboveGarageApartments() {
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28">
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-4">Above-Garage Apartments</p>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6" style={{ fontFamily: 'CervoNeueBold, serif' }}>
-            Above-Garage Apartments<br />in Dallas–Fort Worth
+            Above-Garage Apartments <br />in Dallas–Fort Worth
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mb-8">
             Build a full apartment above your existing garage — and keep the garage below. One team handles design, permits, and construction.

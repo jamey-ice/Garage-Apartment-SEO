@@ -71,7 +71,7 @@ export default function Privacy() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-primary mb-3">Your Rights</h2>
-            <p>You may request access to, correction of, or deletion of your personal information at any time by contacting us at <a href="mailto:hello@dfwgarageapartments.com" className="text-accent hover:underline">hello@dfwgarageapartments.com</a>. We will respond to your request within 30 days.</p>
+            <p>You may request access to, correction of, or deletion of your personal information at any time by contacting us at <a href="mailto:info@6thavehomes.com" className="text-accent hover:underline">info@6thavehomes.com</a>. We will respond to your request within 30 days.</p>
           </section>
 
           <section>
@@ -80,8 +80,8 @@ export default function Privacy() {
             <div className="mt-3 bg-card p-5 rounded">
               <p className="font-bold text-primary">6th Ave Homes / DFW Garage Apartments</p>
               <p>2228 6th Avenue, Fort Worth, TX 76110</p>
-              <p><a href="mailto:hello@dfwgarageapartments.com" className="text-accent hover:underline">hello@dfwgarageapartments.com</a></p>
-              <p>(817) 555-0100</p>
+              <p><a href="mailto:info@6thavehomes.com" className="text-accent hover:underline">info@6thavehomes.com</a></p>
+              <p>(817) 631-9803</p>
             </div>
           </section>
 

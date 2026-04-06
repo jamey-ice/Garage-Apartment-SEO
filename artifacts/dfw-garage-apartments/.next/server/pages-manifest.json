@@ -3,8 +3,9 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/cost-calculator": "pages/cost-calculator.js",
+  "/blog": "pages/blog.js",
+  "/projects": "pages/projects.js",
   "/areas/[city]": "pages/areas/[city].js",
-  "/services/garage-conversions": "pages/services/garage-conversions.js",
-  "/resources/[slug]": "pages/resources/[slug].js",
-  "/privacy": "pages/privacy.js"
+  "/services/garage-conversions": "pages/services/garage-conversions.js"
 }

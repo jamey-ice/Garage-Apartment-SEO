@@ -33,15 +33,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/areas/[city].js"
     ],
-    "/privacy": [
+    "/blog": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/privacy.js"
+      "static/chunks/pages/blog.js"
     ],
-    "/resources/[slug]": [
+    "/cost-calculator": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/resources/[slug].js"
+      "static/chunks/pages/cost-calculator.js"
+    ],
+    "/projects": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projects.js"
     ],
     "/services/garage-conversions": [
       "static/chunks/webpack.js",

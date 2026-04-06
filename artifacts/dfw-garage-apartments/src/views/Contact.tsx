@@ -325,7 +325,7 @@ export default function Contact() {
                             <Textarea id="message" rows={3} value={formData.message} onChange={(e) => update('message', e.target.value)} placeholder="Tell us anything specific about your property or goals…" className="rounded-none border-border focus-visible:ring-accent resize-none" />
                           </div>
 
-                          <p className="text-xs text-muted-foreground font-sans">Or call us at <a href="tel:+18175550100" className="text-primary font-bold hover:underline">(817) 555-0100</a>. We're based in Fort Worth and serve the entire DFW metro.</p>
+                          <p className="text-xs text-muted-foreground font-sans">Or call us at <a href="tel:+18176319803" className="text-primary font-bold hover:underline">(817) 631-9803</a>. We're based in Fort Worth and serve the entire DFW metro.</p>
 
                           <div className="flex justify-between pt-2">
                             <Button type="button" variant="outline" onClick={() => setStep(2)} disabled={isSubmitting} className="rounded-none px-6 py-5 text-xs uppercase tracking-widest font-bold">← Back</Button>
@@ -365,14 +365,14 @@ export default function Contact() {
                   <Phone className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-sans text-sm mb-0.5">Phone</strong>
-                    <a href="tel:+18175550100" className="text-white/70 text-sm hover:text-accent transition-colors">(817) 555-0100</a>
+                    <a href="tel:+18176319803" className="text-white/70 text-sm hover:text-accent transition-colors">(817) 631-9803</a>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
                   <Mail className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <strong className="block font-sans text-sm mb-0.5">Email</strong>
-                    <a href="mailto:hello@dfwgarageapartments.com" className="text-white/70 text-sm hover:text-accent transition-colors break-all">hello@dfwgarageapartments.com</a>
+                    <a href="mailto:info@6thavehomes.com" className="text-white/70 text-sm hover:text-accent transition-colors break-all">info@6thavehomes.com</a>
                   </div>
                 </li>
               </ul>

@@ -97,7 +97,7 @@ export default function DetachedADUs() {
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28">
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-4">Detached ADUs</p>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6" style={{ fontFamily: 'CervoNeueBold, serif' }}>
-            Detached ADU Builders<br />in Dallas–Fort Worth
+            Detached ADU Builders <br />in Dallas–Fort Worth
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mb-8">
             A standalone structure, built from the ground up, on your property. Total design flexibility. One team from site plan to final walkthrough.

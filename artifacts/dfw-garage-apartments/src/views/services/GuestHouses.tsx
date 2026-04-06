@@ -97,7 +97,7 @@ export default function GuestHouses() {
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28">
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-4">Guest Houses</p>
           <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6" style={{ fontFamily: 'CervoNeueBold, serif' }}>
-            Guest House Builders<br />in Dallas–Fort Worth
+            Guest House Builders <br />in Dallas–Fort Worth
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mb-8">
             A guest house built for family — with accessibility, privacy, and the feel of a real home. We handle design, permits, and construction from start to finish.

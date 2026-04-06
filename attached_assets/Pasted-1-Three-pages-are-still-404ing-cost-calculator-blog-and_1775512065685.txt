@@ -1,0 +1,12 @@
+1. Three pages are still 404ing: /cost-calculator, /blog, and /projects. These need to be added. The cost calculator is a competitive differentiator — tell Replit to build it using the pricing config JSON from the wireframe. Blog and projects can be placeholder index pages for now.
+2. H1 tags have a missing space bug. On the garage conversions page, the H1 renders as "Garage Conversions inDallas–Fort Worth" (no space before "Dallas") because there's a <br> tag being used for line breaks that eats the space. Same on the Fort Worth city page: "Garage Apartment Buildersin Fort Worth, Texas". Tell Replit: "The H1 tags on service pages and city pages have a missing space before the line break. The <br> tag is eating the whitespace. Add a space before the <br> or use CSS for the line break instead."
+3. Breadcrumbs are in the schema but NOT visible on the page. The BreadcrumbList JSON-LD exists, but there's no actual breadcrumb navigation rendered in the UI. Users and Google both benefit from visible breadcrumbs. Tell Replit: "Add visible breadcrumb navigation below the header on every inner page — for example: Home > Services > Garage Conversions. The BreadcrumbList schema is already there, just make the breadcrumbs visible in the page layout."
+4. Phone number is still placeholder. (817) 555-0100 and hello@dfwgarageapartments.com — swap these for your real contact info before launch.
+5. Social links are dead. Facebook, Instagram, LinkedIn links all point to #. Either connect them to real profiles or remove them until you have the profiles set up.
+Replit prompt for the remaining fixes:
+
+"Three things left to fix:
+
+Add these missing pages: /cost-calculator (interactive calculator with the pricing config from the wireframe), /blog (index page with placeholder for future posts), /projects (gallery index page with placeholder for future project showcases).
+Fix the H1 spacing bug — on service pages and city pages, the <br> in the H1 is eating the space before it. 'Garage Conversions in<br>Dallas–Fort Worth' renders as 'Garage Conversions inDallas–Fort Worth'. Add a space before the line break.
+Add visible breadcrumb navigation below the header on every inner page (Home > Services > Garage Conversions). The BreadcrumbList schema already exists — just render the breadcrumbs visually."
