@@ -33,7 +33,7 @@ export function StickyCTA() {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-border shadow-[0_-4px_20px_rgba(0,0,0,0.05)] p-3 flex md:hidden items-center gap-3 z-40 transform transition-transform duration-300">
       <Button asChild variant="outline" className="flex-1 rounded-none border-primary text-primary hover:bg-primary/5">
-        <a href="tel:+18175550100">
+        <a href="tel:+18176319803">
           <Phone className="w-4 h-4 mr-2" />
           Call
         </a>

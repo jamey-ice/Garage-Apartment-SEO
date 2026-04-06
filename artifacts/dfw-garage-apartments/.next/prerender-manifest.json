@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "c0563639c6641f9203b34ef32dd62f8a",
-    "previewModeSigningKey": "65987be3ed87dfa51a086031d4d5873be3a76ee37bca40085dc124810f723d04",
-    "previewModeEncryptionKey": "54a60db036cf0208e6e81a0f3a5aaf69b5959ebbde12546247c1db9eebf749a6"
-  }
-}
+{"version":4,"routes":{"/blog/can-i-build-garage-apartment-dfw":{},"/blog/5-things-homeowners-should-know-before-building-garage-apartment":{},"/blog/texas-adu-legislation-what-happened-whats-next":{},"/blog/garage-conversion-vs-new-build-how-to-decide":{},"/projects/fairmount-garage-conversion-fort-worth":{},"/projects/mistletoe-heights-above-garage-apartment":{},"/projects/bellair-guest-house-fort-worth":{},"/projects/arlington-detached-adu-rental":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b61575e9206d015cdb17d9fb35315a00","previewModeSigningKey":"5844b304537b1d2addde24b8addfaf4f6ff3590f48effb49281f49e208a56e34","previewModeEncryptionKey":"c1baedb91e6e4a6193de2e8866d8833c210607a4e78449b747bf96a8421b4a22"}}

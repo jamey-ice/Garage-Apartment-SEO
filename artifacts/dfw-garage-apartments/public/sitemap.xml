@@ -136,33 +136,111 @@
   <!-- Resource Guides -->
   <url>
     <loc>https://dfwgarageapartments.com/resources</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dfwgarageapartments.com/resources/cost-guide</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://dfwgarageapartments.com/resources/garage-apartment-cost-dfw</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dfwgarageapartments.com/resources/zoning-guide</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://dfwgarageapartments.com/resources/adu-zoning-guide-dfw</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dfwgarageapartments.com/resources/texas-adu-laws</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/resources/garage-apartment-vs-detached-adu</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dfwgarageapartments.com/resources/financing-options</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://dfwgarageapartments.com/resources/rental-income-garage-apartment-texas</loc>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/resources/how-to-finance-garage-apartment</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://dfwgarageapartments.com/blog/can-i-build-garage-apartment-dfw</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/blog/5-things-homeowners-should-know-before-building-garage-apartment</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/blog/texas-adu-legislation-what-happened-whats-next</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/blog/garage-conversion-vs-new-build-how-to-decide</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Project Pages -->
+  <url>
+    <loc>https://dfwgarageapartments.com/projects/fairmount-garage-conversion-fort-worth</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/projects/mistletoe-heights-above-garage-apartment</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/projects/bellair-guest-house-fort-worth</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/projects/arlington-detached-adu-rental</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://dfwgarageapartments.com/privacy</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://dfwgarageapartments.com/terms</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

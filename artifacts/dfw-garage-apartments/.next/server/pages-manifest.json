@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/cost-calculator": "pages/cost-calculator.js",
+  "/blog": "pages/blog.js",
+  "/blog/[slug]": "pages/blog/[slug].js",
+  "/projects": "pages/projects.js",
+  "/projects/[slug]": "pages/projects/[slug].js"
 }

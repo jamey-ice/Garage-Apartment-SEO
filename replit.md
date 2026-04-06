@@ -13,14 +13,14 @@ pnpm workspace monorepo using TypeScript. Main artifact is a SEO-optimized marke
 - **Phase 1 (COMPLETE)**: Homepage, Services, Areas, About, Contact, 404 page + all reusable components
 - **Phase 2 (COMPLETE)**: Service detail pages (4), Process page — all with FAQ schema markup
 - **Phase 3 (COMPLETE)**: 8 city pages, 4 resource guides, Resources index
-- **Phase 4 (PENDING)**: Blog, project gallery, CRO features (exit intent popup), cost calculator
+- **Phase 4 (COMPLETE)**: Blog system (4 posts + template), project gallery (4 projects + template), exit-intent popup, cost calculator upgrade (5 inputs), sitemap updated
 
 #### Architecture: Next.js Pages Router with SSG
 - **Routing**: `src/pages/` directory (Next.js file-based routing)
 - **Page components**: `src/views/` directory (React component files)
 - **`src/pages/`**: Thin Next.js page files that import from `src/views/`
 - **Dynamic routes**: `src/pages/areas/[city].tsx` and `src/pages/resources/[slug].tsx` with `getStaticPaths` + `getStaticProps`
-- **Layout**: `src/pages/_app.tsx` wraps all pages with NavBar, Footer, StickyCTA, TooltipProvider
+- **Layout**: `src/pages/_app.tsx` wraps all pages with NavBar, Footer, StickyCTA, ExitIntentPopup, TooltipProvider
 - **CSS**: `src/index.css` — Tailwind v4 via `@tailwindcss/postcss` PostCSS plugin
 - **Images**: Copied to `public/images/`, referenced as `/images/filename.jpg` strings
 - **Fonts**: Self-hosted in `public/fonts/` — Cervo Neue (headings) + Avenir (body)
@@ -38,11 +38,13 @@ Every page is pre-rendered as full HTML at build time. Google crawls the complet
 
 #### SEO
 - JSON-LD FAQPage schema in all service and city pages via `dangerouslySetInnerHTML`
-- JSON-LD LocalBusiness schema in Footer
+- JSON-LD LocalBusiness + AggregateRating schema in Footer
+- JSON-LD Article schema on all blog post pages
+- JSON-LD BreadcrumbList on blog and project pages
 - Full content pre-rendered in HTML for Googlebot (SSG)
-- All 23 routes return HTTP 200
+- sitemap.xml includes all blog posts + project pages
 
-#### Site Map (23 routes)
+#### Site Map (31 routes)
 - `/` — Homepage (10 sections)
 - `/about` — About (Jamey Ice + Jimmy Williams, 2016, Fairmount)
 - `/contact` — Contact (3-step form)
@@ -55,17 +57,29 @@ Every page is pre-rendered as full HTML at build time. Google crawls the complet
 - `/areas` — Areas overview
 - `/areas/fort-worth` through `/areas/southlake` (8 city pages)
 - `/resources` — Resource index
-- `/resources/cost-guide`
-- `/resources/zoning-guide`
+- `/resources/garage-apartment-cost-dfw`
+- `/resources/adu-zoning-guide-dfw`
 - `/resources/texas-adu-laws`
-- `/resources/financing-options`
+- `/resources/garage-apartment-vs-detached-adu`
+- `/resources/rental-income-garage-apartment-texas`
+- `/resources/how-to-finance-garage-apartment`
+- `/blog` — Blog index (real post cards, featured post)
+- `/blog/[slug]` — 4 blog posts with Article schema, related posts
+- `/projects` — Project gallery (filterable by type)
+- `/projects/[slug]` — 4 project detail pages with lightbox gallery
+- `/cost-calculator` — 6-step calculator (type, size, city, finish, plumbing → estimate)
 
 #### Key Files
-- `src/pages/_app.tsx` — global layout (NavBar, Footer, StickyCTA)
+- `src/pages/_app.tsx` — global layout (NavBar, Footer, StickyCTA, ExitIntentPopup)
 - `src/pages/_document.tsx` — custom HTML document
 - `src/pages/areas/[city].tsx` — SSG dynamic city pages
 - `src/pages/resources/[slug].tsx` — SSG dynamic resource pages
+- `src/pages/blog/[slug].tsx` — SSG blog post template
+- `src/pages/projects/[slug].tsx` — SSG project detail template
+- `src/data/blog-posts.ts` — 4 blog posts with markdown-style body
+- `src/data/projects.ts` — 4 real projects with photos, story, scope
 - `src/index.css` — design system (CSS variables, @font-face, Tailwind v4)
+- `src/components/ExitIntentPopup.tsx` — desktop-only, sessionStorage, once per session
 - `src/components/` — NavBar, Footer, CTABanner, ServiceCard, CityCard, StickyCTA, BreadcrumbNav, etc.
 - `src/views/` — page component implementations
 
