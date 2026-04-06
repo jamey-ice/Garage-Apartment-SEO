@@ -10,24 +10,24 @@ import { ProcessStep } from '@/components/ProcessStep';
 import { CityCard } from '@/components/CityCard';
 import { CTABanner } from '@/components/CTABanner';
 
-const heroImg = '/images/lipscomb-garage-apartment-fort-worth.jpg';
-const exterior1 = '/images/college-ave-garage-apartment-fort-worth.jpg';
-const kitchen1 = '/images/fairmount-garage-apartment-fort-worth.jpg';
-const livingRoom = '/images/fort-worth-garage-apartment-exterior.jpg';
-const happyClients = '/images/lipscomb-above-garage-apartment.jpg';
-const homeOffice = '/images/tanglewood-garage-apartment-exterior.jpg';
-const bedroom = '/images/rayburn-garage-apartment-exterior.jpg';
-const conversionImg = '/images/garage-apartment-interior-parkplace-1.jpg';
-const guestImg = '/images/garage-apartment-interior-mockingbird-1.jpg';
+const heroImg = '/images/lipscomb-garage-apartment-fort-worth.webp';
+const exterior1 = '/images/college-ave-garage-apartment-fort-worth.webp';
+const kitchen1 = '/images/fairmount-garage-apartment-fort-worth.webp';
+const livingRoom = '/images/fort-worth-garage-apartment-exterior.webp';
+const happyClients = '/images/lipscomb-above-garage-apartment.webp';
+const homeOffice = '/images/tanglewood-garage-apartment-exterior.webp';
+const bedroom = '/images/rayburn-garage-apartment-exterior.webp';
+const conversionImg = '/images/garage-apartment-interior-parkplace-1.webp';
+const guestImg = '/images/garage-apartment-interior-mockingbird-1.webp';
 
-const fwImg = '/images/college-ave-garage-apartment-fort-worth.jpg';
-const dalImg = '/images/fairmount-garage-apartment-fort-worth.jpg';
-const arlingtonImg = '/images/tanglewood-garage-apartment-exterior.jpg';
-const planoImg = '/images/lipscomb-above-garage-apartment.jpg';
-const friscoImg = '/images/rayburn-garage-apartment-exterior.jpg';
-const dentonImg = '/images/fort-worth-garage-apartment-exterior.jpg';
-const mckinneyImg = '/images/garage-apartment-interior-mockingbird-3.jpg';
-const southlakeImg = '/images/garage-apartment-interior-parkplace-2.jpg';
+const fwImg = '/images/college-ave-garage-apartment-fort-worth.webp';
+const dalImg = '/images/fairmount-garage-apartment-fort-worth.webp';
+const arlingtonImg = '/images/tanglewood-garage-apartment-exterior.webp';
+const planoImg = '/images/lipscomb-above-garage-apartment.webp';
+const friscoImg = '/images/rayburn-garage-apartment-exterior.webp';
+const dentonImg = '/images/fort-worth-garage-apartment-exterior.webp';
+const mckinneyImg = '/images/garage-apartment-interior-mockingbird-3.webp';
+const southlakeImg = '/images/garage-apartment-interior-parkplace-2.webp';
 
 const USE_CASES = [
   {

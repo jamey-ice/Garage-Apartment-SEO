@@ -4,8 +4,6 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/projects/[slug]": "pages/projects/[slug].js",
-  "/process": "pages/process.js",
-  "/blog": "pages/blog.js",
   "/services/garage-conversions": "pages/services/garage-conversions.js",
   "/projects": "pages/projects.js"
 }

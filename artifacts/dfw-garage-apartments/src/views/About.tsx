@@ -7,9 +7,9 @@ import { BreadcrumbNav } from '@/components/BreadcrumbNav';
 import { CTABanner } from '@/components/CTABanner';
 import { Button } from '@/components/ui/button';
 
-const teamImg = '/images/garage-apartment-construction-battlecreek.jpg';
-const workingImg = '/images/garage-apartment-construction-mockingbird.jpg';
-const designImg = '/images/garage-apartment-interior-parkplace-2.jpg';
+const teamImg = '/images/garage-apartment-construction-battlecreek.webp';
+const workingImg = '/images/garage-apartment-construction-mockingbird.webp';
+const designImg = '/images/garage-apartment-interior-parkplace-2.webp';
 
 const DIFFERENTIATORS = [
   "One team from start to finish — design, permits, construction",

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const processImg = '/images/garage-apartment-construction-walsh.jpg';
-const designImg = '/images/garage-apartment-interior-parkplace-3.jpg';
+const processImg = '/images/garage-apartment-construction-walsh.webp';
+const designImg = '/images/garage-apartment-interior-parkplace-3.webp';
 
 const steps = [
   {

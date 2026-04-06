@@ -28,12 +28,12 @@ export const PROJECTS: Project[] = [
     year: 2025,
     timeline: '4 months',
     excerpt: 'A 600 sq ft garage conversion in the heart of Fairmount — transformed into a fully independent rental unit that generates $1,700/month.',
-    heroImage: '/images/fairmount-garage-apartment-fort-worth.jpg',
+    heroImage: '/images/fairmount-garage-apartment-fort-worth.webp',
     images: [
-      '/images/fairmount-garage-apartment-fort-worth.jpg',
-      '/images/garage-apartment-interior-parkplace-1.jpg',
-      '/images/garage-apartment-interior-parkplace-2.jpg',
-      '/images/garage-apartment-interior-parkplace-3.jpg',
+      '/images/fairmount-garage-apartment-fort-worth.webp',
+      '/images/garage-apartment-interior-parkplace-1.webp',
+      '/images/garage-apartment-interior-parkplace-2.webp',
+      '/images/garage-apartment-interior-parkplace-3.webp',
     ],
     story: `The homeowners in Fairmount had a 600 square foot detached garage that had been used for storage for years. They wanted to convert it into a rental unit — but they were nervous about the Fort Worth permit process and didn't know whether the existing structure could meet residential code.
 
@@ -74,12 +74,12 @@ The unit was rented within two weeks of completion at $1,700/month. The homeowne
     year: 2024,
     timeline: '6 months',
     excerpt: 'A 780 sq ft apartment built above a newly constructed two-car garage in one of Fort Worth\'s most sought-after historic neighborhoods.',
-    heroImage: '/images/mistletoe-garage-apartment-construction-1.jpg',
+    heroImage: '/images/mistletoe-garage-apartment-construction-1.webp',
     images: [
-      '/images/mistletoe-garage-apartment-construction-1.jpg',
-      '/images/mistletoe-garage-apartment-construction-2.jpg',
-      '/images/garage-apartment-interior-mockingbird-1.jpg',
-      '/images/garage-apartment-interior-mockingbird-2.jpg',
+      '/images/mistletoe-garage-apartment-construction-1.webp',
+      '/images/mistletoe-garage-apartment-construction-2.webp',
+      '/images/garage-apartment-interior-mockingbird-1.webp',
+      '/images/garage-apartment-interior-mockingbird-2.webp',
     ],
     story: `The homeowners in Mistletoe Heights wanted two things: a new two-car garage to replace their crumbling single-car structure, and a rentable living space they could use as income or eventually move family into. Building the apartment above the new garage solved both problems simultaneously.
 
@@ -121,12 +121,12 @@ The unit was listed at $1,950/month and rented within 10 days of completion.`,
     year: 2024,
     timeline: '7 months',
     excerpt: 'An 850 sq ft detached guest house built for aging parents — single-story, ADA-accessible features, and architecturally matched to a 1960s brick home.',
-    heroImage: '/images/garage-apartment-interior-battlecreek.jpg',
+    heroImage: '/images/garage-apartment-interior-battlecreek.webp',
     images: [
-      '/images/garage-apartment-interior-battlecreek.jpg',
-      '/images/garage-apartment-interior-mockingbird-3.jpg',
-      '/images/garage-apartment-interior-parkplace-1.jpg',
-      '/images/garage-apartment-interior-mockingbird-2.jpg',
+      '/images/garage-apartment-interior-battlecreek.webp',
+      '/images/garage-apartment-interior-mockingbird-3.webp',
+      '/images/garage-apartment-interior-parkplace-1.webp',
+      '/images/garage-apartment-interior-mockingbird-2.webp',
     ],
     story: `The homeowners on Bellaire Drive wanted their aging parents close — but not living inside the primary home. Their parents were still fully independent but at a stage where single-story living and accessible features were becoming important.
 
@@ -167,12 +167,12 @@ The parents moved in six months after the project began. Their daughter told us 
     year: 2025,
     timeline: '8 months',
     excerpt: 'A 720 sq ft detached ADU in South Arlington built as a dedicated rental unit near UT Arlington — generating $1,800/month from day one.',
-    heroImage: '/images/tanglewood-garage-apartment-exterior.jpg',
+    heroImage: '/images/tanglewood-garage-apartment-exterior.webp',
     images: [
-      '/images/tanglewood-garage-apartment-exterior.jpg',
-      '/images/college-ave-garage-apartment-fort-worth.jpg',
-      '/images/lipscomb-above-garage-apartment.jpg',
-      '/images/garage-apartment-interior-mockingbird-1.jpg',
+      '/images/tanglewood-garage-apartment-exterior.webp',
+      '/images/college-ave-garage-apartment-fort-worth.webp',
+      '/images/lipscomb-above-garage-apartment.webp',
+      '/images/garage-apartment-interior-mockingbird-1.webp',
     ],
     story: `The homeowners in South Arlington had a large backyard and a clear goal: build a rental unit that would attract graduate students or young professionals near the University of Texas at Arlington campus.
 

@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const heroImg = '/images/tanglewood-garage-apartment-exterior.jpg';
-const interiorImg = '/images/garage-apartment-interior-mockingbird-2.jpg';
-const exteriorImg = '/images/fairmount-garage-apartment-fort-worth.jpg';
+const heroImg = '/images/tanglewood-garage-apartment-exterior.webp';
+const interiorImg = '/images/garage-apartment-interior-mockingbird-2.webp';
+const exteriorImg = '/images/fairmount-garage-apartment-fort-worth.webp';
 
 const faqs = [
   {
