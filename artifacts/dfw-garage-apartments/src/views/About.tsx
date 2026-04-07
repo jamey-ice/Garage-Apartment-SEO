@@ -41,27 +41,8 @@ const DIFFERENTIATORS = [
     body: '6th Ave Homes was named both Emerging Small Business of the Year and Overall Small Business of the Year by the Fort Worth Chamber of Commerce.',
   },
   {
-    title: 'We\'ve done this before',
-    body: 'Garage conversions, above-garage apartments, detached ADUs — we\'ve built them all across Fort Worth, Dallas, Plano, Frisco, Denton, McKinney, and more.',
-  },
-];
-
-const VALUES = [
-  {
-    title: 'Faithful to Restoration',
-    body: 'We believe in the idea of restoration — of homes, neighborhoods, and communities. It\'s the heart behind everything we do.',
-  },
-  {
-    title: 'Radical Candor',
-    body: 'Being clear is kind. We tell you what\'s realistic, what\'s possible, and what doesn\'t make sense for your property. No sales pitch.',
-  },
-  {
-    title: 'Extreme Ownership',
-    body: 'We take full ownership for both success and failure on every project. If something goes wrong, we fix it — no excuses.',
-  },
-  {
-    title: 'People Over Profit',
-    body: 'We value people and principles above profit margins. Good work for good people is what keeps us going.',
+    title: "We've done this before",
+    body: "Garage conversions, above-garage apartments, detached ADUs — we've built them all across Fort Worth, Dallas, Plano, Frisco, Denton, McKinney, and more.",
   },
 ];
 
@@ -83,17 +64,17 @@ export default function About() {
       />
 
       {/* Hero */}
-      <section className="relative bg-primary text-white overflow-hidden">
-        <div className="absolute inset-0 bg-primary/80 z-10" />
+      <section className="relative bg-primary text-white overflow-hidden min-h-[520px] flex flex-col justify-end">
+        <div className="absolute inset-0 bg-primary/75 z-10" />
         <img
           src="/images/team-group-6th-ave-homes.webp"
           alt="The 6th Ave Homes team"
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover object-[center_30%]"
         />
-        <div className="relative z-20 max-w-5xl mx-auto px-6 py-8 pb-4">
+        <div className="relative z-20 max-w-5xl mx-auto w-full px-6 pt-8 pb-4">
           <BreadcrumbNav items={[{ label: 'About Us' }]} />
         </div>
-        <div className="relative z-20 max-w-5xl mx-auto px-6 pb-24 pt-4">
+        <div className="relative z-20 max-w-5xl mx-auto w-full px-6 pb-20">
           <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
             <span className="text-accent font-bold uppercase tracking-widest text-sm block mb-4">Our Story</span>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6" style={{ fontFamily: 'CervoNeueBold, serif' }}>
@@ -136,7 +117,7 @@ export default function About() {
                 They built 6th Ave Homes into a one-stop shop: buying, selling, design, and construction. The Fort Worth Chamber of Commerce named them Emerging Small Business of the Year — then Overall Small Business of the Year. Their team grew. Their reputation grew. And they kept getting the same call.
               </p>
               <p>
-                Homeowners who wanted to add a garage apartment or ADU to their property — but didn't know where to start, who to trust, or how to navigate the permit process. We already had the design team, the construction team, and the local expertise. DFW Garage Apartments was the natural next step.
+                Homeowners who wanted to add a garage apartment or ADU — but didn't know where to start, who to trust, or how to navigate the permit process. We already had the design team, the construction team, and the local expertise. DFW Garage Apartments was the natural next step.
               </p>
             </div>
           </motion.div>
@@ -151,7 +132,7 @@ export default function About() {
               alt="Jimmy Williams and Jamey Ice, Co-Founders of 6th Ave Homes"
               className="w-full h-auto object-cover shadow-2xl"
             />
-            <p className="text-sm text-gray-400 mt-3 text-center">Jimmy Williams & Jamey Ice — Co-Founders, 6th Ave Homes</p>
+            <p className="text-sm text-gray-400 mt-3 text-center">Jimmy Williams &amp; Jamey Ice — Co-Founders, 6th Ave Homes</p>
           </motion.div>
         </div>
       </section>
@@ -175,11 +156,13 @@ export default function About() {
               variants={fadeInUp}
               className="bg-white shadow-sm border border-gray-100 overflow-hidden"
             >
-              <img
-                src="/images/headshot-jimmy-williams.webp"
-                alt="Jimmy Williams, Co-Founder of 6th Ave Homes"
-                className="w-full h-72 object-cover object-top"
-              />
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/headshot-jimmy-williams.webp"
+                  alt="Jimmy Williams, Co-Founder of 6th Ave Homes"
+                  className="w-full h-full object-cover object-[center_15%]"
+                />
+              </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-primary mb-1" style={{ fontFamily: 'CervoNeueBold, serif' }}>Jimmy Williams</h3>
                 <p className="text-accent font-bold text-sm uppercase tracking-wide mb-4">Co-Founder</p>
@@ -197,16 +180,18 @@ export default function About() {
               variants={{ ...fadeInUp, visible: { ...fadeInUp.visible, transition: { duration: 0.7, ease: 'easeOut' as const, delay: 0.15 } } }}
               className="bg-white shadow-sm border border-gray-100 overflow-hidden"
             >
-              <img
-                src="/images/headshot-jamey-ice.webp"
-                alt="Jamey Ice, Co-Founder of 6th Ave Homes"
-                className="w-full h-72 object-cover object-top"
-              />
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/headshot-jamey-ice.webp"
+                  alt="Jamey Ice, Co-Founder of 6th Ave Homes"
+                  className="w-full h-full object-cover object-[center_15%]"
+                />
+              </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-primary mb-1" style={{ fontFamily: 'CervoNeueBold, serif' }}>Jamey Ice</h3>
                 <p className="text-accent font-bold text-sm uppercase tracking-wide mb-4">Co-Founder &amp; Marketing Director</p>
                 <p className="text-gray-600 leading-relaxed">
-                  Fort Worth native, serial entrepreneur, and Fort Worth Chamber of Commerce Small Business of the Year (Overall). Jamey co-developed The 4Eleven — a 20,000 sq ft mixed-use warehouse on South Main — and is the lead guitar player for country/rock band Green River Ordinance, whose most recent record debuted at #1 on the Billboard Folk Charts. His passion is making Fort Worth a more vibrant place to live.
+                  Fort Worth native, serial entrepreneur, and Fort Worth Chamber of Commerce Small Business of the Year (Overall). Jamey co-developed The 4Eleven — a 20,000 sq ft mixed-use warehouse on South Main — and is the lead guitar player for country/rock band Green River Ordinance, whose debut hit #1 on the Billboard Folk Charts. His passion is making Fort Worth a more vibrant place to live.
                 </p>
               </div>
             </motion.div>
@@ -222,11 +207,12 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="aspect-[4/3] overflow-hidden shadow-2xl"
           >
             <img
               src="/images/team-design-construction.webp"
               alt="6th Ave Homes design and construction team"
-              className="w-full h-auto object-cover shadow-2xl"
+              className="w-full h-full object-cover object-center"
             />
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
@@ -289,32 +275,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Values */}
-      <section className="max-w-5xl mx-auto px-6 py-20">
-        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="mb-12">
-          <span className="text-accent font-bold uppercase tracking-widest text-sm block mb-3">How We Operate</span>
-          <h2 className="text-4xl font-bold text-primary" style={{ fontFamily: 'CervoNeueBold, serif' }}>
-            Our Values
-          </h2>
-          <p className="text-gray-500 mt-3 text-lg max-w-2xl">These aren't wall art. They're how we make decisions, handle problems, and show up for clients.</p>
-        </motion.div>
-        <div className="grid md:grid-cols-2 gap-8">
-          {VALUES.map((v, i) => (
-            <motion.div
-              key={i}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeInUp}
-              className="bg-card p-8 border-t-4 border-accent"
-            >
-              <h3 className="font-bold text-primary text-xl mb-3" style={{ fontFamily: 'CervoNeueBold, serif' }}>{v.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{v.body}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* SEO / Expertise section */}
       <section className="bg-card py-20">
         <div className="max-w-5xl mx-auto px-6">
@@ -326,7 +286,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
-                  Building a garage apartment in Dallas–Fort Worth is more complex than most people expect. Every city — Fort Worth, Dallas, Plano, Denton, Frisco, McKinney, Arlington, Southlake — has its own zoning rules, permit processes, and inspection requirements. ADU construction requires design, structural engineering, MEP coordination, and careful sequencing.
+                  Building a garage apartment in Dallas–Fort Worth is more complex than most people expect. Every city — Fort Worth, Dallas, Plano, Denton, Frisco, McKinney, Arlington, Southlake — has its own zoning rules, permit processes, and inspection requirements.
                 </p>
                 <p>
                   We've navigated this process dozens of times, across every major DFW city. We know which permit offices move fast and which take longer. We know which zoning districts allow ADUs by-right and which require a hearing. We know how to design a garage apartment that passes inspection, delights tenants, and holds its value.
@@ -344,11 +304,12 @@ export default function About() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
+              className="aspect-[4/3] overflow-hidden shadow-2xl"
             >
               <img
                 src="/images/garage-apartment-interior-parkplace-2.webp"
                 alt="Beautifully finished garage apartment interior by 6th Ave Homes"
-                className="w-full h-auto object-cover shadow-2xl"
+                className="w-full h-full object-cover object-center"
               />
             </motion.div>
           </div>
