@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/resources/cost-guide":{},"/resources/zoning-guide":{},"/resources/texas-adu-laws":{},"/resources/financing-options":{},"/resources/garage-apartment-vs-adu":{},"/resources/rental-income":{}},"dynamicRoutes":{"/resources/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/resources/[slug]","routeRegex":"^\\/resources\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"99419c815353bc596f2f347cd53950ef","previewModeSigningKey":"d640b8126c14c03d3bd0d1852c50321784b44d464ef740f101d22e6059dfcd12","previewModeEncryptionKey":"cd844fdb852c45e14cdf99eb831caa8ba18a9c64e3e056961fecab8fb08e9c6e"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "0859a5cfb49e41effdd91073a63883f0",
+    "previewModeSigningKey": "7359c68640381b370c3e76cc2ba28dc8ab8cb708303096fba3c075cf612be4e0",
+    "previewModeEncryptionKey": "c1911577c880c61b94ec2d731b4706d928f0697c45f7e70bb6f74a9bb01cfe29"
+  }
+}
