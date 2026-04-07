@@ -9,6 +9,7 @@ export default function Terms() {
         title="Terms of Service"
         description="Terms of Service for DFW Garage Apartments — powered by 6th Ave Homes. Your rights and responsibilities when using our website and services."
         canonical="/terms"
+        noindex
       />
       <div className="bg-primary py-12 px-4">
         <div className="max-w-3xl mx-auto">

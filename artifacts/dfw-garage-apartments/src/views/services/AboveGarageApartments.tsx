@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const heroImg = '/images/2253_6th_Ave-20_1775501313348.jpg';
-const interiorImg = '/images/2253_6th_Ave-16_1775501313348.jpg';
-const exteriorImg = '/images/2253_6th_Ave-35_1775501331344.jpg';
+const heroImg = '/images/6th-ave-above-garage-exterior.webp';
+const interiorImg = '/images/6th-ave-above-garage-interior.webp';
+const exteriorImg = '/images/6th-ave-above-garage-living.webp';
 
 const faqs = [
   {

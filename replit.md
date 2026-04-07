@@ -14,6 +14,7 @@ pnpm workspace monorepo using TypeScript. Main artifact is a SEO-optimized marke
 - **Phase 2 (COMPLETE)**: Service detail pages (4), Process page — all with FAQ schema markup
 - **Phase 3 (COMPLETE)**: 8 city pages, 4 resource guides, Resources index
 - **Phase 4 (COMPLETE)**: Blog system (4 posts + template), project gallery (4 projects + template), exit-intent popup, cost calculator upgrade (5 inputs), sitemap updated
+- **QC Audit (COMPLETE)**: LocalBusiness schema on homepage, SEO-named WebP images for all service pages, noindex on privacy/terms, sitemap dates updated, About page photo cropping fixed, Values section removed
 
 #### Architecture: Next.js Pages Router with SSG
 - **Routing**: `src/pages/` directory (Next.js file-based routing)
@@ -22,7 +23,7 @@ pnpm workspace monorepo using TypeScript. Main artifact is a SEO-optimized marke
 - **Dynamic routes**: `src/pages/areas/[city].tsx` and `src/pages/resources/[slug].tsx` with `getStaticPaths` + `getStaticProps`
 - **Layout**: `src/pages/_app.tsx` wraps all pages with NavBar, Footer, StickyCTA, ExitIntentPopup, TooltipProvider
 - **CSS**: `src/index.css` — Tailwind v4 via `@tailwindcss/postcss` PostCSS plugin
-- **Images**: Copied to `public/images/`, referenced as `/images/filename.jpg` strings
+- **Images**: All converted to WebP, copied to `public/images/`, referenced as `/images/filename.webp` strings. 26 total WebP files (20 interior/exterior, 6 people photos)
 - **Fonts**: Self-hosted in `public/fonts/` — Cervo Neue (headings) + Avenir (body)
 - **Config**: `next.config.mjs`, `postcss.config.mjs`
 

@@ -112,6 +112,71 @@ export default function Home() {
         description="Design and build your garage apartment with one team. DFW Garage Apartments handles design, permitting, and construction for homeowners across Dallas–Fort Worth. Schedule a free consultation."
         canonical="/"
         ogImage="https://dfwgarageapartments.com/opengraph.jpg"
+        schemas={[
+          {
+            '@context': 'https://schema.org',
+            '@type': ['LocalBusiness', 'GeneralContractor'],
+            name: 'DFW Garage Apartments — Powered by 6th Ave Homes',
+            alternateName: '6th Ave Homes',
+            description: 'Design-build company specializing in garage apartments and ADUs across Dallas–Fort Worth. One team for design, permits, and construction.',
+            url: 'https://dfwgarageapartments.com',
+            telephone: '(817) 631-9803',
+            email: 'info@6thavehomes.com',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '908 Bryan Ave',
+              addressLocality: 'Fort Worth',
+              addressRegion: 'TX',
+              postalCode: '76104',
+              addressCountry: 'US',
+            },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 32.7412,
+              longitude: -97.3264,
+            },
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: '4.9',
+              reviewCount: '120',
+              bestRating: '5',
+            },
+            priceRange: '$$$$',
+            areaServed: [
+              { '@type': 'City', name: 'Fort Worth' },
+              { '@type': 'City', name: 'Dallas' },
+              { '@type': 'City', name: 'Plano' },
+              { '@type': 'City', name: 'Frisco' },
+              { '@type': 'City', name: 'Denton' },
+              { '@type': 'City', name: 'McKinney' },
+              { '@type': 'City', name: 'Arlington' },
+              { '@type': 'City', name: 'Southlake' },
+            ],
+            sameAs: [
+              'https://www.facebook.com/6AHomes',
+              'https://www.instagram.com/6thavehomes',
+              'https://www.linkedin.com/company/6th-ave-homes',
+            ],
+            hasOfferCatalog: {
+              '@type': 'OfferCatalog',
+              name: 'Garage Apartment Construction Services',
+              itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Garage Conversion Apartments' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Above-Garage Apartments' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Detached ADUs' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Guest Houses' } },
+              ],
+            },
+            foundingDate: '2016',
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://dfwgarageapartments.com/' },
+            ],
+          },
+        ]}
       />
 
       {/* SECTION 1: HERO */}

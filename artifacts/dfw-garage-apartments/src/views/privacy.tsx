@@ -9,6 +9,7 @@ export default function Privacy() {
         title="Privacy Policy"
         description="Privacy Policy for DFW Garage Apartments — powered by 6th Ave Homes. How we collect, use, and protect your personal information."
         canonical="/privacy"
+        noindex
       />
       <div className="bg-primary py-12 px-4">
         <div className="max-w-3xl mx-auto">

@@ -10,9 +10,10 @@ interface SEOHeadProps {
   canonical: string;
   ogImage?: string;
   schemas?: object | object[];
+  noindex?: boolean;
 }
 
-export function SEOHead({ title, description, canonical, ogImage, schemas }: SEOHeadProps) {
+export function SEOHead({ title, description, canonical, ogImage, schemas, noindex }: SEOHeadProps) {
   const fullTitle = `${title} | ${SITE_NAME}`;
   const canonicalUrl = `${BASE_URL}${canonical}`;
   const imageUrl = ogImage || DEFAULT_OG_IMAGE;
@@ -24,6 +25,7 @@ export function SEOHead({ title, description, canonical, ogImage, schemas }: SEO
     <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:type" content="website" />

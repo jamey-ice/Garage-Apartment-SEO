@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const heroImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-40_1775501313347.jpg';
-const interiorImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-7_1775501313346.jpg';
-const exteriorImg = '/images/2228_Hurley_Patry_Family_Garage_Apartment-75_1775501313347.jpg';
+const heroImg = '/images/hurley-garage-conversion-exterior.webp';
+const interiorImg = '/images/hurley-garage-conversion-interior.webp';
+const exteriorImg = '/images/hurley-garage-conversion-living.webp';
 
 const faqs = [
   {

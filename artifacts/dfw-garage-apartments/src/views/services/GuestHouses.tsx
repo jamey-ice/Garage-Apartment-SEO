@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
 import { BreadcrumbNav } from '@/components/BreadcrumbNav';
-const heroImg = '/images/2223_Mistletoe-25_1775501313346.jpg';
-const interiorImg = '/images/2223_Mistletoe-48_1775501313346.jpg';
-const exteriorImg = '/images/2223_Mistletoe-6_1775501313346.jpg';
+const heroImg = '/images/mistletoe-guest-house-exterior.webp';
+const interiorImg = '/images/mistletoe-guest-house-interior.webp';
+const exteriorImg = '/images/mistletoe-guest-house-living.webp';
 
 const faqs = [
   {
