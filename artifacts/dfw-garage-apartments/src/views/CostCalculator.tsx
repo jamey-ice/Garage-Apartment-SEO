@@ -57,6 +57,15 @@ const CITY_OPTIONS = [
   { id: 'aledo', label: 'Aledo', multiplier: 1.00 },
   { id: 'burleson', label: 'Burleson', multiplier: 0.98 },
   { id: 'southlake', label: 'Southlake', multiplier: 1.20 },
+  { id: 'benbrook', label: 'Benbrook', multiplier: 0.97 },
+  { id: 'haltom-city', label: 'Haltom City', multiplier: 0.95 },
+  { id: 'white-settlement', label: 'White Settlement', multiplier: 0.96 },
+  { id: 'hurst', label: 'Hurst', multiplier: 1.00 },
+  { id: 'euless', label: 'Euless', multiplier: 1.00 },
+  { id: 'bedford', label: 'Bedford', multiplier: 1.02 },
+  { id: 'north-richland-hills', label: 'N. Richland Hills', multiplier: 0.99 },
+  { id: 'keller', label: 'Keller', multiplier: 1.10 },
+  { id: 'colleyville', label: 'Colleyville', multiplier: 1.18 },
 ];
 
 const FINISH_OPTIONS = [

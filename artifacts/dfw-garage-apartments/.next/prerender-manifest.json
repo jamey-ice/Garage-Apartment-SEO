@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "943dc5542d5a74aeaa1a758f2481834a",
-    "previewModeSigningKey": "f0ad82a7cc5961f047ec0141a00e2f6a2fcca2f130f1dcfb07abfc02e8556334",
-    "previewModeEncryptionKey": "bfbfc96736a2cf5eeb93f934e6f9598be726ccd458a76c9912fc76d68189fc74"
-  }
-}
+{"version":4,"routes":{"/areas/fort-worth":{},"/areas/dallas":{},"/areas/arlington":{},"/areas/mansfield":{},"/areas/aledo":{},"/areas/denton":{},"/areas/burleson":{},"/areas/southlake":{},"/areas/benbrook":{},"/areas/haltom-city":{},"/areas/white-settlement":{},"/areas/hurst":{},"/areas/euless":{},"/areas/bedford":{},"/areas/north-richland-hills":{},"/areas/keller":{},"/areas/colleyville":{}},"dynamicRoutes":{"/areas/[city]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/areas/[city]","routeRegex":"^\\/areas\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"38e9ef74e3af65cc997494ebf8db2df2","previewModeSigningKey":"11c224d39dc89e049ffd5b72d0e9a6e4be0f9c60f4f5c17f9debdbe2906b4f2d","previewModeEncryptionKey":"32bfbad91654b7dc8638020df72d4634a96725c5343dfe7020f5d8d1f147ce78"}}

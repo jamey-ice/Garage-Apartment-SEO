@@ -21,6 +21,15 @@ const AREAS = [
   { label: 'Denton', href: '/areas/denton' },
   { label: 'Burleson', href: '/areas/burleson' },
   { label: 'Southlake', href: '/areas/southlake' },
+  { label: 'Benbrook', href: '/areas/benbrook' },
+  { label: 'Haltom City', href: '/areas/haltom-city' },
+  { label: 'White Settlement', href: '/areas/white-settlement' },
+  { label: 'Hurst', href: '/areas/hurst' },
+  { label: 'Euless', href: '/areas/euless' },
+  { label: 'Bedford', href: '/areas/bedford' },
+  { label: 'N. Richland Hills', href: '/areas/north-richland-hills' },
+  { label: 'Keller', href: '/areas/keller' },
+  { label: 'Colleyville', href: '/areas/colleyville' },
 ];
 
 const RESOURCES = [

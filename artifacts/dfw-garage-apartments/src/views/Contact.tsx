@@ -40,6 +40,15 @@ const CITIES = [
   'Denton',
   'Burleson',
   'Southlake',
+  'Benbrook',
+  'Haltom City',
+  'White Settlement',
+  'Hurst',
+  'Euless',
+  'Bedford',
+  'North Richland Hills',
+  'Keller',
+  'Colleyville',
   'Other',
 ];
 

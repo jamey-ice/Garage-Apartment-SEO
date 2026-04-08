@@ -121,6 +121,37 @@ export default function Areas() {
           ))}
         </div>
 
+        {/* Additional Tarrant County cities */}
+        <div className="mb-16">
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary mb-3">More Tarrant County Cities We Serve</h2>
+          <p className="text-muted-foreground mb-8">Every one of these cities has its own zoning rules and permit requirements. We know them all.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { name: 'Benbrook', slug: 'benbrook', blurb: 'Lakeside community with established neighborhoods' },
+              { name: 'Haltom City', slug: 'haltom-city', blurb: 'Affordable builds, strong rental demand' },
+              { name: 'White Settlement', slug: 'white-settlement', blurb: 'Near NAS JRB — reliable military rental market' },
+              { name: 'Hurst', slug: 'hurst', blurb: 'Mid-cities, minutes from DFW Airport' },
+              { name: 'Euless', slug: 'euless', blurb: 'At the center of the metro' },
+              { name: 'Bedford', slug: 'bedford', blurb: 'Established HEB suburb, multi-gen builds' },
+              { name: 'N. Richland Hills', slug: 'north-richland-hills', blurb: 'Large lots, great for detached ADUs' },
+              { name: 'Keller', slug: 'keller', blurb: 'Premium north Tarrant County market' },
+              { name: 'Colleyville', slug: 'colleyville', blurb: 'Estate lots, luxury guest houses' },
+            ].map((city, idx) => (
+              <motion.a
+                key={city.slug}
+                href={`/areas/${city.slug}`}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: idx * 0.05, duration: 0.4 }}
+                className="bg-white border border-gray-200 rounded-lg p-4 hover:border-accent hover:shadow-md transition-all group"
+              >
+                <div className="font-bold text-primary group-hover:text-accent transition-colors text-sm">{city.name}</div>
+                <div className="text-xs text-gray-500 mt-1 leading-snug">{city.blurb}</div>
+              </motion.a>
+            ))}
+          </div>
+        </div>
+
         {/* Local authority content */}
         <div className="mb-24 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">Why Local Expertise Matters</h2>

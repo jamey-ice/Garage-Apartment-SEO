@@ -10,6 +10,15 @@ const CITIES = [
   'denton',
   'burleson',
   'southlake',
+  'benbrook',
+  'haltom-city',
+  'white-settlement',
+  'hurst',
+  'euless',
+  'bedford',
+  'north-richland-hills',
+  'keller',
+  'colleyville',
 ];
 
 export const getStaticPaths: GetStaticPaths = async () => ({
