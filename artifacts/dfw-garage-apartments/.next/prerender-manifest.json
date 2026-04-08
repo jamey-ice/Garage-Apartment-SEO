@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/areas/fort-worth":{},"/areas/dallas":{},"/areas/arlington":{},"/areas/plano":{},"/areas/frisco":{},"/areas/denton":{},"/areas/mckinney":{},"/areas/southlake":{},"/resources/cost-guide":{},"/resources/zoning-guide":{},"/resources/texas-adu-laws":{},"/resources/financing-options":{},"/resources/garage-apartment-vs-adu":{},"/resources/rental-income":{},"/blog/can-i-build-garage-apartment-dfw":{},"/blog/5-things-homeowners-should-know-before-building-garage-apartment":{},"/blog/texas-adu-legislation-what-happened-whats-next":{},"/blog/garage-conversion-vs-new-build-how-to-decide":{},"/projects/fairmount-garage-conversion-fort-worth":{},"/projects/mistletoe-heights-above-garage-apartment":{},"/projects/bellair-guest-house-fort-worth":{},"/projects/arlington-detached-adu-rental":{}},"dynamicRoutes":{"/areas/[city]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/areas/[city]","routeRegex":"^\\/areas\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/resources/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/resources/[slug]","routeRegex":"^\\/resources\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"0859a5cfb49e41effdd91073a63883f0","previewModeSigningKey":"7359c68640381b370c3e76cc2ba28dc8ab8cb708303096fba3c075cf612be4e0","previewModeEncryptionKey":"c1911577c880c61b94ec2d731b4706d928f0697c45f7e70bb6f74a9bb01cfe29"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "b776b22133c38a5219391d2e1528c9e1",
+    "previewModeSigningKey": "9e3b59975f598ee5007da4d2e02715d3fa48a7dff37b03bc1c85762966d158ef",
+    "previewModeEncryptionKey": "8253011ffb1dfb1d683b884e4d74779d8454dc6927fc783d83333fb75c797fcc"
+  }
+}
