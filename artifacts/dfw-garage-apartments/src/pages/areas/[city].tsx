@@ -5,10 +5,10 @@ const CITIES = [
   'fort-worth',
   'dallas',
   'arlington',
-  'plano',
-  'frisco',
+  'mansfield',
+  'aledo',
   'denton',
-  'mckinney',
+  'burleson',
   'southlake',
 ];
 

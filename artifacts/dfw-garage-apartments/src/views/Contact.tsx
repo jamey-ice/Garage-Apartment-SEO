@@ -35,10 +35,10 @@ const CITIES = [
   'Fort Worth',
   'Dallas',
   'Arlington',
-  'Plano',
-  'Frisco',
+  'Mansfield',
+  'Aledo',
   'Denton',
-  'McKinney',
+  'Burleson',
   'Southlake',
   'Other',
 ];

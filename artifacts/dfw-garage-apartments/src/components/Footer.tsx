@@ -23,7 +23,7 @@ export function Footer() {
       "addressCountry": "US"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": 32.7234, "longitude": -97.3352 },
-    "areaServed": ["Fort Worth", "Dallas", "Arlington", "Plano", "Frisco", "Denton", "McKinney", "Southlake"],
+    "areaServed": ["Fort Worth", "Dallas", "Arlington", "Mansfield", "Aledo", "Denton", "Burleson", "Southlake"],
     "priceRange": "$$$$",
     "foundingDate": "2016",
     "openingHours": "Mo-Fr 08:00-17:00",
@@ -108,10 +108,10 @@ export function Footer() {
                 <li><Link href="/areas/fort-worth" className="hover:text-accent transition-colors">Fort Worth</Link></li>
                 <li><Link href="/areas/dallas" className="hover:text-accent transition-colors">Dallas</Link></li>
                 <li><Link href="/areas/arlington" className="hover:text-accent transition-colors">Arlington</Link></li>
-                <li><Link href="/areas/plano" className="hover:text-accent transition-colors">Plano</Link></li>
-                <li><Link href="/areas/frisco" className="hover:text-accent transition-colors">Frisco</Link></li>
+                <li><Link href="/areas/mansfield" className="hover:text-accent transition-colors">Mansfield</Link></li>
+                <li><Link href="/areas/aledo" className="hover:text-accent transition-colors">Aledo</Link></li>
                 <li><Link href="/areas/denton" className="hover:text-accent transition-colors">Denton</Link></li>
-                <li><Link href="/areas/mckinney" className="hover:text-accent transition-colors">McKinney</Link></li>
+                <li><Link href="/areas/burleson" className="hover:text-accent transition-colors">Burleson</Link></li>
                 <li><Link href="/areas/southlake" className="hover:text-accent transition-colors">Southlake</Link></li>
                 <li className="col-span-2"><Link href="/areas" className="hover:text-accent transition-colors text-white/50">+ More &rarr;</Link></li>
               </ul>

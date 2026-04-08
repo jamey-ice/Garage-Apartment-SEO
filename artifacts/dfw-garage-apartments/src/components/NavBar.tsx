@@ -16,10 +16,10 @@ const AREAS = [
   { label: 'Fort Worth', href: '/areas/fort-worth' },
   { label: 'Dallas', href: '/areas/dallas' },
   { label: 'Arlington', href: '/areas/arlington' },
-  { label: 'Plano', href: '/areas/plano' },
-  { label: 'Frisco', href: '/areas/frisco' },
+  { label: 'Mansfield', href: '/areas/mansfield' },
+  { label: 'Aledo', href: '/areas/aledo' },
   { label: 'Denton', href: '/areas/denton' },
-  { label: 'McKinney', href: '/areas/mckinney' },
+  { label: 'Burleson', href: '/areas/burleson' },
   { label: 'Southlake', href: '/areas/southlake' },
 ];
 

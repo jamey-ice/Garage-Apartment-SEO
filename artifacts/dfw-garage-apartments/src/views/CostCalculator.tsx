@@ -53,9 +53,9 @@ const CITY_OPTIONS = [
   { id: 'denton', label: 'Denton', multiplier: 0.95 },
   { id: 'dallas', label: 'Dallas', multiplier: 1.05 },
   { id: 'arlington', label: 'Arlington', multiplier: 1.00 },
-  { id: 'plano', label: 'Plano', multiplier: 1.10 },
-  { id: 'frisco', label: 'Frisco', multiplier: 1.10 },
-  { id: 'mckinney', label: 'McKinney', multiplier: 1.05 },
+  { id: 'mansfield', label: 'Mansfield', multiplier: 1.00 },
+  { id: 'aledo', label: 'Aledo', multiplier: 1.00 },
+  { id: 'burleson', label: 'Burleson', multiplier: 0.98 },
   { id: 'southlake', label: 'Southlake', multiplier: 1.20 },
 ];
 

@@ -23,10 +23,10 @@ const guestImg = '/images/garage-apartment-interior-mockingbird-1.webp';
 const fwImg = '/images/college-ave-garage-apartment-fort-worth.webp';
 const dalImg = '/images/fairmount-garage-apartment-fort-worth.webp';
 const arlingtonImg = '/images/tanglewood-garage-apartment-exterior.webp';
-const planoImg = '/images/lipscomb-above-garage-apartment.webp';
-const friscoImg = '/images/rayburn-garage-apartment-exterior.webp';
+const mansfieldImg = '/images/lipscomb-above-garage-apartment.webp';
+const aledoImg = '/images/rayburn-garage-apartment-exterior.webp';
 const dentonImg = '/images/fort-worth-garage-apartment-exterior.webp';
-const mckinneyImg = '/images/garage-apartment-interior-mockingbird-3.webp';
+const burlesonImg = '/images/garage-apartment-interior-mockingbird-3.webp';
 const southlakeImg = '/images/garage-apartment-interior-parkplace-2.webp';
 
 const USE_CASES = [
@@ -72,10 +72,10 @@ const CITIES = [
   { name: "Fort Worth", slug: "fort-worth", img: fwImg },
   { name: "Dallas", slug: "dallas", img: dalImg },
   { name: "Arlington", slug: "arlington", img: arlingtonImg },
-  { name: "Plano", slug: "plano", img: planoImg },
-  { name: "Frisco", slug: "frisco", img: friscoImg },
+  { name: "Mansfield", slug: "mansfield", img: mansfieldImg },
+  { name: "Aledo", slug: "aledo", img: aledoImg },
   { name: "Denton", slug: "denton", img: dentonImg },
-  { name: "McKinney", slug: "mckinney", img: mckinneyImg },
+  { name: "Burleson", slug: "burleson", img: burlesonImg },
   { name: "Southlake", slug: "southlake", img: southlakeImg },
 ];
 
@@ -150,10 +150,10 @@ export default function Home() {
             areaServed: [
               { '@type': 'City', name: 'Fort Worth' },
               { '@type': 'City', name: 'Dallas' },
-              { '@type': 'City', name: 'Plano' },
-              { '@type': 'City', name: 'Frisco' },
+              { '@type': 'City', name: 'Mansfield' },
+              { '@type': 'City', name: 'Aledo' },
               { '@type': 'City', name: 'Denton' },
-              { '@type': 'City', name: 'McKinney' },
+              { '@type': 'City', name: 'Burleson' },
               { '@type': 'City', name: 'Arlington' },
               { '@type': 'City', name: 'Southlake' },
             ],
@@ -467,7 +467,7 @@ export default function Home() {
                 <TestimonialCard
                   quote="We were nervous about the permits. They handled every single thing, communicated with us weekly, and delivered on time. We couldn't be happier."
                   name="Linda & Dave K."
-                  city="Plano"
+                  city="Mansfield"
                 />
               </div>
 

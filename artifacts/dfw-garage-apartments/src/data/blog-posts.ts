@@ -28,7 +28,7 @@ This guide answers all three — city by city.
 
 ## Why This Is More Complicated in DFW Than It Should Be
 
-Texas has no statewide ADU law. Every city sets its own rules for garage apartments, accessory dwelling units (ADUs), and secondary living spaces. What's allowed in Fort Worth might require a special exception in Dallas. What Denton permits by right, Frisco might restrict to certain zoning districts.
+Texas has no statewide ADU law. Every city sets its own rules for garage apartments, accessory dwelling units (ADUs), and secondary living spaces. What's allowed in Fort Worth might require a special exception in Dallas. What Denton permits by right, another suburb might restrict to certain zoning districts.
 
 This patchwork of local regulations is why so many DFW homeowners get stuck early. They assume their city works like their neighbor's city two miles away — and then hit a wall mid-project.
 
@@ -68,23 +68,18 @@ Key Denton rules:
 
 If you're in Denton and considering an ADU, the regulatory environment is working in your favor.
 
-## Plano: The "Backyard Cottage" Program
+## Mansfield: A Growing Tarrant County Market
 
-Plano has a specific ADU program called the "Backyard Cottage" ordinance, which regulates accessory dwelling units with specific size parameters.
+Mansfield allows ADUs in residential zones with standard setback, height, and lot coverage requirements. The city's location between Fort Worth and Arlington makes it a practical market for rental ADUs — strong enough demand, more affordable than north DFW suburbs.
 
-Key Plano rules:
-- **Size:** 400–1,100 square feet depending on lot size.
-- **Setbacks:** Detached structures must be at least 5 feet from side and rear property lines.
-- **Owner-occupancy:** Required if you want to rent the unit.
-- **Design standards:** The structure must be compatible with the primary dwelling's architecture.
+Key things to know:
+- **Permits:** Required for all ADU and garage conversion projects.
+- **Setbacks:** Standard residential setback rules apply; verify with Mansfield Building Services.
+- **Rental use:** No owner-occupancy requirement in most zones.
 
-## Arlington, Frisco, McKinney, and Southlake
+## Arlington, Burleson, Aledo, and Southlake
 
-These cities all allow garage apartments and ADUs, but with varying restrictions on size, setbacks, and owner-occupancy requirements. Arlington, for example, is ADU-friendly with straightforward permit requirements — the University of Texas at Arlington creates strong rental demand, and the city's regulations reflect that.
-
-Frisco and Southlake tend toward larger lot sizes, which makes detached ADUs more feasible from a setback standpoint. Both require owner-occupancy if you're renting.
-
-McKinney's regulations are similar to Frisco's — ADUs are allowed but owner-occupancy requirements limit pure investment plays.
+Arlington is ADU-friendly with relatively straightforward permit requirements — the University of Texas at Arlington and major employment corridors drive strong rental demand. Burleson (south of Fort Worth) allows ADUs and offers more affordable construction costs than north DFW suburbs. Aledo and Parker County are notable for large lots that make detached ADU projects particularly feasible — county unincorporated properties often have fewer restrictions than city jurisdictions. Southlake skews toward premium guest houses and multi-generational builds on estate lots.
 
 ## What to Do Before You Start Planning
 
@@ -118,7 +113,7 @@ This is our attempt to fix that. Here are the five things we genuinely wish ever
 
 The #1 source of frustration we hear from homeowners isn't the construction — it's the wait for permits.
 
-In Fort Worth, a straightforward residential permit takes 4–6 weeks. In Dallas, if you need a Board of Adjustment exception, you're looking at 60–90 days before you can even pull a building permit. In Plano, the Backyard Cottage review adds another layer.
+In Fort Worth, a straightforward residential permit takes 4–6 weeks. In Dallas, if you need a Board of Adjustment exception, you're looking at 60–90 days before you can even pull a building permit. Some cities add additional review layers for ADU projects.
 
 Homeowners who don't know this go in expecting to break ground in a few weeks and get frustrated when construction hasn't started after two months. The ones who plan for it use that time productively — finalizing designs, making material selections, and getting financing in place.
 
@@ -194,7 +189,7 @@ If it had passed into law, SB 673 would have:
 
 **Required 60-day permit approval.** Cities currently have no mandated timeline for ADU permit review. Some cities take weeks; others stretch into months. SB 673 would have capped that at 60 days.
 
-**Removed owner-occupancy requirements.** Several DFW cities (including Frisco) require homeowners to live on the property to rent out an ADU. SB 673 would have prohibited those requirements.
+**Removed owner-occupancy requirements.** Several DFW cities require homeowners to live on the property to rent out an ADU. SB 673 would have prohibited those requirements.
 
 **Standardized setback rules.** The bill would have prevented cities from imposing ADU-specific setback rules more restrictive than what's required for the primary dwelling.
 
@@ -218,7 +213,7 @@ What's notable is that every ADU bill that fails in the Texas Legislature genera
 
 The most important takeaway from the SB 673 story: **you don't have to wait for legislation to build a garage apartment in DFW.**
 
-Most DFW cities already allow ADUs in some form. Fort Worth permits them by right in most residential zones. Denton is the most permissive city in North Texas. Plano has its Backyard Cottage program. Arlington is ADU-friendly.
+Most DFW cities already allow ADUs in some form. Fort Worth permits them by right in most residential zones. Denton is the most permissive city in North Texas. Arlington is ADU-friendly. Mansfield, Burleson, and Aledo all have workable ADU rules for homeowners willing to navigate the permit process.
 
 Even Dallas — the most restrictive major city in the area — has options: ADUO overlay neighborhoods and Board of Adjustment exceptions.
 

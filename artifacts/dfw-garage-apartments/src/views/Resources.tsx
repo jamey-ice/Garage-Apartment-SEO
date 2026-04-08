@@ -18,7 +18,7 @@ const guides = [
     title: 'ADU Zoning Guide: DFW City-by-City Rules',
     slug: 'zoning-guide',
     desc: 'Complete zoning guide for every major DFW city — lot requirements, setbacks, height limits, permit contacts, and owner-occupancy rules.',
-    tags: ['Zoning', 'Fort Worth', 'Dallas', 'Plano', 'More'],
+    tags: ['Zoning', 'Fort Worth', 'Dallas', 'Mansfield', 'More'],
   },
   {
     icon: GitCompare,

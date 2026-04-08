@@ -8,10 +8,10 @@ import { CTABanner } from '@/components/CTABanner';
 const fwImg = '/images/2253_6th_Ave-35_1775501331344.jpg';
 const dalImg = '/images/4205_Glenwood-33_Emily_Jolliff_1775501331345.jpg';
 const arlingtonImg = '/images/2253_6th_Ave-38_1775501331344.jpg';
-const planoImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
-const friscoImg = '/images/2253_6th_Ave-42_1775501331345.jpg';
+const mansfieldImg = '/images/Bethany_-_8_27_211937Fairmount-30_1775501331346.jpg';
+const aledoImg = '/images/2253_6th_Ave-42_1775501331345.jpg';
 const dentonImg = '/images/301_rustic_view-8-6-20-14_1775501313346.jpg';
-const mckinneyImg = '/images/2253_6th_Ave-52_1775501331345.jpg';
+const burlesonImg = '/images/2253_6th_Ave-52_1775501331345.jpg';
 const southlakeImg = '/images/Bethany_-_8_19_21BellaireDrDB-15_1775501331346.jpg';
 
 export default function Areas() {
@@ -40,16 +40,16 @@ export default function Areas() {
       blurb: "Mid-cities location with family-oriented neighborhoods and growing demand for multigenerational housing."
     },
     {
-      name: "Plano",
-      slug: "plano",
-      img: planoImg,
-      blurb: "Established suburbs, large lots, and high property values create strong ROI for garage apartment projects."
+      name: "Mansfield",
+      slug: "mansfield",
+      img: mansfieldImg,
+      blurb: "Tarrant County suburb between Fort Worth and Arlington — solid rental demand and straightforward ADU permitting."
     },
     {
-      name: "Frisco",
-      slug: "frisco",
-      img: friscoImg,
-      blurb: "One of the fastest-growing cities in America — high demand, high incomes, high property appreciation."
+      name: "Aledo",
+      slug: "aledo",
+      img: aledoImg,
+      blurb: "Parker County acreage and large lots make Aledo one of the best markets for detached ADU builds in West DFW."
     },
     {
       name: "Denton",
@@ -58,10 +58,10 @@ export default function Areas() {
       blurb: "University city with strong rental demand, central location, and a mix of historic and new development."
     },
     {
-      name: "McKinney",
-      slug: "mckinney",
-      img: mckinneyImg,
-      blurb: "Charming historic downtown surrounded by newer suburbs — perfect for ADUs that complement existing homes."
+      name: "Burleson",
+      slug: "burleson",
+      img: burlesonImg,
+      blurb: "South Tarrant County city with growing neighborhoods and affordable construction costs for ADU projects."
     },
     {
       name: "Southlake",
@@ -75,7 +75,7 @@ export default function Areas() {
     <div className="bg-background pt-32 pb-0">
       <SEOHead
         title="Garage Apartment Builders Across DFW — Areas We Serve"
-        description="DFW Garage Apartments serves Fort Worth, Dallas, Arlington, Plano, Frisco, Denton, McKinney, Southlake and more. We know each city's zoning laws and permit requirements."
+        description="DFW Garage Apartments serves Fort Worth, Dallas, Arlington, Mansfield, Aledo, Denton, Burleson, Southlake and more. We know each city's zoning laws and permit requirements."
         canonical="/areas"
         schemas={{
           "@context": "https://schema.org",
@@ -125,7 +125,7 @@ export default function Areas() {
         <div className="mb-24 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-6">Why Local Expertise Matters</h2>
           <p className="text-lg text-muted-foreground font-sans leading-relaxed mb-6">
-            Fort Worth allows ADUs by right in most residential zones, while Dallas has neighborhood-specific overlays. Plano caps ADU size at 1,100 sq ft; Denton at 800 sq ft or 75% of the primary dwelling. These aren't technicalities — they're the difference between a project that gets approved in 60 days and one that sits in limbo for a year.
+            Fort Worth allows ADUs by right in most residential zones, while Dallas has neighborhood-specific overlays. Denton caps ADU size at 800 sq ft or 75% of the primary dwelling. Aledo and Parker County unincorporated areas often have fewer restrictions than incorporated cities. These aren't technicalities — they're the difference between a project that gets approved in 60 days and one that sits in limbo for a year.
           </p>
           <p className="text-lg text-muted-foreground font-sans leading-relaxed">
             We've built in all of these cities. We know the inspectors, the permit timelines, and the common pitfalls. That local knowledge is one of the most valuable things we bring to your project.

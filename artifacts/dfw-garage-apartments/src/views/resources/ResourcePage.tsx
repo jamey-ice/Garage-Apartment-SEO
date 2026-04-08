@@ -57,9 +57,9 @@ const RESOURCES: Record<string, ResourceData> = {
         body: [
           '**Fort Worth:** Garage conversions $40K–$100K | Above-garage $80K–$180K | Detached ADU $100K–$280K. Permit fees $800–$2,500. One of the most cost-effective DFW markets.',
           '**Dallas:** Garage conversions $50K–$110K | Above-garage $90K–$200K | Detached ADU $120K–$300K. Higher permit complexity and fees vs. Fort Worth.',
-          '**Plano / Frisco:** Garage conversions $50K–$110K | Above-garage $90K–$210K | Detached ADU $130K–$310K. Higher labor costs and finish expectations in these markets.',
+          '**Mansfield / Aledo / Burleson:** Garage conversions $40K–$100K | Above-garage $80K–$185K | Detached ADU $100K–$270K. Affordable labor markets with lower permit complexity than north Dallas suburbs.',
           '**Denton:** Garage conversions $38K–$90K | Above-garage $75K–$175K | Detached ADU $95K–$250K. One of the most affordable DFW markets.',
-          '**Arlington / McKinney / Southlake:** Generally in the $45K–$130K range for conversions, up to $400K+ for premium detached builds in Southlake.',
+          '**Arlington / Southlake:** Generally in the $45K–$130K range for conversions, up to $400K+ for premium detached builds in Southlake.',
         ],
       },
       {
@@ -117,15 +117,15 @@ const RESOURCES: Record<string, ResourceData> = {
         ],
       },
       {
-        heading: 'Plano ADU Zoning',
+        heading: 'Mansfield ADU Zoning',
         body: [
-          '**What\'s allowed:** ADUs permitted in single-family zones. **Size limit:** 400–1,100 sq ft depending on lot size. **Lot size:** Minimum 7,500 sq ft. **Architectural compatibility:** ADU must match or complement main home style. **Setbacks:** Rear and side setbacks apply per district. **Owner-occupancy:** Not required. **Permits:** Building permit required. Contact: Plano Development Services, (972) 941-7151.',
+          '**What\'s allowed:** ADUs permitted in residential zones subject to setback, height, and lot coverage requirements. **Owner-occupancy:** Not required in most zones. **Permits:** Building permit required. Contact: Mansfield Building Services, (817) 276-4220.',
         ],
       },
       {
-        heading: 'Frisco ADU Zoning',
+        heading: 'Aledo / Parker County ADU Zoning',
         body: [
-          '**What\'s allowed:** ADUs permitted subject to zoning ordinance requirements. **Setbacks, height, and compatibility** requirements apply. Contact Frisco Development Services at (972) 292-5000 for address-specific guidance, as rules vary by zoning district.',
+          '**What\'s allowed:** City of Aledo and Parker County unincorporated areas allow ADUs; county unincorporated properties often have fewer restrictions than incorporated cities. Larger lot sizes typical. Contact Parker County Development Services for address-specific guidance.',
         ],
       },
       {
@@ -135,9 +135,9 @@ const RESOURCES: Record<string, ResourceData> = {
         ],
       },
       {
-        heading: 'McKinney, Arlington & Southlake',
+        heading: 'Burleson, Arlington & Southlake',
         body: [
-          '**McKinney:** Chapter 146 governs accessory buildings. Rules vary by zoning district. Contact McKinney Development Services, (972) 547-7477.',
+          '**Burleson:** ADUs permitted subject to standard zoning requirements. Contact Burleson Community Development, (817) 426-9600.',
           '**Arlington:** ADUs permitted in most single-family zones subject to setback, height, and lot coverage limits. Contact Arlington Development Services, (817) 459-6502.',
           '**Southlake:** Larger lots generally accommodate detached structures. Architectural compatibility standards apply. Contact Southlake Planning & Development, (817) 748-8069.',
         ],
@@ -150,8 +150,8 @@ const RESOURCES: Record<string, ResourceData> = {
     faqs: [
       { q: 'Can I build a garage apartment in Fort Worth without an owner-occupancy requirement?', a: 'Yes. Fort Worth has no owner-occupancy requirement for ADUs. You can rent your garage apartment to anyone without living on the property.' },
       { q: 'Does Dallas allow garage apartments?', a: 'Yes, but it depends on your neighborhood. In ADUO overlay zones, ADUs are permitted by right. Outside these zones, Board of Adjustment approval is required.' },
-      { q: 'What\'s the smallest lot I can build an ADU on in DFW?', a: 'Minimum lot sizes vary by city. Denton requires 7,000 sq ft. Plano requires 7,500 sq ft. Fort Worth\'s minimums vary by district. We verify your specific lot before design.' },
-      { q: 'Do I need owner-occupancy to rent an ADU in DFW?', a: 'Most DFW cities — including Fort Worth, Dallas, and Plano — do not require owner-occupancy for ADU rentals. Some cities may have specific rules. We verify this for your address.' },
+      { q: 'What\'s the smallest lot I can build an ADU on in DFW?', a: 'Minimum lot sizes vary by city. Denton requires 7,000 sq ft. Fort Worth\'s minimums vary by district. Mansfield and Burleson have their own requirements. We verify your specific lot before design.' },
+      { q: 'Do I need owner-occupancy to rent an ADU in DFW?', a: 'Most DFW cities — including Fort Worth, Dallas, and Arlington — do not require owner-occupancy for ADU rentals. Some cities may have specific rules. We verify this for your address.' },
       { q: 'What happens if my ADU doesn\'t comply with zoning?', a: 'Unpermitted ADUs can result in fines, required removal, and problems at resale. Every project we build is fully permitted and inspected. No shortcuts.' },
     ],
     ctaHeading: 'Not Sure What\'s Allowed on Your Property?',
@@ -319,7 +319,7 @@ const RESOURCES: Record<string, ResourceData> = {
         body: [
           '**Garage conversions** are generally the simplest to permit. Most DFW cities treat them as interior remodels with specific requirements for egress, HVAC, and electrical. The structural work is minimal, so inspections are straightforward.',
           '**Above-garage apartments** require structural engineering and are reviewed more carefully, but they\'re still building on an existing structure within the existing building envelope.',
-          '**Detached ADUs** require full new-construction permitting. In some DFW cities (particularly Dallas), detached ADUs outside designated overlay zones require additional approvals. Fort Worth, Denton, and Plano have more streamlined paths for detached ADUs.',
+          '**Detached ADUs** require full new-construction permitting. In some DFW cities (particularly Dallas), detached ADUs outside designated overlay zones require additional approvals. Fort Worth, Denton, and Mansfield have more streamlined paths for detached ADUs.',
           '**Key zoning factor:** Lot coverage. Adding a detached structure takes up more of your lot footprint, which is subject to maximum lot coverage rules. Every city is different. We verify your property before any design work begins.',
         ],
       },
@@ -363,7 +363,7 @@ const RESOURCES: Record<string, ResourceData> = {
           'Rental income from a garage apartment in DFW depends on three things: location, size, and finish quality. Here\'s what you can realistically expect in today\'s market:',
           '**Fort Worth (Fairmount, Mistletoe Heights, Westover Hills, Cityview):** Studio/efficiency $900–$1,300/mo | 1BR $1,100–$1,600/mo | 2BR $1,400–$1,900/mo',
           '**Dallas (Lakewood, M Streets, Oak Cliff, Greenway Parks):** Studio $1,100–$1,500/mo | 1BR $1,300–$1,800/mo | 2BR $1,600–$2,200/mo',
-          '**Plano, Frisco, McKinney:** Studio $900–$1,300/mo | 1BR $1,200–$1,700/mo | 2BR $1,500–$2,100/mo',
+          '**Mansfield, Burleson, Aledo:** Studio $850–$1,200/mo | 1BR $1,050–$1,500/mo | 2BR $1,300–$1,800/mo',
           '**Denton (near UNT/TWU):** Studio $800–$1,100/mo | 1BR $950–$1,300/mo | 2BR $1,200–$1,600/mo',
           '**Southlake, Westlake area:** Premium market. Detached ADUs with high-end finishes: $1,800–$2,800/mo.',
           'These are long-term rental rates. Short-term rental (Airbnb/VRBO) rates can be 20–50% higher in the right neighborhoods, but require additional licensing and management.',

@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: 'What size ADU can I build on my property?',
-    a: 'It depends on your city and lot size. Denton allows up to 800 sq ft or 75% of primary dwelling. Plano allows 400–1,100 sq ft. Fort Worth varies by zoning district. We research your specific property before design begins.',
+    a: 'It depends on your city and lot size. Denton allows up to 800 sq ft or 75% of primary dwelling. Fort Worth varies by zoning district. Mansfield, Burleson, and Aledo each have their own requirements. We research your specific property before design begins.',
   },
   {
     q: 'Do I need separate utilities for a detached ADU?',
@@ -179,10 +179,10 @@ export default function DetachedADUs() {
               {[
                 ['Fort Worth', 'Varies by district', '6,000 sq ft typical', 'Not required'],
                 ['Dallas', 'Per ADUO overlay', 'Per overlay district', 'Not required'],
-                ['Plano', '400–1,100 sq ft', '7,500 sq ft', 'Not required'],
-                ['Frisco', 'Per zoning code', 'Per district', 'Check locally'],
+                ['Mansfield', 'Per zoning code', 'Per district', 'Not required'],
+                ['Aledo / Parker Co.', 'Varies by jurisdiction', 'Larger lots typical', 'Not required'],
                 ['Denton', '800 sq ft or 75%', '7,000 sq ft', 'Not required'],
-                ['McKinney', 'Per Chapter 146', 'Per district', 'Check locally'],
+                ['Burleson', 'Per zoning code', 'Per district', 'Not required'],
                 ['Arlington', 'Per zoning code', 'Per district', 'Check locally'],
                 ['Southlake', 'Larger lots typical', '15,000+ sq ft', 'Not required'],
               ].map(([city, size, lot, occ], i) => (

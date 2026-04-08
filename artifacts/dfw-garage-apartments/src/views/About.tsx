@@ -42,7 +42,7 @@ const DIFFERENTIATORS = [
   },
   {
     title: "We've done this before",
-    body: "Garage conversions, above-garage apartments, detached ADUs — we've built them all across Fort Worth, Dallas, Plano, Frisco, Denton, McKinney, and more.",
+    body: "Garage conversions, above-garage apartments, detached ADUs — we've built them all across Fort Worth, Dallas, Arlington, Mansfield, Burleson, Aledo, Denton, and more.",
   },
 ];
 
@@ -286,7 +286,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
-                  Building a garage apartment in Dallas–Fort Worth is more complex than most people expect. Every city — Fort Worth, Dallas, Plano, Denton, Frisco, McKinney, Arlington, Southlake — has its own zoning rules, permit processes, and inspection requirements.
+                  Building a garage apartment in Dallas–Fort Worth is more complex than most people expect. Every city — Fort Worth, Dallas, Arlington, Mansfield, Burleson, Aledo, Denton, Southlake — has its own zoning rules, permit processes, and inspection requirements.
                 </p>
                 <p>
                   We've navigated this process dozens of times, across every major DFW city. We know which permit offices move fast and which take longer. We know which zoning districts allow ADUs by-right and which require a hearing. We know how to design a garage apartment that passes inspection, delights tenants, and holds its value.
