@@ -14,6 +14,7 @@ export interface Project {
   story: string;
   scopeOfWork: string[];
   keyFeatures: string[];
+  testimonial?: { quote: string; author: string; location: string };
 }
 
 export const PROJECTS: Project[] = [
@@ -203,6 +204,168 @@ The unit was rented to a UTA graduate student at $1,800/month within three weeks
       'In-unit washer/dryer',
       'Private fenced yard',
     ],
+    testimonial: {
+      quote: 'We had a student-rental garage apartment finished and rented within seven months of our first conversation. The process was completely hands-off for us — they handled every permit interaction and kept us updated throughout.',
+      author: 'Mark T.',
+      location: 'Arlington, TX',
+    },
+  },
+  {
+    slug: 'keller-guest-house',
+    title: 'Keller Detached Guest House',
+    city: 'Keller',
+    neighborhood: 'Hidden Lakes',
+    projectType: 'guest-house',
+    projectTypeLabel: 'Detached Guest House',
+    size: 920,
+    year: 2025,
+    timeline: '7 months',
+    excerpt: 'A 920 sq ft fully independent guest house built for multigenerational living on a half-acre lot in Keller\'s Hidden Lakes neighborhood — designed for aging-in-place and long-term family use.',
+    heroImage: '/images/mistletoe-guest-house-exterior.webp',
+    images: [
+      '/images/mistletoe-guest-house-exterior.webp',
+      '/images/mistletoe-guest-house-interior.webp',
+      '/images/garage-apartment-interior-mockingbird-1.webp',
+      '/images/garage-apartment-interior-mockingbird-3.webp',
+    ],
+    story: `The homeowners in Keller's Hidden Lakes community reached out after a health event with one of their parents made it clear that an independent but close-by living arrangement was needed — and needed soon. Their half-acre lot had plenty of room for a detached structure; the question was how to build something that would genuinely work for aging-in-place, not just check a code compliance box.
+
+We designed a single-level, 920 sq ft guest house with aging-in-place priorities built into every decision: a zero-step entry from the covered walkway connecting to the main home, a curbless shower with built-in grab bar blocking, 36-inch doorways throughout, and a full kitchen designed at accessible counter heights. The utility connections were run from the main home's systems, with separate metering for transparency on costs.
+
+Exterior design was a deliberate match to the main home's stone-and-stucco facade so the guest house reads as an intentional part of the property rather than an afterthought. The covered breezeway connecting the two structures was a custom addition the family requested — it's now described as the feature they use most.
+
+The project was permitted through Keller Building Services and completed in seven months from design kickoff to certificate of occupancy.`,
+    scopeOfWork: [
+      'Site design and placement on half-acre lot',
+      'Keller building permit coordination',
+      'Engineered slab-on-grade foundation',
+      'Full framing, roofing, and stone/stucco exterior to match primary home',
+      'Covered breezeway connection to main residence',
+      'Curbless shower and accessible bathroom design',
+      '36-inch doorways and zero-step entry throughout',
+      'Full kitchen with accessible counter heights',
+      'Mini-split HVAC (independent zone)',
+      'Separate utility sub-metering',
+      'LVP flooring throughout',
+      'Landscaping and exterior lighting',
+    ],
+    keyFeatures: [
+      'Zero-step entry (accessible)',
+      'Curbless walk-in shower',
+      'Covered breezeway to main home',
+      '36-inch doorways throughout',
+      'Independent HVAC zone',
+    ],
+    testimonial: {
+      quote: 'They designed something that actually works for my mother-in-law — not just something that technically counts as a guest house. The covered walkway was their suggestion and it was the right call.',
+      author: 'Lisa M.',
+      location: 'Keller, TX',
+    },
+  },
+  {
+    slug: 'north-richland-hills-garage-conversion',
+    title: 'North Richland Hills Garage Conversion',
+    city: 'North Richland Hills',
+    neighborhood: 'Richland Oaks',
+    projectType: 'garage-conversion',
+    projectTypeLabel: 'Garage Conversion',
+    size: 540,
+    year: 2024,
+    timeline: '5 months',
+    excerpt: 'A 540 sq ft single-car garage converted into a fully rentable studio apartment in North Richland Hills — renting for $1,250/month within 3 weeks of completion.',
+    heroImage: '/images/hurley-garage-conversion-exterior.webp',
+    images: [
+      '/images/hurley-garage-conversion-exterior.webp',
+      '/images/hurley-garage-conversion-interior.webp',
+      '/images/garage-apartment-interior-parkplace-1.webp',
+      '/images/garage-apartment-interior-parkplace-2.webp',
+    ],
+    story: `This North Richland Hills project started with a single-car detached garage that had been used for storage since the homeowner bought the property. After seeing rental rates for small units near the DFW Medical Center and Loop 820, the homeowner wanted to know if conversion was financially viable on their specific lot.
+
+The answer was yes — with some important conditions. The garage sat 6 feet from the rear property line, within setback requirements for NRH. The existing slab was solid and level, eliminating one of the most common early cost risks. The main challenge was plumbing: the garage was 45 feet from the nearest sewer cleanout, requiring a longer lateral than typical.
+
+We designed a compact but functional 540 sq ft studio with an efficient kitchen along one wall, a defined sleeping area divided from the main living space by a partial wall with integrated shelving, and a full bathroom with walk-in shower. The garage door opening was in-filled with a large window and a glass entry door — preserving the natural light and giving the unit a residential feel from the exterior.
+
+The permit took 6 weeks through NRH. Construction was completed in 14 weeks from permit issuance. The unit was listed and leased in three weeks at $1,250/month.`,
+    scopeOfWork: [
+      'Structural assessment of existing slab and framing',
+      'Infill of garage door opening with window and entry door',
+      'Plumbing lateral installation (45-foot run to sewer)',
+      'Electrical subpanel and full circuit rough-in',
+      'Mini-split HVAC installation',
+      'Spray foam insulation (exterior walls and roof deck)',
+      'Drywall, texture, and paint throughout',
+      'Kitchen installation with full-size appliances',
+      'Full bath with walk-in shower',
+      'LVP flooring and tile in bath',
+      'Exterior paint and landscaping to match main home',
+      'NRH building permit coordination',
+    ],
+    keyFeatures: [
+      'Separate entrance with glass entry door',
+      'Full kitchen with full-size appliances',
+      'Walk-in shower',
+      'Mini-split HVAC',
+      'Spray foam insulation (superior energy efficiency)',
+    ],
+    testimonial: {
+      quote: 'The whole thing was done in five months, which I honestly didn\'t believe was possible when we started. It was rented immediately and has been occupied ever since.',
+      author: 'David R.',
+      location: 'North Richland Hills, TX',
+    },
+  },
+  {
+    slug: 'denton-above-garage-apartment',
+    title: 'Denton Above-Garage Apartment',
+    city: 'Denton',
+    neighborhood: 'University Hills',
+    projectType: 'above-garage',
+    projectTypeLabel: 'Above-Garage Apartment',
+    size: 720,
+    year: 2025,
+    timeline: '8 months',
+    excerpt: 'A 720 sq ft apartment built above a newly constructed two-car garage near the University of North Texas campus — generating $1,300/month from a long-term professional tenant.',
+    heroImage: '/images/6th-ave-above-garage-fort-worth-exterior.webp',
+    images: [
+      '/images/6th-ave-above-garage-fort-worth-exterior.webp',
+      '/images/6th-ave-above-garage-fort-worth-interior.webp',
+      '/images/garage-apartment-interior-parkplace-3.webp',
+      '/images/garage-apartment-interior-mockingbird-2.webp',
+    ],
+    story: `This Denton project combined two needs into one build: the homeowners needed a new two-car garage to replace an aging metal carport, and they'd been thinking about adding rental income for years. Building the garage and apartment in one project made the economics significantly better than building them separately.
+
+We designed a 720 sq ft apartment with a full one-bedroom layout — a defined bedroom, full bath, open kitchen and living area, and a private exterior staircase from the rear yard. The apartment sits above a 22x22 two-car garage with a level floor and good ceiling height. The exterior design matched the late-1970s brick ranch home: board-and-batten gable ends, matching brick base on the garage structure, and a composition shingle roof to match.
+
+Structural engineering was required for the floor system above the garage — standard for above-garage builds. The Denton permit process was one of the smoother ones we've worked through: clear requirements, responsive plan reviewers, and no surprises.
+
+The project was rented before the certificate of occupancy was issued. The tenant, a graduate student turned UNT research staff member, has been in the unit since completion and renewed the lease at $1,300/month.`,
+    scopeOfWork: [
+      'Structural engineering for above-garage floor system',
+      'Foundation and concrete work for new garage',
+      'Full garage framing (22x22 footprint)',
+      'Second-floor apartment framing, roofing, and exterior cladding',
+      'Exterior staircase with landing',
+      'Full plumbing rough-in and connections',
+      'Electrical subpanel and circuit rough-in',
+      'Mini-split HVAC for apartment',
+      'Insulation and drywall throughout',
+      'Full kitchen with stainless appliances',
+      'Full bath with tub/shower combo',
+      'LVP flooring throughout',
+      'City of Denton building permit coordination',
+    ],
+    keyFeatures: [
+      'Full one-bedroom layout',
+      'Private exterior staircase',
+      'Two-car garage below (owner use)',
+      'Mini-split HVAC',
+      'Separate utility metering',
+    ],
+    testimonial: {
+      quote: 'We got a new garage and a rental unit in one project. The apartment was rented before we even had the final inspection. Best investment decision we\'ve made on this property.',
+      author: 'Patricia W.',
+      location: 'Denton, TX',
+    },
   },
 ];
 

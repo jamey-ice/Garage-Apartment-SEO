@@ -25,6 +25,7 @@ function renderMarkdown(text: string): string {
     .replace(/^## (.+)$/gm, '<h2 class="text-2xl md:text-3xl font-serif font-bold text-primary mt-10 mb-4">$1</h2>')
     .replace(/^### (.+)$/gm, '<h3 class="text-xl font-serif font-bold text-foreground mt-8 mb-3">$1</h3>')
     .replace(/\*\*(.+?)\*\*/g, '<strong class="font-bold text-foreground">$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-accent hover:underline font-medium">$1</a>')
     .replace(/^- (.+)$/gm, '<li class="flex gap-2 text-muted-foreground font-sans"><span class="text-accent font-bold shrink-0 mt-1">—</span><span>$1</span></li>')
     .replace(/(<li[\s\S]+?<\/li>\n?)+/g, (m) => `<ul class="space-y-2 my-4">${m}</ul>`)
     .replace(/^(?!<[hul])(.+)$/gm, '<p class="text-muted-foreground font-sans leading-relaxed text-base mb-4">$1</p>')

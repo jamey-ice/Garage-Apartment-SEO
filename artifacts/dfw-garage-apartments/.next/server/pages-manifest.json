@@ -2,8 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/areas": "pages/areas.js",
-  "/": "pages/index.js",
+  "/projects/[slug]": "pages/projects/[slug].js",
+  "/blog/[slug]": "pages/blog/[slug].js",
+  "/blog": "pages/blog.js",
   "/about": "pages/about.js",
-  "/areas/[city]": "pages/areas/[city].js"
+  "/projects": "pages/projects.js",
+  "/404": "pages/404.js",
+  "/": "pages/index.js"
 }

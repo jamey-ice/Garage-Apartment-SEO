@@ -320,6 +320,411 @@ The best way to figure out which one is right for your property is to have someo
 
 That first conversation is free. If you're weighing these options, schedule a consultation and let's figure it out together.`,
   },
+  {
+    slug: 'garage-apartment-cost-fort-worth-2026',
+    title: 'How Much Does a Garage Apartment Cost in Fort Worth, TX? (2026 Guide)',
+    date: '2026-03-15',
+    author: 'Jimmy Williams',
+    category: 'costs',
+    excerpt: 'A detailed breakdown of garage apartment construction costs in Fort Worth — by project type, neighborhood, and finish level. Real numbers from 45+ builds.',
+    featuredImage: '/images/hurley-garage-conversion-exterior.webp',
+    body: `## The Short Answer
+
+In Fort Worth, a garage apartment typically costs between **$38,000 and $280,000** depending on the type of project. Here's the quick breakdown:
+
+- **Garage conversion:** $38,000–$100,000
+- **Above-garage apartment:** $80,000–$180,000
+- **Detached ADU (new construction):** $100,000–$280,000
+
+These aren't estimates pulled from national data — they're from 45+ projects we've built in Fort Worth since 2016. See [all project types we build](/services) for more detail on each option.
+
+## What Drives the Cost
+
+No two projects cost the same, but the variables that move the needle most are consistent.
+
+**Project type.** A conversion costs less than new construction because the structure already exists. An above-garage build is middle ground — you're building new, but on top of an existing footprint. A detached ADU is full ground-up construction.
+
+**Existing conditions.** Does your garage have electrical? Plumbing rough-in? Slab grade that allows drainage? The worse the starting conditions, the more work required before the finish phase begins.
+
+**Size.** A 400 sq ft efficiency costs less than an 800 sq ft one-bedroom. Most Fort Worth garage conversions run 400–700 sq ft.
+
+**Finish level.** Standard-grade LVP floors, stock cabinets, and basic fixtures run 15–20% less than mid-range. High-end stone counters and custom cabinetry push costs significantly higher.
+
+**Permit fees.** Fort Worth permit fees for a typical ADU project run $800–$2,500 depending on scope. Factor this in from day one.
+
+## Fort Worth Garage Conversion Costs: Line by Line
+
+A garage conversion involves taking an existing non-residential structure and making it habitable. The major cost drivers:
+
+- **Plumbing:** Running water and sewer connections to a garage with no plumbing is typically the single biggest line item — $8,000–$18,000 depending on distance from main lines.
+- **Electrical:** Upgrading or adding a subpanel and running new circuits: $4,000–$10,000.
+- **HVAC:** A mini-split system sized for the space: $3,500–$7,000 installed.
+- **Egress:** Fort Worth requires egress windows in sleeping areas. Adding them to an existing masonry wall: $1,500–$4,000 per window.
+- **Insulation and drywall:** $6,000–$12,000.
+- **Kitchen:** A basic functional kitchen runs $8,000–$15,000. A fully upgraded kitchen: $18,000–$28,000.
+- **Bathroom:** A full bath with shower: $10,000–$18,000.
+- **Flooring, trim, paint:** $4,000–$10,000.
+
+Add those up and you're looking at $45,000–$95,000 for a well-built, code-compliant conversion in Fort Worth — before any structural repairs.
+
+## Above-Garage Apartment Costs in Fort Worth
+
+Above-garage apartments add a full floor of living space above an existing or new garage. Additional cost factors include structural engineering ($3,000–$6,000), full floor framing ($18,000–$35,000), and an exterior staircase with landing ($4,000–$8,000).
+
+Total range: $80,000–$180,000 in Fort Worth. Projects in [Fairmount](/areas/fort-worth), Mistletoe Heights, and Arlington Heights tend to cluster in the $95,000–$145,000 range.
+
+## Detached ADU Costs
+
+A detached ADU is full new construction. You're building a foundation, structure, roof, and all mechanicals from scratch. This is the most expensive option but gives you the most flexibility in size and design.
+
+Cost range: $100,000–$280,000 in Fort Worth. Most projects land between $120,000 and $200,000.
+
+## The ROI Math
+
+Fort Worth garage apartments rent for **$1,100–$1,800/month** depending on size, neighborhood, and finish level. At $1,400/month, a $95,000 conversion has a 6-year payback period — after which it generates roughly $16,800/year in passive income.
+
+Properties with garage apartments also sell for more. Appraised value typically increases by $60,000–$120,000 over a property without one. Use our [free cost calculator](/cost-calculator) to estimate your specific project.
+
+## The Bottom Line
+
+Garage apartments in Fort Worth cost real money — but they generate real returns. The key is knowing your project type, understanding what conditions you're starting with, and working with a builder who gives you honest numbers upfront. [Schedule a free consultation](/contact) and we'll walk your property and give you a realistic estimate.`,
+  },
+  {
+    slug: 'fort-worth-adu-zoning-guide',
+    title: 'Fort Worth ADU Zoning: Which Neighborhoods Allow Garage Apartments?',
+    date: '2026-03-08',
+    author: 'Jamey Ice',
+    category: 'zoning',
+    excerpt: 'Fort Worth is one of the most ADU-friendly cities in DFW — but the rules still vary by zoning district and neighborhood. Here\'s what homeowners need to know before building.',
+    featuredImage: '/images/fairmount-garage-apartment-fort-worth.webp',
+    body: `## Fort Worth's ADU Rules: The Basics
+
+Fort Worth permits accessory dwelling units — including garage conversions, above-garage apartments, and detached ADUs — in most residential zoning districts. It's one of the most ADU-friendly major cities in North Texas.
+
+The key rules that apply citywide:
+
+- **No owner-occupancy requirement.** You can rent your garage apartment without living on the property. This is critical for investors.
+- **Building permit required** for all conversions and new ADU construction.
+- **Parking replacement.** If you convert an existing garage, you typically need to maintain equivalent covered parking or obtain a variance.
+- **Egress windows required** in sleeping areas of converted spaces.
+- **Separate utilities** are allowed but not always required.
+
+## Zoning Districts in Fort Worth
+
+Fort Worth's residential zoning includes multiple district categories. The primary types are:
+
+**A-5, A-7.5, A-10 (Single-Family Residential):** Standard zones where most homeowners live. ADUs are generally permitted with standard setback and height requirements.
+
+**B, C (Two-Family and Multi-Family):** These districts typically allow more density and are generally more permissive for ADU construction.
+
+**PD (Planned Development):** Custom rules may apply. Check your specific PD ordinance.
+
+The fastest way to confirm your zoning: call Fort Worth Development Services at (817) 392-8000 with your address.
+
+## Neighborhood-by-Neighborhood Overview
+
+**Fairmount and Near Southside:** The most active ADU market in Fort Worth. Dense lots with alley access make garage conversions highly feasible. Rental demand from medical workers, TCU-area professionals, and young creatives is strong. Most lots are A-5 zoned. See [our Fort Worth city guide](/areas/fort-worth) for more.
+
+**Mistletoe Heights and Berkeley Place:** Historic neighborhoods with larger lots and original detached garages. Strong rental demand, premium rents, and active buyers who value the ADU bonus.
+
+**Arlington Heights and Crestwood:** Established mid-century neighborhoods west of downtown. Detached garages are common. ADU permits are straightforward.
+
+**Ridglea and Wedgwood:** South-southwest Fort Worth with larger lots and mid-century homes with detached garages. Underbuilding relative to demand.
+
+**TCU / Westcliff area:** Strong student and young professional rental demand. Garage conversions here typically rent quickly.
+
+**North Fort Worth (Saginaw corridor):** Newer construction with less alley access. Detached ADUs are feasible on larger lots.
+
+## Fort Worth Setback Requirements
+
+Fort Worth typically requires:
+
+- **Side setbacks:** 5 feet from property line for accessory structures.
+- **Rear setbacks:** 5 feet minimum for structures under 15 feet in height.
+- **Height limit:** Most districts cap accessory structures at 15–25 feet.
+
+Always confirm for your specific address — corner lots and planned developments may have different requirements.
+
+## The Permit Process
+
+Fort Worth permits are issued by the Development Services Department. A typical ADU permit takes 4–8 weeks from submission. Required submittals include: site plan showing setbacks, building plans, structural engineering (if above-garage), and MEP drawings.
+
+We handle the full permit process on every project. Read our [complete process overview](/process) for what to expect from start to finish.
+
+## Is Fort Worth the Right City for Your Project?
+
+Fort Worth is one of the best markets in DFW for ADU investment — permissive regulations, strong rental demand, and lower construction costs relative to north Dallas suburbs make the numbers work well. [Schedule a free property assessment](/contact) and we'll confirm your zoning and tell you exactly what's feasible on your lot.`,
+  },
+  {
+    slug: 'dallas-garage-apartment-guide',
+    title: 'Building a Garage Apartment in Dallas, TX: Rules, Costs, and What to Expect',
+    date: '2026-02-20',
+    author: 'Jamey Ice',
+    category: 'zoning',
+    excerpt: 'Dallas has the most complex ADU regulations in DFW — but building is still very possible, especially in ADUO overlay neighborhoods. Here\'s the complete guide.',
+    featuredImage: '/images/6th-ave-above-garage-fort-worth-exterior.webp',
+    body: `## Dallas Is Different
+
+If you're a Dallas homeowner who wants to build a garage apartment, the first thing to understand is that Dallas is more restrictive than Fort Worth, Denton, or most other DFW cities when it comes to ADUs.
+
+That doesn't mean it's impossible — far from it. But the path to building depends heavily on where your property is located within the city. See also [our guide to Dallas](/areas/dallas) for a full picture of what we build there.
+
+## The ADUO System: Dallas's ADU Framework
+
+Dallas uses an overlay district system for ADUs called the **Accessory Dwelling Unit Overlay (ADUO)**. Here's how it works:
+
+- **In ADUO-designated neighborhoods:** ADUs are permitted by right. You apply for a building permit and build. No special hearings required.
+- **Outside ADUO neighborhoods:** ADUs are not permitted by right. To build, you need approval from the **Board of Adjustment (BOA)** — a quasi-judicial body that evaluates variance requests case by case.
+
+The BOA process adds 60–90 days and $800–$2,000 in filing fees before you can even pull a building permit. It's doable, but plan for a longer timeline.
+
+## ADUO Neighborhoods in Dallas
+
+ADUO overlay zones include many of Dallas's most desirable inner-city neighborhoods:
+
+- **Lakewood and East Dallas** — M Streets, Munger Place, Junius Heights, Lakewood Estates
+- **Oak Cliff** — Kessler Park, Stevens Park, Winnetka Heights, Wynnewood North
+- **Casa View and parts of Lake Highlands** — northeast Dallas
+- **Parts of North Oak Cliff and the Bishop Arts District area**
+
+The list grows periodically as Dallas City Council extends the overlay. If your property isn't currently in an ADUO zone, it may be in the future.
+
+## What Dallas ADU Rules Require
+
+Within ADUO zones, the key requirements:
+
+- **Size:** ADUs may not exceed 50% of the primary dwelling's square footage, with a maximum of 1,500 sq ft.
+- **Setbacks:** Accessory structures must comply with base zoning setbacks — typically 5 feet from side and rear property lines.
+- **Height:** Maximum height for ADUs is typically 25–30 feet in most residential zones.
+- **Parking:** Replacement parking requirements apply if converting existing garage space.
+- **Owner-occupancy:** Not required in most ADUO zones — you can rent without living on the property.
+
+## Dallas ADU Costs
+
+Dallas construction costs run slightly higher than Fort Worth:
+
+- **Garage conversions:** $50,000–$110,000
+- **Above-garage apartments:** $90,000–$200,000
+- **Detached ADUs:** $120,000–$300,000
+
+Permit fees in Dallas run $1,500–$4,000 for typical ADU projects. BOA applications add another $800–$2,000. Use our [cost calculator](/cost-calculator) for a quick estimate on your specific project type.
+
+## The Rental Market in Dallas
+
+Dallas's inner-city neighborhoods have some of the strongest rental demand in DFW. ADUs in Lakewood, the M Streets, and Oak Cliff routinely rent for $1,300–$2,000/month depending on size and finish.
+
+The combination of premium rental rates and strong appreciation in these neighborhoods makes Dallas one of the best ADU investment markets in the metro — if you're in the right part of the city.
+
+## Should You Build in Dallas?
+
+**Are you in an ADUO zone?** If yes, the process is straightforward. Apply, build.
+
+**Are you outside an ADUO zone?** You'll need to go through the Board of Adjustment. Plan for a 3–4 month process before construction begins.
+
+We check your zoning and ADUO status as part of every [free consultation](/contact). Let's figure out where your property stands.`,
+  },
+  {
+    slug: 'best-dfw-neighborhoods-garage-apartment-roi',
+    title: '5 DFW Neighborhoods Where Garage Apartments Generate the Best Rental ROI',
+    date: '2026-02-08',
+    author: 'Jimmy Williams',
+    category: 'costs',
+    excerpt: 'Not all neighborhoods are equal for garage apartment investment. Here are the five DFW areas where the ROI math works best — and why.',
+    featuredImage: '/images/garage-apartment-interior-mockingbird-2.webp',
+    body: `## Why Neighborhood Matters for ADU ROI
+
+A garage apartment's return on investment comes from two sources: rental income and property value appreciation. Both are heavily driven by location.
+
+The best ROI markets combine three factors: reasonable construction costs, strong rental demand, and high property value appreciation. Not every neighborhood in DFW hits all three — but a handful do, consistently. Here are the five we recommend most often to investors and homeowners.
+
+## 1. Fairmount / Near Southside, Fort Worth
+
+**Why it works:** The bull's eye for garage apartment investment in DFW. Strong rental demand from medical workers, TCU-area professionals, and young creatives; alley-accessed lots built for conversion; and property values that have appreciated 40–60% over the past decade.
+
+**The numbers:** Garage conversions run $45,000–$85,000. Rental rates: $1,200–$1,700/month. Cash-on-cash returns of 12–18% are realistic for well-executed projects.
+
+**The catch:** Tight lots and historic district adjacency mean setback issues occasionally arise. Always verify your specific address with our [Fort Worth zoning guide](/blog/fort-worth-adu-zoning-guide).
+
+## 2. Mistletoe Heights / Berkeley Place, Fort Worth
+
+**Why it works:** Two of Fort Worth's most desirable historic neighborhoods — both with strong appreciation, high renter quality, and original detached garages on most properties. Above-garage apartment builds are particularly popular here.
+
+**The numbers:** Above-garage apartments run $95,000–$150,000. Rental rates: $1,400–$1,900/month. Long-term tenant stability is exceptional.
+
+**The catch:** Premium neighborhoods attract premium finish expectations. You can't cut corners on finish quality here and expect top-of-market rents. See [our completed projects](/projects) for finish level examples.
+
+## 3. Lakewood / M Streets, Dallas
+
+**Why it works:** Dallas's most consistently strong ADU market. Both neighborhoods are in ADUO overlay zones, making the permit process straightforward. High household incomes, strong appreciation, and renters who value quality and location.
+
+**The numbers:** Above-garage apartments run $100,000–$175,000. Rental rates: $1,400–$2,000/month. Property value increases from ADU addition: $80,000–$150,000.
+
+**The catch:** Dallas permit fees and the BOA process (if outside ADUO) add time and cost. Read our [Dallas garage apartment guide](/blog/dallas-garage-apartment-guide) for the full picture.
+
+## 4. Denton (near UNT / TWU campuses)
+
+**Why it works:** University towns are reliably strong rental markets. Denton has 50,000+ students at UNT and TWU, plus a growing professional population. Denton also has the most permissive ADU ordinance in DFW — no owner-occupancy requirement and predictable permits.
+
+**The numbers:** Garage conversions run $38,000–$85,000. Rental rates near campus: $900–$1,300/month. Lower rents than Fort Worth, but construction costs are also lower. See our [Denton city guide](/areas/denton) for market specifics.
+
+**The catch:** Rental demand is strongest within 1–2 miles of campus. Properties further out see softer demand.
+
+## 5. Arlington (University neighborhood / Fielder Road corridor)
+
+**Why it works:** The University of Texas at Arlington creates a 45,000-student rental market. Arlington has straightforward ADU permitting with no owner-occupancy requirement, and the mid-cities location provides easy access to both Fort Worth and Dallas employment.
+
+**The numbers:** Garage conversions run $40,000–$90,000. Rental rates near UTA: $1,000–$1,500/month. See our [Arlington city guide](/areas/arlington) for more.
+
+**The catch:** Like Denton, proximity to campus matters significantly.
+
+## The Bottom Line on ROI
+
+These numbers reflect 2026 market conditions and real projects we've completed. Individual project ROI depends on construction costs, finish level, rental management, and local market timing.
+
+The best way to evaluate ROI on a specific property is with a real construction estimate — not a ballpark. Use our [free cost calculator](/cost-calculator) for a quick range, then [schedule a consultation](/contact) for accurate project-specific numbers.`,
+  },
+  {
+    slug: 'how-long-build-garage-apartment-dfw',
+    title: 'How Long Does It Take to Build a Garage Apartment in DFW? A Real Timeline',
+    date: '2026-01-25',
+    author: 'Jimmy Williams',
+    category: 'tips',
+    excerpt: 'From first consultation to move-in day — a realistic, month-by-month timeline for garage apartment projects in DFW, based on 45+ completed builds.',
+    featuredImage: '/images/mistletoe-garage-apartment-construction-1.webp',
+    body: `## The Number Homeowners Most Underestimate
+
+Ask most homeowners how long a garage apartment takes to build and they'll guess a few months. The correct answer — for a typical DFW project — is **5 to 9 months from first consultation to tenant move-in.**
+
+That's not because construction takes that long. It's because construction is only part of the timeline. Here's what the real schedule looks like.
+
+## Phase 1: Design, Site Assessment, and Permit Preparation (Weeks 1–10)
+
+Before a single permit application goes to the city, there's significant preparation:
+
+- **Property assessment and zoning verification:** We confirm what's allowed on your specific address, check setbacks, and flag any issues with existing structures. 1–2 weeks.
+- **Design development:** Architectural drawings, floor plans, and elevations. For a straightforward conversion, 3–4 weeks. Above-garage builds with structural engineering add 2–4 more weeks.
+- **Structural engineering** (required for above-garage builds): 2–4 weeks for stamped drawings.
+- **Permit application preparation:** Assembling the full submittal package. 1 week.
+
+Read our [full process overview](/process) for a detailed walkthrough of each step.
+
+## Phase 2: Permitting (Weeks 8–18)
+
+This is the phase that surprises homeowners most. Permitting in DFW cities takes:
+
+- **Fort Worth:** 4–8 weeks for a complete application on a typical ADU.
+- **Dallas (ADUO zone):** 4–8 weeks for standard permit review.
+- **Dallas (Board of Adjustment required):** Add 8–12 weeks for the BOA hearing before permit submission.
+- **Denton:** 4–6 weeks — one of the most predictable in DFW.
+- **Arlington:** 4–8 weeks.
+- **Other Tarrant County cities:** 4–8 weeks typical.
+
+**What slows permits down:** Incomplete submittals, requested revisions, and inspector scheduling delays. An experienced builder avoids most of these through complete, clean first submissions. **What can't be controlled:** Some cities have high permit volume at certain times of year.
+
+## Phase 3: Construction (Weeks 16–32)
+
+Once the permit is issued, construction begins. Typical timelines:
+
+**Garage conversion:** 8–14 weeks. The sequence: demo and rough framing → plumbing rough-in → electrical rough-in → HVAC rough-in → insulation → drywall → finish work → final inspections.
+
+**Above-garage apartment:** 14–20 weeks. More complex framing, more inspection phases, more structural coordination.
+
+**Detached ADU (new construction):** 16–24 weeks. Full foundation, framing, roofing, and all MEP systems.
+
+These timelines assume no material delays. Supply chain issues with specific products (windows, certain appliances) can add 2–4 weeks. See our [project gallery](/projects) for examples of what gets built in each phase.
+
+## Phase 4: Final Inspections and Leasing (Weeks 28–36)
+
+After construction completes:
+
+- **Final inspections:** Separate finals for structural, electrical, plumbing, and mechanical — scheduling takes 1–3 weeks.
+- **Certificate of Occupancy (CO):** Issued after all inspections pass. Required before tenant move-in.
+- **Punch list and cleaning:** 1–2 weeks.
+- **Listing and leasing:** Marketing, screening, and lease execution typically takes 2–4 weeks for a well-priced unit in a good neighborhood.
+
+## The Full Timeline Summary
+
+- **Simple garage conversion (Fort Worth):** 5–7 months total
+- **Above-garage apartment (Fort Worth or Denton):** 7–9 months total
+- **Detached ADU (any DFW city):** 8–12 months total
+- **Dallas project with BOA process:** Add 2–3 months to any of the above
+
+## How to Use This Timeline
+
+Plan your finances for 6–9 months of carrying costs before rental income begins. Don't assume a tenant by month three.
+
+Starting the design process sooner shortens the overall timeline — the permit clock doesn't start until the application goes in, and the application can't go in until the drawings are done. [Start the conversation now](/contact) so there's no unnecessary delay.`,
+  },
+  {
+    slug: 'multigenerational-living-garage-apartment-dfw',
+    title: 'Multigenerational Living in DFW: How Garage Apartments Are Keeping Families Close',
+    date: '2026-01-10',
+    author: 'Jamey Ice',
+    category: 'tips',
+    excerpt: 'Across DFW, families are building garage apartments and guest houses to create independent living space for aging parents and adult children — without giving up privacy.',
+    featuredImage: '/images/mistletoe-guest-house-exterior.webp',
+    body: `## The Problem a Garage Apartment Solves
+
+The American multigenerational household has been making a comeback for over a decade — and in DFW, the trend has accelerated. The reasons are familiar to anyone in this situation:
+
+An aging parent can no longer safely live alone, but isn't ready for assisted living. An adult child is between apartments and needs a place to land. A family member has a health situation that makes proximity important. Or it's simply about wanting family nearby without the friction of sharing a front door.
+
+The garage apartment — when done right — solves all of it. Separate entrance. Full kitchen and bath. Independent HVAC. Their space. Your property.
+
+## What Families Are Building in DFW
+
+Across our 45+ projects in the Dallas–Fort Worth area, roughly a third are built primarily for family use rather than rental income. The most common types:
+
+**Garage conversions for parents:** The most common scenario. A detached two-car garage converted into a 450–700 sq ft studio or one-bedroom for an aging parent. Same lot, ten steps away, completely independent.
+
+**Above-garage suites for adult children:** Built above a new or existing garage, these give adult children returning from college or relocating for work an independent space that's flexible in practice. Many end up long-term.
+
+**Detached guest houses for multigenerational families:** Larger builds — 700–1,100 sq ft — designed for long-term use by a family member who needs full amenities. These are especially common in [Keller](/areas/keller), [Southlake](/areas/southlake), [Colleyville](/areas/colleyville), and other premium Tarrant County suburbs with large lots.
+
+## Designing for Family vs. Rental
+
+There are real differences in how we design a unit for a family member versus a market-rate tenant:
+
+**For a family member:**
+- Accessibility features are often a priority — zero-step entry, wider doorways, curbless shower, grab bars
+- Connection to the main home may be desired: shared garden gate, covered walkway, or intercom
+- Privacy from street view matters more than rental curb appeal
+- Interior finish level often higher, matching the primary home
+
+**For a rental tenant:**
+- Maximizing usable square footage and storage
+- Durable, easy-to-clean finishes
+- Independent utility metering
+- Separate, visible entrance from street
+
+A good builder asks the right questions upfront. Projects designed for family use that later convert to rentals also need to meet rental-ready standards — worth planning for if you want that flexibility.
+
+## The Financial Side
+
+Unlike a purely rental-focused project, the ROI on a family-use garage apartment isn't measured in monthly rent. It's measured in:
+
+- **Avoided assisted living costs.** Memory care facilities in DFW run $5,000–$10,000/month. A $120,000 guest house pays for itself in 12–24 months compared to that alternative.
+- **Property value increase.** Even non-rental ADUs add assessed value — typically $60,000–$150,000 depending on size and quality.
+- **Flexibility.** A well-built unit can generate rental income later if the family dynamic changes.
+
+## Which Cities Are Best for Multigenerational Builds?
+
+For multigenerational ADU projects specifically, we see the most activity in:
+
+**Southlake and Colleyville:** Premium builds with full guest house amenities. The "aging in place" market is strong among homeowners who want quality and don't want to compromise. See our [Southlake guide](/areas/southlake) and [Colleyville guide](/areas/colleyville).
+
+**Fort Worth (established neighborhoods):** Fairmount, Berkeley Place, Arlington Heights — homeowners with original garages and parents who want to stay close to the neighborhood. See our [Fort Worth guide](/areas/fort-worth).
+
+**Keller and North Richland Hills:** Growing families in larger homes adding space for parents or returning adult children. [Keller guide here](/areas/keller).
+
+**Mansfield and Burleson:** Family-oriented communities where multigenerational living is culturally common and large lots make detached builds feasible.
+
+## The Conversation Most Families Have Too Late
+
+The most common thing we hear from families building a multigenerational ADU: "I wish we'd done this two years ago."
+
+The permit process takes time. The construction takes time. If you're anticipating a family member needing a space within the next year, start the design process now. [Schedule a free consultation](/contact) — we'll tell you exactly what's realistic for your property and your timeline.`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
