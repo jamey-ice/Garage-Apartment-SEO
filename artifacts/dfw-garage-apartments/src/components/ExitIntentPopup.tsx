@@ -32,6 +32,10 @@ export function ExitIntentPopup() {
     if (!email) return;
     sessionStorage.setItem('formSubmitted', '1');
     setSubmitted(true);
+    const link = document.createElement('a');
+    link.href = '/dfw-garage-apartment-guide.pdf';
+    link.download = 'DFW-Garage-Apartment-Guide.pdf';
+    link.click();
   };
 
   const handleClose = () => setIsVisible(false);
@@ -66,7 +70,7 @@ export function ExitIntentPopup() {
               <CheckCircle2 className="w-12 h-12 text-accent mx-auto mb-4" />
               <h3 className="font-serif font-bold text-xl text-foreground mb-2">You're in.</h3>
               <p className="text-muted-foreground font-sans text-sm">
-                Check your inbox — we'll send the guide within a few minutes.
+                Your guide is downloading now. Save it for whenever you're ready to start planning.
               </p>
               <Button
                 onClick={handleClose}

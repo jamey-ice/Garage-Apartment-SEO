@@ -102,7 +102,12 @@ export default function Home() {
 
   const handleLeadMagnet = (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) setEmailSubmitted(true);
+    if (!email) return;
+    setEmailSubmitted(true);
+    const link = document.createElement('a');
+    link.href = '/dfw-garage-apartment-guide.pdf';
+    link.download = 'DFW-Garage-Apartment-Guide.pdf';
+    link.click();
   };
 
   return (
@@ -584,7 +589,7 @@ export default function Home() {
                 <div className="bg-accent/10 border border-accent/30 p-8 text-center">
                   <CheckCircle2 className="w-10 h-10 text-accent mx-auto mb-3" />
                   <h3 className="font-serif font-bold text-xl text-foreground mb-2">You're in.</h3>
-                  <p className="text-muted-foreground font-sans">Check your inbox — we'll send the guide within a few minutes.</p>
+                  <p className="text-muted-foreground font-sans">Your guide is downloading now. Save it for whenever you're ready to start planning.</p>
                 </div>
               ) : (
                 <form onSubmit={handleLeadMagnet} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
