@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/blog/can-i-build-garage-apartment-dfw":{},"/blog/5-things-homeowners-should-know-before-building-garage-apartment":{},"/blog/texas-adu-legislation-what-happened-whats-next":{},"/blog/garage-conversion-vs-new-build-how-to-decide":{},"/blog/garage-apartment-cost-fort-worth-2026":{},"/blog/fort-worth-adu-zoning-guide":{},"/blog/dallas-garage-apartment-guide":{},"/blog/best-dfw-neighborhoods-garage-apartment-roi":{},"/blog/how-long-build-garage-apartment-dfw":{},"/blog/multigenerational-living-garage-apartment-dfw":{},"/projects/fairmount-garage-conversion-fort-worth":{},"/projects/mistletoe-heights-above-garage-apartment":{},"/projects/bellair-guest-house-fort-worth":{},"/projects/arlington-detached-adu-rental":{},"/projects/keller-guest-house":{},"/projects/north-richland-hills-garage-conversion":{},"/projects/denton-above-garage-apartment":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"60c6bd71544f23ba5792e84d59a173ee","previewModeSigningKey":"d5451b3db6b882972acab8c7269ec8028d2649a822b3771ba1fdf59b5b58122d","previewModeEncryptionKey":"0602b039d1ed912871e95a6f37e66192adbeb5075a1e9f3b16fb495fbc8acb86"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "52207ccefd6eccd30030d51739eac524",
+    "previewModeSigningKey": "52b0217e5b1819ca92e8d788ed954bbda1112b40c336948b82f8b0ee306e3b44",
+    "previewModeEncryptionKey": "7a2c82d619814149bcc6284645fe69568bf32f2cded243c368ab62cd191351c6"
+  }
+}
