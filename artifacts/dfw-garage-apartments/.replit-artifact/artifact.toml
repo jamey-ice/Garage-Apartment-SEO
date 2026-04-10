@@ -19,12 +19,7 @@ run = "pnpm --filter @workspace/dfw-garage-apartments run dev"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/dfw-garage-apartments", "run", "build" ]
-publicDir = "artifacts/dfw-garage-apartments/dist/public"
-serve = "static"
-
-[[services.production.rewrites]]
-from = "/*"
-to = "/index.html"
+run = [ "pnpm", "--filter", "@workspace/dfw-garage-apartments", "run", "start" ]
 
 [services.env]
 PORT = "25407"

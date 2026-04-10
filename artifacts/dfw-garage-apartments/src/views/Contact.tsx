@@ -94,9 +94,19 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setIsSuccess(true);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error('Submit failed');
+      setIsSuccess(true);
+    } catch {
+      alert('Something went wrong — please call us at (817) 631-9803 or email info@6thavehomes.com.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const slideVariants = {
