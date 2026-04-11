@@ -25,7 +25,11 @@ export function SEOHead({ title, description, canonical, ogImage, schemas, noind
     <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      {noindex && <meta name="robots" content="noindex, nofollow" />}
+      {noindex ? (
+            <meta name="robots" content="noindex, nofollow" />
+          ) : (
+            <meta name="robots" content="index, follow" />
+          )}
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:type" content="website" />
