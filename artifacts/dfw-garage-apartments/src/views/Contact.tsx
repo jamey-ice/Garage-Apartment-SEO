@@ -26,8 +26,8 @@ const USE_CASES = [
 
 const TIMELINES = [
   'ASAP',
-  '1–3 months',
-  '3–6 months',
+  '1â3 months',
+  '3â6 months',
   'Just Exploring',
 ];
 
@@ -55,19 +55,19 @@ const CITIES = [
 const faqs = [
   {
     question: "How much does a garage apartment cost in DFW?",
-    answer: "It depends on the type. Garage conversions typically run $40,000–$100,000. Above-garage apartments are $80,000–$200,000. Detached ADUs and guest houses range from $80,000–$300,000+. We give you a realistic budget range after a free site consultation."
+    answer: "It depends on the type. Garage conversions typically run $40,000â$100,000. Above-garage apartments are $80,000â$200,000. Detached ADUs and guest houses range from $80,000â$300,000+. We give you a realistic budget range after a free site consultation."
   },
   {
     question: "How long does the process take?",
-    answer: "Design and permitting take 4–12 weeks depending on the city. Construction takes 3–6 months. Plan on 5–9 months total from first consultation to final walkthrough. We'll give you a specific timeline once we know your city and project type."
+    answer: "Design and permitting take 4â12 weeks depending on the city. Construction takes 3â6 months. Plan on 5â9 months total from first consultation to final walkthrough. We'll give you a specific timeline once we know your city and project type."
   },
   {
     question: "Do you handle the permits?",
-    answer: "Yes — completely. Every city in DFW has different rules, and we know them. We prepare and submit all permit applications, respond to city comments, and handle inspections. You don't have to manage any of it."
+    answer: "Yes â completely. Every city in DFW has different rules, and we know them. We prepare and submit all permit applications, respond to city comments, and handle inspections. You don't have to manage any of it."
   },
   {
     question: "Can I finance a garage apartment?",
-    answer: "Yes. Many clients use HELOCs, cash-out refinances, or renovation loans. Because DFW Garage Apartments is powered by 6th Ave Homes — which includes a lending arm — we can connect you with financing options designed specifically for this type of project."
+    answer: "Yes. Many clients use HELOCs, cash-out refinances, or renovation loans. Because DFW Garage Apartments is powered by 6th Ave Homes â which includes a lending arm â we can connect you with financing options designed specifically for this type of project."
   }
 ];
 
@@ -95,15 +95,15 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://formspree.io/f/mykbroag', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, _subject: 'New Lead from DFW Garage Apartments' }),
       });
       if (!res.ok) throw new Error('Submit failed');
       setIsSuccess(true);
     } catch {
-      alert('Something went wrong — please call us at (817) 631-9803 or email info@6thavehomes.com.');
+      alert('Something went wrong â please call us at (817) 631-9803 or email info@6thavehomes.com.');
     } finally {
       setIsSubmitting(false);
     }
@@ -119,7 +119,7 @@ export default function Contact() {
     <div className="bg-background pt-32 pb-24">
       <SEOHead
         title="Schedule a Free Garage Apartment Consultation"
-        description="Ready to build a garage apartment in DFW? Tell us about your property and we'll help you figure out the next step. Free consultation — no obligation."
+        description="Ready to build a garage apartment in DFW? Tell us about your property and we'll help you figure out the next step. Free consultation â no obligation."
         canonical="/contact"
         schemas={{
           "@context": "https://schema.org",
@@ -135,11 +135,11 @@ export default function Contact() {
         <BreadcrumbNav items={[{ label: 'Contact Us' }]} />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-          {/* Left Column — Form */}
+          {/* Left Column â Form */}
           <div className="lg:col-span-7">
             <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary mb-4">Start Your Garage Apartment Project</h1>
             <p className="text-lg text-muted-foreground font-sans mb-10 leading-relaxed">
-              Tell us a little about your property and what you're thinking. We'll reach out to schedule a conversation and help you figure out the next step — no pressure, no obligation.
+              Tell us a little about your property and what you're thinking. We'll reach out to schedule a conversation and help you figure out the next step â no pressure, no obligation.
             </p>
 
             <div className="bg-white shadow-xl border border-border/50 relative overflow-hidden">
@@ -201,7 +201,7 @@ export default function Contact() {
                           className="space-y-6"
                         >
                           <h3 className="font-serif text-2xl font-bold text-foreground">What kind of project are you thinking about?</h3>
-                          <p className="text-muted-foreground text-sm font-sans">Select one to get started — no commitment required.</p>
+                          <p className="text-muted-foreground text-sm font-sans">Select one to get started â no commitment required.</p>
                           <div className="grid grid-cols-2 gap-3">
                             {PROJECT_TYPES.map((type) => (
                               <button
@@ -224,7 +224,7 @@ export default function Contact() {
                               className="bg-primary hover:bg-primary/90 text-white rounded-none px-8 py-5 text-xs uppercase tracking-widest font-bold"
                               data-testid="btn-step1-next"
                             >
-                              Next Step →
+                              Next Step â
                             </Button>
                           </div>
                         </motion.div>
@@ -252,7 +252,7 @@ export default function Contact() {
                               className="w-full border border-border px-4 py-3 text-sm font-sans bg-background focus:outline-none focus:border-accent appearance-none"
                               data-testid="select-city"
                             >
-                              <option value="">Select your city…</option>
+                              <option value="">Select your cityâ¦</option>
                               {CITIES.map(c => <option key={c} value={c}>{c}</option>)}
                             </select>
                           </div>
@@ -291,7 +291,7 @@ export default function Contact() {
                           </div>
 
                           <div className="flex justify-between pt-4">
-                            <Button type="button" variant="outline" onClick={() => setStep(1)} className="rounded-none px-6 py-5 text-xs uppercase tracking-widest font-bold">← Back</Button>
+                            <Button type="button" variant="outline" onClick={() => setStep(1)} className="rounded-none px-6 py-5 text-xs uppercase tracking-widest font-bold">â Back</Button>
                             <Button
                               type="button"
                               onClick={() => setStep(3)}
@@ -299,7 +299,7 @@ export default function Contact() {
                               className="bg-primary hover:bg-primary/90 text-white rounded-none px-8 py-5 text-xs uppercase tracking-widest font-bold"
                               data-testid="btn-step2-next"
                             >
-                              Next Step →
+                              Next Step â
                             </Button>
                           </div>
                         </motion.div>
@@ -341,20 +341,20 @@ export default function Contact() {
 
                           <div className="space-y-1.5">
                             <Label htmlFor="message" className="font-bold text-sm">Anything else you want us to know? <span className="text-muted-foreground font-normal">(optional)</span></Label>
-                            <Textarea id="message" rows={3} value={formData.message} onChange={(e) => update('message', e.target.value)} placeholder="Tell us anything specific about your property or goals…" className="rounded-none border-border focus-visible:ring-accent resize-none" />
+                            <Textarea id="message" rows={3} value={formData.message} onChange={(e) => update('message', e.target.value)} placeholder="Tell us anything specific about your property or goalsâ¦" className="rounded-none border-border focus-visible:ring-accent resize-none" />
                           </div>
 
                           <p className="text-xs text-muted-foreground font-sans">Or call us at <a href="tel:+18176319803" className="text-primary font-bold hover:underline">(817) 631-9803</a>. We're based in Fort Worth and serve the entire DFW metro.</p>
 
                           <div className="flex justify-between pt-2">
-                            <Button type="button" variant="outline" onClick={() => setStep(2)} disabled={isSubmitting} className="rounded-none px-6 py-5 text-xs uppercase tracking-widest font-bold">← Back</Button>
+                            <Button type="button" variant="outline" onClick={() => setStep(2)} disabled={isSubmitting} className="rounded-none px-6 py-5 text-xs uppercase tracking-widest font-bold">â Back</Button>
                             <Button
                               type="submit"
                               disabled={isSubmitting || !formData.name || !formData.email || !formData.phone}
                               className="bg-accent hover:bg-accent/90 text-white rounded-none px-8 py-5 text-xs uppercase tracking-widest font-bold"
                               data-testid="btn-submit"
                             >
-                              {isSubmitting ? 'Sending…' : 'Get My Free Consultation'}
+                              {isSubmitting ? 'Sendingâ¦' : 'Get My Free Consultation'}
                             </Button>
                           </div>
                         </motion.div>
@@ -402,12 +402,12 @@ export default function Contact() {
               <div className="flex items-center gap-2 mb-3">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-accent text-accent" />)}
                 <span className="font-bold text-sm text-foreground ml-1">4.9</span>
-                <span className="text-muted-foreground text-sm">· 120+ Google Reviews</span>
+                <span className="text-muted-foreground text-sm">Â· 120+ Google Reviews</span>
               </div>
               <p className="text-muted-foreground font-sans text-sm leading-relaxed italic">
-                "They handled everything — permits, zoning, construction. We just showed up for the final walkthrough. Truly one team from start to finish."
+                "They handled everything â permits, zoning, construction. We just showed up for the final walkthrough. Truly one team from start to finish."
               </p>
-              <p className="text-xs font-bold text-foreground mt-3">— Marcus H., Fort Worth</p>
+              <p className="text-xs font-bold text-foreground mt-3">â Marcus H., Fort Worth</p>
             </div>
 
             {/* FAQs */}
