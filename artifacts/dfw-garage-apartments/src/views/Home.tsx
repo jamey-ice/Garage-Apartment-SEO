@@ -33,13 +33,13 @@ const USE_CASES = [
   {
     icon: <DollarSign className="w-7 h-7" />,
     title: "Rental Income",
-    body: "DFW garage apartments typically rent for $1,200â$2,200/month. Most projects pay for themselves in 6â10 years.",
+    body: "DFW garage apartments typically rent for $1,200\u2013$2,200/month. Most projects pay for themselves in 6\u201310 years.",
     img: exterior1,
   },
   {
     icon: <Users className="w-7 h-7" />,
     title: "Aging Parents",
-    body: "Keep family close without giving up privacy. An on-site in-law suite is more dignified â and often more affordable â than assisted living.",
+    body: "Keep family close without giving up privacy. An on-site in-law suite is more dignified\u2014and often more affordable\u2014than assisted living.",
     img: bedroom,
   },
   {
@@ -51,19 +51,19 @@ const USE_CASES = [
   {
     icon: <Building2 className="w-7 h-7" />,
     title: "Guest Suite",
-    body: "Give visiting family real privacy â not a pull-out couch. A comfortable, permanent space that makes longer stays actually work.",
+    body: "Give visiting family real privacy\u2014not a pull-out couch. A comfortable, permanent space that makes longer stays actually work.",
     img: livingRoom,
   },
   {
     icon: <DollarSign className="w-7 h-7" />,
     title: "Short-Term Rental",
-    body: "Platforms like Airbnb have transformed garage apartments into serious income streams. DFW's tourism and business travel make it especially strong.",
+    body: "Platforms like Airbnb have transformed garage apartments into serious income streams. DFW\u2019s tourism and business travel make it especially strong.",
     img: kitchen1,
   },
   {
     icon: <Users className="w-7 h-7" />,
     title: "Multigenerational Living",
-    body: "Grown kids who want independence but aren't ready to move across town. A garage apartment solves this gracefully.",
+    body: "Grown kids who want independence but aren\u2019t ready to move across town. A garage apartment solves this gracefully.",
     img: guestImg,
   },
 ];
@@ -83,7 +83,7 @@ const TRUST_SIGNALS = [
   { label: "Powered by 6th Ave Homes" },
   { label: "One Team from Start to Finish" },
   { label: "Design + Construction + Lending" },
-  { label: "Serving DallasâFort Worth Since 2016" },
+  { label: "Serving Dallas\u2013Fort Worth Since 2016" },
 ];
 
 export default function Home() {
@@ -113,26 +113,34 @@ export default function Home() {
         }),
       });
       setEmail('');
-      alert('Thanks! Check your inbox for the free guide.');
+      setEmailSubmitted(true);
+      // Trigger PDF download
+      const link = document.createElement('a');
+      link.href = '/dfw-garage-apartment-guide.pdf';
+      link.download = 'DFW-Garage-Apartment-Guide.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     } catch {
-      alert('Something went wrong. Please try again.');
+      setEmailSubmitted(false);
+      setEmail('');
     }
   };
 
   return (
     <div className="bg-background">
       <SEOHead
-        title="Garage Apartment Builders in DallasâFort Worth"
-        description="Design and build your garage apartment with one team. DFW Garage Apartments handles design, permitting, and construction for homeowners across DallasâFort Worth. Schedule a free consultation."
+        title="Garage Apartment Builders in Dallas&#8211;Fort Worth"
+        description="Design and build your garage apartment with one team. DFW Garage Apartments handles design, permitting, and construction for homeowners across Dallas&#8211;Fort Worth. Schedule a free consultation."
         canonical="/"
         ogImage="https://dfwgarageapartments.com/opengraph.jpg"
         schemas={[
           {
             '@context': 'https://schema.org',
             '@type': ['LocalBusiness', 'GeneralContractor'],
-            name: 'DFW Garage Apartments â Powered by 6th Ave Homes',
+            name: 'DFW Garage Apartments \u2014 Powered by 6th Ave Homes',
             alternateName: '6th Ave Homes',
-            description: 'Design-build company specializing in garage apartments and ADUs across DallasâFort Worth. One team for design, permits, and construction.',
+            description: 'Design-build company specializing in garage apartments and ADUs across Dallas\u2013Fort Worth. One team for design, permits, and construction.',
             url: 'https://dfwgarageapartments.com',
             telephone: '(817) 631-9803',
             email: 'info@6thavehomes.com',
@@ -222,25 +230,38 @@ export default function Home() {
           >
             <motion.div variants={fadeInUp} className="flex items-center gap-3 mb-6">
               <div className="h-px w-10 bg-accent"></div>
-              <span className="uppercase tracking-widest text-xs font-bold text-accent">DallasâFort Worth</span>
+              <span className="uppercase tracking-widest text-xs font-bold text-accent">Dallas{"\u2013"}Fort Worth</span>
             </motion.div>
+
             <motion.h1 variants={fadeInUp} className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-5 leading-[1.05]">
-              Garage Apartment Builders in DallasâFort Worth
+              Garage Apartment Builders in Dallas{"\u2013"}Fort Worth
             </motion.h1>
+
             <motion.p variants={fadeInUp} className="text-lg md:text-xl font-sans mb-4 text-white/90 max-w-2xl leading-relaxed">
-              Design and build your garage apartment with one team â from first conversation to final walkthrough.
+              Design and build your garage apartment with one team&mdash;from first conversation to final walkthrough.
             </motion.p>
+
             <motion.p variants={fadeInUp} className="text-base font-sans mb-10 text-white/75 max-w-xl leading-relaxed">
-              You've been thinking about adding a garage apartment. Maybe it's for rental income, maybe it's for family, maybe you just want your property to work harder. Whatever the reason, you shouldn't have to hire five different people to make it happen.
+              You&apos;ve been thinking about adding a garage apartment. Maybe it&apos;s for rental income, maybe it&apos;s for family, maybe you just want your property to work harder. Whatever the reason, you shouldn&apos;t have to hire five different people to make it happen.
             </motion.p>
+
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-accent hover:bg-accent/90 text-white rounded-none px-8 py-6 text-sm uppercase tracking-widest font-bold w-full sm:w-auto" data-testid="btn-hero-primary">
+                <Button
+                  size="lg"
+                  className="bg-accent hover:bg-accent/90 text-white rounded-none px-8 py-6 text-sm uppercase tracking-widest font-bold w-full sm:w-auto"
+                  data-testid="btn-hero-primary"
+                >
                   Schedule a Free Consultation
                 </Button>
               </Link>
               <Link href="/services">
-                <Button size="lg" variant="outline" className="bg-transparent border-white/60 text-white hover:bg-white/10 rounded-none px-8 py-6 text-sm uppercase tracking-widest font-bold w-full sm:w-auto" data-testid="btn-hero-secondary">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-transparent border-white/60 text-white hover:bg-white/10 rounded-none px-8 py-6 text-sm uppercase tracking-widest font-bold w-full sm:w-auto"
+                  data-testid="btn-hero-secondary"
+                >
                   See Our Work
                 </Button>
               </Link>
@@ -278,15 +299,20 @@ export default function Home() {
                 Most Garage Apartment Projects Fall Apart Before They Start
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground font-sans leading-relaxed">
-                <p>You've seen the potential. An empty garage. Unused backyard space. A property that could do more.</p>
-                <p>But between zoning rules, design decisions, permit applications, finding a contractor, and figuring out what it'll actually cost â most homeowners get stuck before they ever break ground.</p>
-                <p>It's not because the project is impossible. It's because the process is fragmented. You're told to hire an architect, then find a builder, then navigate permits on your own, then hope everyone communicates.</p>
-                <p className="font-semibold text-foreground">That's the old way. We built a better one.</p>
+                <p>You&apos;ve seen the potential. An empty garage. Unused backyard space. A property that could do more.</p>
+                <p>But between zoning rules, design decisions, permit applications, finding a contractor, and figuring out what it&apos;ll actually cost&mdash;most homeowners get stuck before they ever break ground.</p>
+                <p>It&apos;s not because the project is impossible. It&apos;s because the process is fragmented. You&apos;re told to hire an architect, then find a builder, then navigate permits on your own, then hope everyone communicates.</p>
+                <p className="font-semibold text-foreground">That&apos;s the old way. We built a better one.</p>
               </div>
               <div className="mt-8">
                 <Link href="/services">
-                  <Button variant="link" className="text-primary p-0 h-auto font-bold uppercase tracking-wider text-sm hover:text-accent flex items-center gap-2 group" data-testid="link-explore-services">
-                    Explore How It Works <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  <Button
+                    variant="link"
+                    className="text-primary p-0 h-auto font-bold uppercase tracking-wider text-sm hover:text-accent flex items-center gap-2 group"
+                    data-testid="link-explore-services"
+                  >
+                    Explore How It Works
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
               </div>
@@ -323,7 +349,7 @@ export default function Home() {
           >
             <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">What We Build</span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">Garage Apartments Built for Real Life</h2>
-            <p className="text-lg text-muted-foreground font-sans">From garage conversions to full detached ADUs, we design and build spaces that actually work â for your property, your goals, and your budget.</p>
+            <p className="text-lg text-muted-foreground font-sans">From garage conversions to full detached ADUs, we design and build spaces that actually work&mdash;for your property, your goals, and your budget.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
@@ -344,13 +370,13 @@ export default function Home() {
                 img: conversionImg,
                 title: "Detached ADUs",
                 href: "/services/detached-adus",
-                body: "A standalone structure on your property â designed from scratch, built to code, and tailored to your lot.",
+                body: "A standalone structure on your property&mdash;designed from scratch, built to code, and tailored to your lot.",
               },
               {
                 img: guestImg,
                 title: "Guest Houses",
                 href: "/services/guest-houses",
-                body: "Whether it's for aging parents, visiting family, or long-term guests â a guest house adds flexibility and value.",
+                body: "Whether it&apos;s for aging parents, visiting family, or long-term guests&mdash;a guest house adds flexibility and value.",
               },
             ].map((svc, i) => (
               <motion.div
@@ -380,7 +406,10 @@ export default function Home() {
 
           <div className="text-center">
             <Link href="/contact">
-              <Button className="bg-primary hover:bg-primary/90 text-white rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold" data-testid="btn-services-cta">
+              <Button
+                className="bg-primary hover:bg-primary/90 text-white rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold"
+                data-testid="btn-services-cta"
+              >
                 Schedule a Consultation
               </Button>
             </Link>
@@ -394,19 +423,37 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">Our Process</span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">From concept to keys.</h2>
-            <p className="text-lg text-muted-foreground font-sans">We handle everything. Permitting, design, engineering, and construction â a seamless, stress-free experience from start to finish.</p>
+            <p className="text-lg text-muted-foreground font-sans">We handle everything. Permitting, design, engineering, and construction&mdash;a seamless, stress-free experience from start to finish.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
             <div className="hidden md:block absolute top-10 left-[18%] right-[18%] h-0.5 bg-border/40 z-0"></div>
-            <ProcessStep number={1} icon={<HomeIcon className="w-8 h-8" />} title="Site Consultation" description="We visit your property, check local zoning, and give you an honest budget range â before you commit to anything." />
-            <ProcessStep number={2} icon={<Building2 className="w-8 h-8" />} title="Design & Permitting" description="Our architectural team creates custom plans. We navigate the permit process on your behalf â every city, every step." />
-            <ProcessStep number={3} icon={<CheckCircle2 className="w-8 h-8" />} title="Construction & Keys" description="Expert crews build your project efficiently, with weekly updates, until the final walkthrough and key handover." />
+            <ProcessStep
+              number={1}
+              icon={<HomeIcon className="w-8 h-8" />}
+              title="Site Consultation"
+              description="We visit your property, check local zoning, and give you an honest budget range\u2014before you commit to anything."
+            />
+            <ProcessStep
+              number={2}
+              icon={<Building2 className="w-8 h-8" />}
+              title="Design & Permitting"
+              description="Our architectural team creates custom plans. We navigate the permit process on your behalf\u2014every city, every step."
+            />
+            <ProcessStep
+              number={3}
+              icon={<CheckCircle2 className="w-8 h-8" />}
+              title="Construction & Keys"
+              description="Expert crews build your project efficiently, with weekly updates, until the final walkthrough and key handover."
+            />
           </div>
 
           <div className="text-center mt-14">
             <Link href="/contact">
-              <Button className="bg-accent hover:bg-accent/90 text-white rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold" data-testid="btn-process-cta">
+              <Button
+                className="bg-accent hover:bg-accent/90 text-white rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold"
+                data-testid="btn-process-cta"
+              >
                 Start Your Project
               </Button>
             </Link>
@@ -426,7 +473,7 @@ export default function Home() {
           >
             <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">The Why</span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">Why Homeowners Build Garage Apartments</h2>
-            <p className="text-lg text-muted-foreground font-sans">There's no single reason. But every reason leads back to the same thing: making your property work harder for you.</p>
+            <p className="text-lg text-muted-foreground font-sans">There&apos;s no single reason. But every reason leads back to the same thing: making your property work harder for you.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -464,16 +511,20 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src={happyClients} alt="Happy clients with their new garage apartment" className="w-full h-[560px] object-cover shadow-2xl" />
+              <img
+                src={happyClients}
+                alt="Happy clients with their new garage apartment"
+                className="w-full h-[560px] object-cover shadow-2xl"
+              />
             </motion.div>
 
             <div>
               <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">Client Stories</span>
-              <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-10">Don't just take our word for it.</h2>
+              <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-10">Don&apos;t just take our word for it.</h2>
 
               <div className="grid gap-6 mb-10">
                 <TestimonialCard
-                  quote="The quality of work is incredible. They matched the brick and trim of our 1920s home perfectly. It doesn't look like an addition; it looks like it's always been here."
+                  quote="The quality of work is incredible. They matched the brick and trim of our 1920s home perfectly. It doesn\u2019t look like an addition; it looks like it\u2019s always been here."
                   name="Sarah & James M."
                   city="Fort Worth"
                 />
@@ -483,7 +534,7 @@ export default function Home() {
                   city="Dallas"
                 />
                 <TestimonialCard
-                  quote="We were nervous about the permits. They handled every single thing, communicated with us weekly, and delivered on time. We couldn't be happier."
+                  quote="We were nervous about the permits. They handled every single thing, communicated with us weekly, and delivered on time. We couldn\u2019t be happier."
                   name="Linda & Dave K."
                   city="Mansfield"
                 />
@@ -506,7 +557,11 @@ export default function Home() {
 
           <div className="mt-16 text-center">
             <Link href="/services">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/5 rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold" data-testid="btn-see-projects">
+              <Button
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/5 rounded-none px-10 py-5 text-xs uppercase tracking-widest font-bold"
+                data-testid="btn-see-projects"
+              >
                 See All Projects
               </Button>
             </Link>
@@ -527,7 +582,7 @@ export default function Home() {
             <span className="uppercase tracking-widest text-xs font-bold text-accent block mb-3">Service Area</span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4">Garage Apartment Builders Across DFW</h2>
             <p className="text-lg text-muted-foreground font-sans leading-relaxed">
-              Every city in DallasâFort Worth has different rules for garage apartments and ADUs. We know the zoning codes, permit requirements, and building regulations in each one â so your project doesn't get stuck in red tape.
+              Every city in Dallas{"\u2013"}Fort Worth has different rules for garage apartments and ADUs. We know the zoning codes, permit requirements, and building regulations in each one&mdash;so your project doesn&apos;t get stuck in red tape.
             </p>
           </motion.div>
 
@@ -540,19 +595,20 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.07, duration: 0.5 }}
               >
-                <CityCard
-                  cityName={city.name}
-                  imageSrc={city.img}
-                  link={`/areas/${city.slug}`}
-                />
+                <CityCard cityName={city.name} imageSrc={city.img} link={`/areas/${city.slug}`} />
               </motion.div>
             ))}
           </div>
 
           <div className="text-center">
             <Link href="/areas">
-              <Button variant="link" className="text-primary font-bold uppercase tracking-wider text-sm hover:text-accent flex items-center gap-2 mx-auto group" data-testid="link-all-areas">
-                View All Service Areas <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <Button
+                variant="link"
+                className="text-primary font-bold uppercase tracking-wider text-sm hover:text-accent flex items-center gap-2 mx-auto group"
+                data-testid="link-all-areas"
+              >
+                View All Service Areas
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
           </div>
@@ -570,14 +626,17 @@ export default function Home() {
             variants={fadeInUp}
             className="max-w-3xl mx-auto text-center"
           >
-            <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-8">Don't Let Your Property Sit Underused</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-8">Don&apos;t Let Your Property Sit Underused</h2>
             <div className="space-y-5 text-lg text-white/80 font-sans leading-relaxed mb-10">
-              <p>Every month you wait is a month of rental income you're not collecting. It's a year of your parents not having a comfortable place to stay when they visit. It's equity you're not building.</p>
-              <p>The homeowners who move forward aren't the ones with the most money or the biggest lots. They're the ones who stop researching and start a conversation.</p>
-              <p className="text-white font-semibold">The worst outcome isn't building a garage apartment that doesn't work out. It's never building one at all.</p>
+              <p>Every month you wait is a month of rental income you&apos;re not collecting. It&apos;s a year of your parents not having a comfortable place to stay when they visit. It&apos;s equity you&apos;re not building.</p>
+              <p>The homeowners who move forward aren&apos;t the ones with the most money or the biggest lots. They&apos;re the ones who stop researching and start a conversation.</p>
+              <p className="text-white font-semibold">The worst outcome isn&apos;t building a garage apartment that doesn&apos;t work out. It&apos;s never building one at all.</p>
             </div>
             <Link href="/contact">
-              <Button className="bg-accent hover:bg-accent/90 text-white rounded-none px-12 py-6 text-sm uppercase tracking-widest font-bold" data-testid="btn-stakes-cta">
+              <Button
+                className="bg-accent hover:bg-accent/90 text-white rounded-none px-12 py-6 text-sm uppercase tracking-widest font-bold"
+                data-testid="btn-stakes-cta"
+              >
                 Schedule a Free Consultation
               </Button>
             </Link>
@@ -600,14 +659,14 @@ export default function Home() {
                 Free Guide: What Every DFW Homeowner Should Know Before Building a Garage Apartment
               </h2>
               <p className="text-lg text-muted-foreground font-sans leading-relaxed mb-8">
-                Zoning basics, real cost ranges, timeline expectations, and the questions to ask before you hire anyone. No fluff, no sales pitch â just the stuff we wish every homeowner knew before they started.
+                Zoning basics, real cost ranges, timeline expectations, and the questions to ask before you hire anyone. No fluff, no sales pitch&mdash;just the stuff we wish every homeowner knew before they started.
               </p>
 
               {emailSubmitted ? (
                 <div className="bg-accent/10 border border-accent/30 p-8 text-center">
                   <CheckCircle2 className="w-10 h-10 text-accent mx-auto mb-3" />
-                  <h3 className="font-serif font-bold text-xl text-foreground mb-2">You're in.</h3>
-                  <p className="text-muted-foreground font-sans">Your guide is downloading now. Save it for whenever you're ready to start planning.</p>
+                  <h3 className="font-serif font-bold text-xl text-foreground mb-2">You&apos;re in.</h3>
+                  <p className="text-muted-foreground font-sans">Your guide is downloading now. Save it for whenever you&apos;re ready to start planning.</p>
                 </div>
               ) : (
                 <form onSubmit={handleLeadMagnet} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
