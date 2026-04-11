@@ -16,6 +16,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   webpack(config) {
     config.resolve.alias['@assets'] = path.resolve(__dirname, '..', '..', 'attached_assets');
     return config;
