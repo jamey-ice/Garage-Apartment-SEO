@@ -12,7 +12,8 @@
   "dependencies": {
     "next": "^15.5.14",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "typescript": "^5.7.0"
   },
   "devDependencies": {
     "@hookform/resolvers": "^3.10.0",
