@@ -110,6 +110,7 @@ export default function Home() {
           email,
           formType: 'email-guide-signup',
           _subject: 'Email Guide Signup - DFW Garage Apartments',
+          _cc: 'philip.i@6thavehomes.com,lauren.b@6thavehomes.com,jimmy@6thavehomes.com',
         }),
       });
       setEmail('');
