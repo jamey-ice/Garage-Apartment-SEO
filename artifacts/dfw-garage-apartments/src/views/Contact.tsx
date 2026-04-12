@@ -95,7 +95,8 @@ export default function Contact() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          _subject: 'New Lead from DFW Garage Apartments'
+          _subject: 'New Lead from DFW Garage Apartments',
+          _cc: 'philip.i@6thavehomes.com,lauren.b@6thavehomes.com,jimmy@6thavehomes.com'
         }),
       });
       if (!res.ok) throw new Error('Submit failed');
