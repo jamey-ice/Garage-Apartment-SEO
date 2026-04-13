@@ -33,6 +33,7 @@ const AREAS = [
 ];
 
 const RESOURCES = [
+  { label: 'Cost Calculator', href: '/cost-calculator' },
   { label: 'Cost Guide', href: '/resources/cost-guide' },
   { label: 'Zoning Guide', href: '/resources/zoning-guide' },
   { label: 'Texas ADU Laws', href: '/resources/texas-adu-laws' },
